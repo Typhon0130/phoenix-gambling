@@ -1,0 +1,1002 @@
+{
+  "walletModal": {
+    "title": "Portfeuille Modal",
+    "tabs": {
+      "deposit": "Dépôt",
+      "withdraw": "Retirer",
+      "promocode": "Code promo"
+    },
+    "enter": "Envoyer",
+    "address": "Addresse de dépôt",
+    "loading": "Chargement en cours...",
+    "copy": "Copie ",
+    "amount": "Déposer le montant",
+    "withdrawAmount": "Montant du retrait",
+    "withdrawAddress": "Addresse de retrait",
+    "creating": "Créant...",
+    "deposit": "Dépôt",
+    "withdraw": "Retirer",
+    "withdrawNotes": {
+      "title": "Address de retrait",
+      "1": "Nombre de retraits au niveau VIP: {amount}",
+      "2": "Frais de retrait: {fee}%",
+      "3": "Montant du retrait mensuel:",
+      "4": "Montant minimum de retrait: {min}",
+      "5": "Montant maximal du retrait: {max}",
+      "6": "Heure de retrait: 11:00 - 19:00",
+      "7": "Délai de paiement: de 5 minutes à 24 heures."
+    },
+    "status": "Vous pouvez voir le solde de vos dépôts dans le centre de compte."
+  },
+  "faucet": {
+    "spin": "<b>Tour Chanceux</b><span>TOURNEZ ET GAGNEZ UN BONUS GRATUIT !</b></span>",
+    "btn": "Tournez maintenant",
+    "timeout": "Revenez dans 20 minutes pour une nouvelle chance!"
+  },
+  "userModal": {
+    "joined": "Rejoint le {la date}",
+    "wagered": "Sur qui pariez-vous ?",
+    "totalGames": "Nombre total de jeux"
+  },
+  "third-party": {
+    "unavailable_currency": "Désolé, mais vous ne pouvez pas jouer avec cette devise.",
+    "guest": "Vous devez être connecté pour jouer à ce jeu."
+  },
+  "vip": {
+    "totalDeposits": "Total des dépôts",
+    "totalWagered": "Total parié",
+    "logged": {
+      "title": "Votre niveau VIP est",
+      "level": "niveau {level}",
+      "deposit": "Dépôt",
+      "bet": "Pari",
+      "description": "Le passage au VIP {niveau} nécessite:",
+      "dep": "Déposition",
+      "full": "Bonus VIP complet",
+      "desc2": "Le système de niveau VIP est créé avec dix niveaux chacun avec la récompense correspondante en argent. Plus vous jouez, plus votre niveau VIP sera élevé et plus vous gagnerez.",
+      "totalBet": "Montant du pari accumulé",
+      "totalDeposit": "Montant du dépôt accumulé",
+      "steps": {
+        "1": "Pariez sur le jeu et l'ordinateur calculera automatiquement la valeur de retour en fonction de votre niveau VIP pendant que vous appréciez le jeu.",
+        "2": "Le mécanisme de remboursement sera ajusté au solde de votre compte à 0h00 en fonction de vos paris placés tout au long de la journée.",
+        "3": "Plus vous jouez, plus vous obtenez de cashback."
+      }
+    },
+    "title": "De nombreux avantages avec",
+    "title2": "Système de classement",
+    "benefits": {
+      "1": {
+        "title": "Niveaux et récompenses",
+        "description": "Plus vous jouez - plus vous gagnez"
+      },
+      "3": {
+        "title": "PROMOTIONS EXCLUSIVES",
+        "description": "Atteignez des rangs plus élevés pour débloquer des avantages spéciaux"
+      },
+      "4": {
+        "title": "Club VIP",
+        "description": "Rejoignez le Club VIP pour gagner des bonus exclusifs"
+      }
+    },
+    "how": {
+      "1": "Comment cela marche-t-il??",
+      "2": "Vous commencez votre jeu à partir de la première position. Plus vous jouez, plus votre rang est élevé. Il augmente en fonction du montant de la mise pendant la partie."
+    },
+    "youCanReach": {
+      "1": "VOUS POUVEZ ATTEINDRE 10 NIVEAUX",
+      "2": "Atteignez le rang le plus élevé pour débloquer tous les avantages de la plateforme. Restez avec nous pour obtenir la meilleure expérience de jeu et un excellent service"
+     },
+	"allLevels": {
+      "levelProtection": "Protection de niveau",
+      "levelProtectionDeposit": "Acompte {montant}/mois",
+      "level": "Niveau {level}",
+      "oneTimeBonus": "Bonus unique",
+      "maxWithdrawal": "Montant maximal du retrait",
+      "privileges": "Privilèges de retrait",
+      "withdraws": "Retraits",
+      "fee": "Frais de retrait",
+      "depositFeeRef": "Frais de dépôt de recommandation",
+      "claim": "Demande de bonus",
+      "yourLevel": "VOTRE niveau",
+      "about": {
+        "title": "EN LIEN AVEC LE CLUB VIP",
+        "description": "Restez avec nous pour profiter de la meilleure expérience de jeu et d'un excellent service !",
+        "sub": "Être membre du club VIP signifie que vous avez accès à :",
+        "features": {
+          "1": "Gestionnaire personnel VIP",
+          "2": "Angle de vue",
+          "4": "Bonus hebdomadaires et mensuels",
+          "5": "Autres avantages supplémentaires"
+        }
+      }
+    },
+    "steps": {
+      "playNow": "Jouez maintenant",
+      "1": {
+        "title": "Se connecter",
+        "description": "Utilisez le système de connexion simplifiée pour profiter pleinement de l'expérience de jeu"
+      },
+      "2": {
+        "title": "JOUEZ À VOS JEUX PRÉFÉRÉS",
+        "description": "Amusez-vous à jouer, obtenez la meilleure expérience de jeu et le plus haut niveau de service !"
+      },
+      "3": {
+        "title": "ÉLEVEZ VOTRE RANG",
+        "description": "Passez au rang suivant ! Chaque niveau a son propre bonus et encore plus de possibilités !"
+      }
+    }
+  },
+  "bonus": {
+    "no_vk": "Connectez-vous à votre compte VK pour gagner un bonus gratuit !",
+    "link": "Connectez-vous",
+    "join_group": "Rejoignez notre groupe VK pour gagner un bonus gratuit !",
+    "join": "Se joindre à",
+    "lucky_spin_everyday": "Tour de chance chaque jour",
+    "have_a_try": "Essayez-le maintenant",
+    "spin_now": "Rouler maintenant",
+    "next_spin": "Rotation suivante:",
+    "vip": {
+      "title": "VIP",
+      "unavailable_description": "Tous les participants au programme VIP ont droit à un bonus hebdomadaire."
+    },
+    "wheel": {
+      "description": "Faites tourner la roue toutes les 3 minutes pour un bonus gratuit !",
+      "title": "La roue"
+    },
+    "promo": {
+      "description": "Avez-vous un code de promotion? Obtenez-le et gagnez un bonus!",
+      "activate": "Activer",
+      "title": "Code promotionnel",
+      "placeholder": "Code",
+      "success": "Succès",
+      "invalid": "Code nonvalide",
+      "expired_time": "Code non valide.",
+      "expired_usages": "Code non valide : limite d'activation dépassée.",
+      "used": "Vous avez déjà utilisé ce code."
+    },
+    "partner": {
+      "title": "Programme de partenariat",
+      "description": "Invitez vos amis sur pepe.casino et obtenez un bonus pour 10 parrainages actifs !"
+    },
+    "rain": {
+      "description": "Toutes les quelques heures, un événement se produit dans la conversation (chat) qui distribue le bonus à des personnes aléatoires.",
+      "title": "Rain",
+      "modal_description": "Rain est un chatbot qui distribue des pièces aux personnes qui sont dans le chat. <br> Critères pour entrer :<ul class=\"mt-2\"><li>Dépôt au cours des dernières 24 heures requis </li><li>Le bot envoie un nombre aléatoire de pièces au moment aléatoire du nombre minimum de livraisons ( le nombre minimum de livraisons est de 10 par jour et le maximum est de 20)</li><li>Nombre de personnes - de 5 à 15</li></ul>"
+    },
+    "discord": {
+      "title": "Discord",
+      "common_desc": "Rejoignez notre serveur Discord et obtenez un bonus !",
+      "description": "Rejoignez notre serveur Discord et obtenez un bonus !",
+      "redirect": "Interconnecter le compte",
+      "link": "Pour gagner le bonus, vous devez :<ul><li>Lier votre compte Discord</li><li>Rejoindre notre serveur Discord</li></ul>Une fois que vous avez lié votre compte Discord et rejoint le serveur, revenez à ce page et cliquez sur le bouton \"Vérifier\".",
+      "subscribe": "Rejoignez notre serveur Discord pour réclamer le bonus.<br>Une fois que vous avez rejoint, cliquez sur le bouton \"Vérifier\" et le bonus vous sera immédiatement crédité !",
+      "check": "Vérifier",
+      "redirect_group": "Rejoignez notre serveur Discord",
+      "success": "Succès!",
+      "error": {
+        "1": "Vous avez/n'avez pas rejoint notre serveur Discord.",
+        "2": "Vous avez déjà reçu ce bonus."
+      }
+    },
+    "notifications": {
+      "title": "Notifications",
+      "description": "Activez les notifications et soyez parmi les premiers informés des mises à jour de pepe.casino !"
+    }
+  },
+  "footer": {
+    "accepted_currencies": "Devises acceptées",
+    "user_agreement": "Accord de l'utilisateur",
+    "need_help": "Avez-vous besoin d'aide?",
+    "terms_and_conditions": "Conditions d'utilisation",
+    "bonus": "Conditions d'utilisation du bonus",
+    "privacy_policy": "Politique de confidentialité",
+    "affiliates": "Affilié(e)s"
+  },
+  "chat": {
+    "service": {
+      "channel_change": "La chaîne changée à: {channel}",
+      "channel_casino": "Casino ({lang})",
+      "channel_sport": "Sport ({lang})"
+    },
+    "error": {
+      "length": "Le message est trop court ou trop long",
+      "muted": "La conversation est en mode silencieux"
+    }
+  },
+  "dice": {
+    "lower": "Plus bas",
+    "higher": "Plus haut",
+    "chance": "La chance"
+  },
+  "error": {
+    "code": "Une erreur de serveur interne s'est produite ({code})",
+    "wait_finish": "Attendez que le jeu se termine",
+    "validation": {
+      "required": "Remplissez ce champ",
+      "min": {
+        "string": "La valeur est trop faible"
+      },
+      "max": {
+        "string": "La valeur est importante"
+      },
+      "unique": "Cette valeur est déjà enregistrée",
+      "regex": "Valeur incorrecte"
+    },
+    "invalid_browser": "<h1>Votre navigateur Web est obsolète.</h1>Pour jouer sur pepe.casino, vous devez disposer de la dernière version.",
+    "no_js": "<h1>Error</h1>Votre navigateur Web ne prend pas en charge JavaScript."
+  },
+  "fairness": {
+    "title": "Impartialité",
+    "tabs": {
+      "calculator": "Calculatrice"
+    },
+    "calculator": {
+      "game": "Jeu",
+      "client_seed": "La sélection du client(client seed)",
+      "nonce": "Nonce",
+      "server_seed": "Sélection du serveur(server seed)",
+      "result": "Résultat"
+    }
+  },
+  "game_help": {
+    "next": "Suivant",
+    "close": "Proche",
+    "dice": {
+      "1": "Définissez la chance de gagner du curseur et cliquez sur \"Jouer\", pour générer le score de 0 à 100",
+      "2": "Si les dés ont atterri dans la zone verte que vous avez sélectionnée, vous avez gagné !"
+    },
+    "wheel": {
+      "1": "Sélectionnez le mode de jeu, pariez sur la couleur et cliquez sur \"Jouer\"",
+      "2": "Si la roue s'arrête dans le secteur de la couleur que vous avez sélectionnée, vous gagnez !"
+    },
+    "x50": {
+      "1": "Sélectionnez le mode de jeu, pariez sur la couleur et cliquez sur \"Jouer\"",
+      "2": "Si la roue s'arrête dans le secteur de la couleur que vous avez sélectionnée, vous gagnez!"
+    },
+    "plinko": {
+      "1": "Placez votre pari, sélectionnez la difficulté du jeu et le nombre de quilles, puis cliquez sur \"Jouer\"",
+      "2": "Plus la complexité du jeu et le nombre de quilles sont grands, plus les chances de gain maximales et minimales sont élevées.",
+      "3": "Votre récompense est déterminée par la proportion du profit, en fonction de l'endroit où la balle a atterri"
+    },
+    "keno": {
+      "1": "Sélectionnez de 1 à 10 cases numérotées, placez un pari et cliquez sur \"Jouer\"",
+      "2": "Ensuite, le système sélectionne au hasard 10 numéros. Plus il y a de résultats sur vos numéros, plus le profit est important !"
+    },
+    "mines": {
+      "1": "Placez votre pari, sélectionnez le nombre de bombes et cliquez sur \"Jouer\"",
+      "2": "Plus le nombre de bombes sur le terrain de jeu est élevé, plus le taux de victoire est élevé.",
+      "3": "Cherchez des pierres, mais attention aux bombes !",
+      "4": "Obtenez les gains avant de faire exploser la bombe sale et de perdre le pari !"
+    },
+    "diamonds": {
+      "1": "Obtenez la meilleure combinaison de diamants pour gagner.",
+      "2": "La meilleure combinaison est de 5 diamants identiques.",
+      "3": "La hiérarchie des mains est similaire au poker traditionnel."
+    },
+    "coinflip": {
+      "1": "Placez votre pari, cliquez sur \"Jouer\" et devinez quelle couleur tombera.",
+      "2": "Vous pouvez deviner la pièce un nombre illimité de fois dans le jeu, toutes les cotes seront ajoutées."
+    },
+    "blackjack": {
+      "1": "Placez votre pari, puis vous et le croupier recevrez deux cartes.",
+      "2": "Ensuite, vous pouvez prendre une autre carte ou vous arrêter et ne pas changer votre main actuelle.",
+      "3": "En cliquant sur \"Double\", vous doublez votre mise et obtenez la dernière carte.",
+      "4": "L'assurance n'est disponible que lorsque la première carte du croupier est un As et elle vous assure contre les mains de blackjack du croupier.",
+      "5": "Le gagnant est celui qui est le plus proche de 21. Si vous et le croupier avez la même valeur, ce sera une égalité."
+    },
+    "roulette": {
+      "1": "Placez les jetons sur le résultat de jeu que vous souhaitez et cliquez sur \"Jouer\"",
+      "2": "Si vous avez tiré le score du jeu, vous avez gagné votre pari."
+    },
+    "baccarat": {
+      "1": "Vous pouvez parier sur la victoire du joueur, le banquier ou l'égalité, individuellement ou même dans n'importe quelle combinaison.",
+      "2": "Le camp avec le plus de points le plus proche de 9 gagne. Lorsque la valeur est supérieure ou égale à 10, seul le deuxième chiffre du nombre à deux chiffres est pris en compte.",
+      "3": "Si dans un pari individuel sur le joueur ou le banquier, les deux parties ont le même nombre de points, alors le résultat est un match nul sans perdre le pari.",
+      "4": "La valeur maximale d'une main est de 3 cartes. Le minimum est de 2 si leur total de points est de 5 ou plus."
+    },
+    "hilo": {
+       "1": "Tirez si la prochaine carte sera supérieure ou inférieure à la précédente dans le classement.",
+       "2": "Ouvrez un nombre illimité de cartes, des cotes sont ajoutées. Vous pouvez vous arrêter à tout moment et prendre les gains"
+     },
+     "limbo": {
+       "1": "Pour gagner, le ratio de paiement spécifié de la cible cible doit être inférieur à celui qui est tombé en jeu.",
+       "2": "L'objectif maximum est de 1 000 000."
+     },
+     "crash": {
+       "1": "Placez votre pari, cliquez sur \"Jouer\" et regardez le classement monter",
+       "2": "Retirez des fonds avant que l'onglet tombe et vous perdez votre pari."
+     },
+     "stairs": {
+       "1": "Définissez le pari, sélectionnez le nombre de pierres à déplacer et cliquez sur \"Jouer\"",
+       "2": "Monte les escaliers, fais attention à ne pas tomber sur les rochers ! Plus tu montes, plus tu gagnes.",
+       "3": "Vous pouvez remporter la victoire à tout moment ou sauter les 13 tours et obtenir la récompense maximale."
+     },
+     "tower": {
+       "1": "Placez le pari, sélectionnez le nombre de bombes et cliquez sur \"Jouer\"",
+       "2": "Recherchez les rochers qui bougent de haut en bas, mais attention aux bombes !",
+       "3": "Gagnez avant de faire exploser une bombe et de perdre un pari !"
+     },
+     "videopoker": {
+       "1": "Placez un pari et cliquez sur \"Jouer\"",
+       "2": "Ensuite, vous recevrez 5 cartes. Vous pouvez laisser les cartes dont vous avez besoin en cliquant dessus. Pour terminer le jeu, cliquez sur \"Distribuer les cartes\" ",
+       "3": "Si la combinaison est la même que celle indiquée sur le tableau, vous gagnez et multipliez votre mise."
+     },
+    "bullvsbear": {
+       "1": "Chaque jeu commence par déterminer quel sera le \"prix d'exercice du jeu\" en prenant le prix moyen de la pièce sélectionnée. Nous n'utilisons pas d'oracle de prix, mais extrayons plutôt le prix du marché directement à partir de l'API Price Websocket de Coinbase. Ce nombre est ce que les commerçants utiliseront pour parier sur la prochaine étape afin de prédire si le prix du marché sera supérieur ou inférieur au \"prix d'exercice du jeu\" à la fin de chaque partie.",
+       "2": "Une fois que le 'Game Strike Price' a été défini, les joueurs ont une minute pour parier si le prix du marché à la fin de chaque jeu sera supérieur ou inférieur à ce nombre. Tous les paris sont placés sur deux groupes, le prix les prédicteurs seront plus élevés et les prédicteurs de prix seront plus bas.",
+       "3": "A la fin de chaque partie, les mises du perdant sont accumulées et réparties proportionnellement entre les gagnants. Si un joueur mise plus que les autres gagnants, il recevra une plus grande partie de la cagnotte.",
+       "4": "Nous voulions éviter de donner aux joueurs en retard un avantage significatif, nous avons donc mis en place un facteur de gain dans le temps pour encourager les paris instantanés - en vous donnant de meilleurs bénéfices (ou bénéfices) pour les premiers joueurs et en décourageant les gens de parier au En tant que commerçant, vous pouvez voir la volatilité réelle et parier en attendant un peu plus longtemps et en obtenant moins de profit mais avec une probabilité plus élevée, ou en alternative, en pariant tôt avec un profit potentiel plus élevé mais une probabilité plus faible de gagner le jeu. " ,
+       "5": "Chaque tour d'enchères dure 90 secondes et commence à x5,00 de paiement. Il diminue au fil du temps jusqu'à atteindre x1,01."
+
+     }
+  },
+  "general": {
+    "viewAll": "Voir tout",
+    "search": "Chercher...",
+    "providers": "Fournisseurs de jeux",
+    "go_to_casino": "Aller au Casino",
+    "go_to_sport": "Aller au sport",
+    "casino_desc": "Bienvenue aux jeux Whales.17 pour votre plaisir et vos gains.",
+    "slowmode": "Le mode lent est activé : 1 message toutes les 5 secondes",
+    "slider": {
+      "1": "Bienvenue sur le casino pepe.casino. Votre divertissement et vos profits."
+    },
+    "promotions": {
+      "title": "Whales Promotions",
+      "faucet": {
+        "title": "Rubinet",
+        "description": "Obtenez un bonus gratuit pour jouer sur Whales!",
+        "btn": "Regarder"
+      },
+      "promo": {
+        "title": "Code promotionnel",
+        "description": "Entrez le code promo pour obtenir un bonus gratuit!",
+        "btn": "Regarder"
+      },
+      "vip": {
+        "title": "Whales VIP",
+        "description": "Obtenez le niveau VIP simplement en jouant sur Whales.",
+        "btn": "Regarder"
+      },
+      "rain": {
+        "title": "Rain",
+        "description": "Si vous effectuez un dépôt avec n'importe quel montant de fonds, vous aurez une chance de recevoir un bonus dans les 24 heures.",
+        "btn": "En savoir plus"
+      },
+      "notification": {
+        "title": "Discord",
+        "description": "Rejoignez notre serveur Discord et obtenez un bonus !",
+        "btn": "Se joindre à"
+      },
+      "affiliates": {
+        "title": "Partenaires",
+        "description": "Faites la publicité de \"Whales\" auprès de vos amis pour obtenir des récompenses (pour vous et vos amis !).",
+        "btn": "Regarder"
+      }
+    },
+    "head": {
+      "index": "La maison",
+      "description": "Jeu en ligne avec bonus pour les nouveaux joueurs",
+      "games": "Les jeux",
+      "help": "Aide",
+      "wallet": "Dépôt",
+      "wallet_open_demo": "Demo",
+      "wallet_real": "Réal",
+      "wallet_demo": "Démo",
+      "chat": "Converser",
+      "admin": "Tableau de contrôle",
+      "bonus": "Promotions",
+      "bonus_short": "Bonus",
+      "theme": "Thème",
+      "profile": "Profil",
+      "logout": "Déconnexion",
+      "invest": "Financer",
+      "casino": "Casino",
+      "sport": "Sport",
+      "view_in_fiat": "Regarder au USD"
+    },
+    "sidebar": {
+      "all_games": "Les jeux",
+      "admin": "Tableau de contrôle",
+      "favorite": "Favoris",
+      "recent": "Récente",
+      "originals": "Originales",
+      "slots": "Machine à sous",
+      "multiplayslotser": "machine à sous multijoueur",
+      "blackjack": "Blackjack",
+      "poker": "Poker",
+      "table": "Jeux de société",
+      "instant": "Instant",
+      "roulette": "Roulette",
+      "baccarat": "Baccarat",
+      "evo-play": "Fournisseur: EvoPlay",
+      "no_games": "Cette catégorie est vide",
+      "mark_as_favorite": "Marquez-le comme favori",
+      "remove_from_favorite": "Retirer des favoris",
+      "phoenix": "Phénix"
+    },
+    "chat_commands": {
+      "/user": "Afficher l'utilisateur",
+      "/bet": "Afficher le pari",
+      "/ignore": "Ignorer l'utilisateur",
+      "/unignore": "Arrêtez d'ignorer l'utilisateur",
+      "/tip": "Astuce d'utilisateur",
+      "/rain": "Pluie (rain)",
+      "/online": "Afficher les utilisateurs sur le réseau",
+      "/quiz": "Quiz",
+      "/unmute": " Activer la voix à l'utilisateur",
+      "modal": {
+        "rain": {
+          "amount": "Le montant",
+          "number_of_users": "Nombre d'utilisateurs (Maximum 25)",
+          "send": "Envoyer",
+          "invalid_users_length": "Nombre d'utilisateurs invalide",
+          "invalid_amount": "Montant invalide"
+        },
+        "tip": {
+          "amount": "Montant",
+          "send": "Envoyer une astuce",
+          "user": "Nom d'utilisateur",
+          "make_public": "Rendre public",
+          "invalid_name": "Nom d'utilisateur invalide ",
+          "invalid_amount": "Montant invalide",
+          "notify": "{name} vous a conseillé {value} {currency}"
+        },
+        "quiz": {
+          "question": "Question",
+          "answer": "Réponse"
+        }
+      }
+    },
+    "biggest_winner_today": "HEUREUX GAGNANT",
+    "tip": "Tip",
+    "tip_chat": "<a href=\"{link}\">{name}</a> sent {value} <i class=\"{icon}\" style=\"color: {style}\"></i> to <a href=\"{tolink}\">{toname}</a>",
+    "or": "OR",
+    "wallet": {
+      "demo": {
+        "error": "Votre solde de démonstration doit être nul",
+        "obtain": "Obtenez le solde de la démo"
+      }
+    },
+    "demo": {
+      "title": "Attention",
+      "description": "L'inscription est obligatoire si vous souhaitez jouer avec un équilibre réel.",
+      "register": "S'inscrire"
+    },
+    "chat": {
+      "enter_message": "Écrivez quelque chose ici..."
+    },
+    "auth": {
+      "login": "Se connecter",
+      "register": "S'inscrire",
+      "through_login": "Inscription et mot de passe",
+      "through_social": "Réseaux sociaux",
+      "wrong_credentials": "Identifiant ou mot de passe incorrect",
+      "email_or_login": "Entrez votre email ou connectez-vous",
+      "reset_password": "Réinitialiser le mot de passe",
+      "email_was_sent": "L'e-mail a été envoyé avec succès (si les informations fournies étaient correctes). Si vous ne l'avez pas reçu, vérifiez votre dossier \"Spam\".",
+      "passwords_invalid_match": "Vérifiez à nouveau votre mot de passe",
+      "credentials": {
+        "login": "Se connecter",
+        "password": "Mot de passe",
+        "email": "E-mail"
+      },
+      "create_account": "Créer un compte",
+      "forgot_password": "Mot de passe oublié?",
+      "notice": "J'ai au moins 18 ans et j'ai lu et j'accepte les conditions générales et la politique de confidentialité"
+    },
+    "profile": {
+      "password_changed": "Le mot de passe a été changé",
+      "general": "Données générales",
+      "login": "Se connecter",
+      "password": "Mot de passe",
+      "password_current": "Mot de passe actuel",
+      "password_new": "Nouveau mot de passe",
+      "password_repeat": "Confirmer le mot de passe",
+      "password_reset": "Réinitialisation du mot de passe",
+      "security": "Sécurité",
+      "email": "E-mail",
+      "update": "Mise à jour",
+      "verify_email": "Un e-mail avec le lien de confirmation a été envoyé à votre adresse.",
+      "invalid_email": "E-mail invalide",
+      "settings": "Paramètres",
+      "wager": " Parier",
+      "games": "Jeux totaux",
+      "best_mul": "Le meilleur paiement",
+      "best_win": "Le meilleur gain",
+      "incognito": "Ce profil est privé",
+      "set_private_profile": "Définir un profil privé",
+      "set_private_bets": "Définir des paris privés",
+      "empty": "Il n'y a pas assez de données à afficher",
+      "privacy": "Confidentialité",
+      "fairness": "Impartialité",
+      "client_seed": "Sélection du client (Client seed)",
+      "change": "Changer",
+      "change_avatar": "Changer d'avatar",
+      "avatar": "Avatar",
+      "stats": "Statistiques",
+      "latest_games": "Les derniers jeux",
+      "vip": "VIP",
+      "partner": "Programme de partenariat",
+      "change_name": "Changer le nom",
+      "new_name": "Le nouveau nom",
+      "social": "Comptes associés",
+      "vk": "V Contacts",
+      "fb": "Facebook",
+      "google": "Google",
+      "discord": "Discord",
+      "steam": "Steam",
+      "link": "Link",
+      "linked": "Interreliés",
+      "somebody_already_linked": "Ce compte de réseau social est déjà lié à un autre compte pepe.casino",
+      "link_discord": "Pour accéder aux codes promotionnels et aux rôles VIP sur le serveur Discord, vous devez lier votre compte.",
+      "discord_vip": "Rejoignez notre serveur Discord et obtenez des codes promo VIP !",
+      "discord_vip_ok": "Mettre à jour le rôle du serveur",
+      "vip_discord_updated": "Le rôle du serveur Discord a été mis à jour.",
+      "bets": "Les paris",
+      "wins": "Les gains",
+      "losses": "Les pertes",
+      "wagered": "Misé",
+      "total_profit": "Bénéfice total",
+      "2fa": "2FA",
+      "keep_secure": "Ne laissez personne voir ça !",
+      "copy_this_to_2fa": "Copiez ce code dans votre application d'authentification (ce code sera actualisé si vous actualisez la page !)",
+      "2fa_code": "Code à deux facteurs",
+      "2fa_enable": "Activer",
+      "error_2fa": "Code 2FA invalide",
+      "2fa_enabled": "2FA est activé sur votre compte.",
+      "disable_2fa": "Désactiver 2FA",
+      "2fa_validate": "Valider",
+      "2fa_description": "Entrez le code à 6 chiffres de votre application d'authentification à deux facteurs",
+      "2fa_digits": "{digits} les chiffres à gauche",
+      "profit": "Bénéfice",
+      "games_c": "Jeux:",
+      "chart": {
+        "today": "Aujourd'hui",
+        "3days": "3 jours",
+        "1week": "1 semaine",
+        "1month": "1 mois",
+        "loading": "Chargement en cours..."
+      }
+    },
+    "notifications": {
+      "title": "Notifications",
+      "withdraw_accepted": {
+        "title": "pepe.casino",
+        "message": "Votre demande de paiement générée {diff} ({sum} {currency}) a été acceptée."
+      },
+      "withdraw_declined": {
+        "title": "pepe.casino",
+        "message": "Votre demande de paiement générée {diff} ({sum} {currency}) a été refusée. Raison: {reason}"
+      },
+      "vip_discord": {
+        "title": "VIP",
+        "message": "Vous avez reçu <svg style=\"width: 14px; height: 14px\"><use href=\"#vip-ruby\"></use></svg> VIP le statut rubis!"
+      },
+      "email_reminder": {
+        "title": "pepe.casino",
+        "message": "N'oubliez pas d'ajouter votre adresse e-mail, sinon vous risquez de perdre l'accès à votre compte !"
+      },
+      "deposit": "Nouveau dépôt: {sum} {currency}"
+    },
+    "fairness": {
+      "client_seed": "Sélection du client (client seed):",
+      "server_seed": "Sélection du serveur (server seed:",
+      "nonce": "Aucun:"
+    },
+    "bet_next_round": "Pari (Prochain tour)",
+    "play_now": "Jouez maintenant",
+    "become_top_player": "Personne n'a pris cette place dans le classement aujourd'hui ! Soyez le premier à le faire!",
+    "lines": "Linjat",
+    "profit_per_line": "Montant du pari par ligne",
+    "invalid_amount_per_line": "Montant du pari invalide par ligne",
+    "ignore": "Ajouté avec succès à la liste des ignorés",
+    "unignore": "Vous n'ignorez plus cet utilisateur",
+    "ignored_already": "Vous ignorez déjà cet utilisateur",
+    "not_ignored": "Cet utilisateur n'est pas ignoré",
+    "not_available": "Indisponible",
+    "obtained": "Obtenue",
+    "latest_bets": "Live",
+    "select_currency": "Sélectionnez la devise",
+    "strike_price": "Prix de levée",
+    "non_verifiable": "Vous ne pouvez pas vérifier ce jeu via les outils Provably Fair. Comparez les prix réels du marché.",
+    "bullvsbear": {
+      "waiting_phase": "Phase d'attente",
+      "bet_phase": "La phase de pari",
+      "processing": "En cours de traitement",
+      "target": "Je pense que cette valeur ira...",
+      "up": "En haut",
+      "down": "En bas",
+      "decay_value": "Valeur de décroissance"
+    },
+    "bets": {
+      "event": "Événement",
+      "odds": "La cote",
+      "game": "Jeu",
+      "player": "Joueur",
+      "time": "Temps",
+      "bet": "Pari",
+      "mul": "Paiement",
+      "win": "Gains",
+      "manual": "Manuel",
+      "auto": "Auto",
+      "games": "Nombre de jeux",
+      "victory_stop": "Arrêtez-vous au gagnant",
+      "on_win": "Sur gagnant",
+      "on_loss": "Sur perte",
+      "reset": "Réinitialiser",
+      "increase": "Augmente",
+      "auto_games_blocked": "Pour définir la limite, cliquez sur &#8734;.",
+      "hidden": "Le joueur a caché son profil",
+      "hidden_name": "Caché",
+      "make_bet": "Faire un pari",
+      "all": "Tout",
+      "mine": "Mes paris",
+      "high_rollers": "Les grands joueurs",
+      "lucky_wins": "Heureux gagnants"
+    },
+    "error": {
+      "invalid_password_confirm": "Les mots de passe ne correspondent pas",
+      "offline_node": "Nous ne sommes pas en mesure de traiter les paiements pour cette devise.",
+      "auth": "Une autorisation est requise",
+      "wager": "Montant minimum - {value}",
+      "disabled": "Le jeu est temporairement indisponible",
+      "unknown_game": "Jeu inconnu",
+      "unknown_user": "Utilisateur inconnu",
+      "invalid_wager": "Vous n'avez pas assez d'argent",
+      "unknown_error": "Une erreur s'est produite (code {code})",
+      "empty": "Sélectionnez les cubes!",
+      "should_have_empty_balance": "Pour recevoir un bonus, votre solde doit être nul",
+      "autobet_pick_something": "Cochez les cases du mode d'enchères automatiques.",
+      "disabled_notifications": "Vous avez refusé d'accepter les notifications. Cela peut être modifié dans les paramètres de votre navigateur.",
+      "connection_lost": "En cours de connexion au serveur...",
+      "connection_recovered": "La connexion a été rétablie",
+      "disabled_bets": "L'acceptation des paris n'est actuellement pas disponible.",
+      "disabled_demo_bets": "Ce jeu n'accepte pas les paris en mode démo.",
+      "muted": "La conversation (chat) est silencieuse jusqu'à {time}",
+      "invalid_withdraw": "Montant de retrait invalide.",
+      "only_one_withdraw": "Vous avez déjà ordonné le retrait.",
+      "enter_wallet": "Entrez votre porte-monnaie !",
+      "promo_limit": "Vous avez atteint votre limite quotidienne d'activation de code promotionnel.",
+      "autobet_mines_error": "Vous avez sélectionné plus de cubes que de cristaux disponibles.",
+      "vip_only_promocode": "Ce code promotionnel n'est disponible qu'avec le statut VIP.",
+      "promo_balance_limit": "Votre solde doit être inférieur pour activer les codes promotionnels"
+    },
+    "profit_monitoring": {
+      "title": "Statistiques",
+      "wager": "Placez votre pari",
+      "profit": "Bénéfice",
+      "wins": "Les gains",
+      "losses": "Les pertes",
+      "no_data": "Pas de données"
+    },
+    "rain": "Il pleut!<br>{sum} {currency}",
+    "snow": "Il neige!<br>{sum} {currency}",
+    "quiz": "Question:",
+    "quiz_answer": "Bonne réponse:",
+    "quiz_user": "L'utilisateur:",
+    "chart": "La carte",
+    "hilo-skip": "Sauter",
+    "crash": "Crash",
+    "yes": "Oui",
+    "no": "Non",
+    "coming_soon": "Bientôt disponible",
+    "reload": "Recharger",
+    "spin": "Tourner",
+    "wager": "Montant du pari",
+    "chip": "Valeur du jeton ({value})",
+    "profit": "Bénéfice",
+    "payout": "Paiement",
+    "play": "Jouer",
+    "our_games": "Nos jeux",
+    "unit": "Unité",
+    "cancel": "Annuler",
+    "undo": "Défaire",
+    "close": "Fermer",
+    "change": "Changer",
+    "even": "Égal",
+    "odd": "Cotes",
+    "to": "{1} - {2}",
+    "take": "Prenez {value} {currency}",
+    "start": "Commencer",
+    "stop": "Arrêter",
+    "overview": "Aperçu",
+    "share_text": "Regardez mon jeu sur pepe.casino!",
+    "share_vk": "Partagez le lien en VK",
+    "share_chat": "Envoyer pour discuter(chat)",
+    "share_telegram": "Partager ce jeu sur Telegram",
+    "share_twitter": "Partager ce jeu sur Twitter",
+    "share_link": "Partager le lien",
+    "link_copied": "Copié!",
+    "game_mode": "Mode de jeu",
+    "color": "Couleur",
+    "pins": "Le nombre de broches",
+    "autopick": "<i class=\"fas fa-wand-magic mr-1\"></i> Auto Pick",
+    "clear": "Nettoyer",
+    "mines": "Nombre de mines",
+    "edit": "Éditer",
+    "add": "Ajouter",
+    "already_purchased": "Acheté",
+    "purchase_sticker_pack": "Acheter pour {cpoins} <i class=\"fas fa-coins\"></i>",
+    "hilo-higher": "Plus haut",
+    "hilo-lower": "Plus bas",
+    "hilo-same": "Pareil",
+    "chance": "Chance",
+    "chat_at": "Tapez @<strong>username</strong> pour notifier l'utilisateur",
+    "autoStop": "Paiement en",
+    "target_payout": "Paiement cible",
+    "win_chance": "Chances de gagner",
+    "demo_popup_link": "Jouer avec de l'argent",
+    "double": "Doubler",
+    "divide": "Diviser",
+    "got": "Obtenu",
+    "videopoker": {
+      "f_r": "Quinte royale (Royal Flush)",
+      "s_f": "Quinte flush (Straight Flush)",
+      "k": "Quatre d'une sorte(Four of a kind)",
+      "f_h": "Full House(Full House)",
+      "f": "Flash (Flash)",
+      "s": " Droit (Straight)",
+      "t": " Triple(Triple)",
+      "t_p": "Deux paires (Two pairs)",
+      "p": "Paire (Pair) (J, Q, K, A)"
+    },
+    "deal": "Distribuez les cartes",
+    "stand": "Reste (Stand)",
+    "hit": "Frapper (Hit)",
+    "split": "Paertager (Split)",
+    "insurance": "Vous voulez une assurance?",
+    "accept": "Accepter",
+    "decline": "Refuser",
+    "insurance_success": "Vous avez souscrit une assurance.",
+    "blackjack": {
+      "0": "Prendre (Draw)",
+      "1": "Vous avez perdu",
+      "2": "Vous avez gagné",
+      "3": "Vous avez gagné",
+      "4": "Vous avez perdu",
+      "5": "Vous avez gagné",
+      "6": "Vous avez perdu"
+    },
+    "difficulty": {
+      "title": "Difficulté",
+      "low": "Faible",
+      "medium": "Moyenne",
+      "high": "Élevé"
+    },
+    "baccarat": {
+      "player": "Joueur",
+      "tie": "Égalité de points (Tie)",
+      "pair_player": "{P} Paire",
+      "pair_banker": "{B} Paire",
+      "pair": "Paire",
+      "banker": "Banquier",
+      "empty": "Soyez le premier - pariez"
+    },
+    "verify": "Vérifier",
+    "black": "Noire",
+    "red": "Rouge",
+    "green": "Verte",
+    "yellow": "Jaune",
+    "blue": "Bleu"
+  },
+  "help": {
+    "header_title": "Comment pouvons-nous vous aider??",
+    "faq": "Questions fréquemment posées",
+    "modal": {
+      "title": "Support",
+      "page": {
+        "index": {
+          "title": "\uD83C\uDF89 Salut!",
+          "description": "Bienvenue! Faites-nous savoir si nous pouvons vous aider avec quoi que ce soit.",
+          "my_chats": "Mes conversations",
+          "menu": {
+            "ask_question": "Conversation Live",
+            "general_questions": "Voir les questions fréquemment posées",
+            "moderate": "Modéré"
+          }
+        },
+        "live_chat": {
+          "welcome_message": "Notre équipe d'assistance est toujours prête à répondre à vos questions.",
+          "bot": "Réponse automatique"
+        }
+      }
+    }
+  },
+  "invest": {
+    "sidebar": {
+      "your_bankroll": "Votre bankroll",
+      "your_share": "Votre part",
+      "your_investing_profit": "Bénéfices",
+      "site_bankroll": "Bankroll du site",
+      "site_profit": "Bénéfice du site Web",
+      "amount": "Montant (Min {min})",
+      "invest": "Investir",
+      "site_fee_taken": "Frais reçus du profit du site Web",
+      "all_time_high": "Le bénéfice le plus élevé du site Web "
+    },
+    "history": {
+      "amount": "Investissement",
+      "your_share": "Votre part",
+      "profit": "Actuel",
+      "status": "Statut",
+      "cancelled": "Annulé",
+      "disinvest": "Ne pas investir",
+      "dead": "Perdu"
+    },
+    "your_balance": "Votre solde: {balance}",
+    "min": "Montant minimal: {min}",
+    "invest": "Investir",
+    "invest_fee": "<span>1%</span> de votre dépôt sera déduit en tant que frais non remboursables.",
+    "invest_fee_withdraw": "<span>{value}%</span> la commission sera déduite de votre retrait/ will be deducted from your withdraw.",
+    "tabs": {
+      "overview": "Aperçu général",
+      "invest": "Investir",
+      "history": "Historique"
+    }
+  },
+  "partner": {
+    "tabs": {
+      "overview": "Aperçu général",
+      "list": "Nos partenaires",
+      "analytics": "Analytique"
+    },
+    "overview": {
+      "guest_content": "<p>Annoncez pepe.casino et gagnez de l'argent en participant à notre programme d'affiliation !</p><p>Vous obtenez différents bonus pour chaque utilisateur actif qui s'inscrira et jouera sur pepe.casino via votre lien.</p>",
+      "content": "<p>Advertise pepe.casino and earn money by participating in our affiliate program!</p><p> Vous obtenez des bonus différents pour chaque utilisateur actif qui s'enregistrera et jouera sur pepe.casino through your link.</p><strong class=\"mt-2\">Referral link</strong><input readonly class=\"mt-2\" style=\"cursor: pointer !important;\" id=\"link\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"Copy link\" value=\"https://pepe.casino/?c={id}\">",
+      "header": "Ce que vous obtiendrez en participant au programme de partenariat :",
+      "1": "1. Vous recevrez % de votre dépôt d'affiliation en fonction de votre niveau VIP.",
+      "2": "2. Votre partenaire (parrainé) recevra un bonus gratuit en BTC après son inscription.",
+      "3": "3. Vous recevrez également un bonus de votre partenaire (parrainé) s'il est actif. Vous pouvez transmettre ceci via\"Affiliates\" tab.",
+      "4": "4. Tous les 10 partenaires actifs (recommandés) vous donneront un bonus de rotation de roue (Wheel Spin) avec des récompenses supplémentaires."
+    },
+    "list": {
+      "name": "Nom",
+      "activity": "Bonus d'activité perçu"
+    },
+    "analytics": {
+      "referrals": "<strong> Nombre de partenaires (recommandé):</strong> {count}",
+      "referrals_bonus": "<strong>Partenaires (recommandé) Actif:</strong> {count}"
+    }
+  },
+  "policy": {
+    "gaming_policy": "Ce fichier peut être modifié en /resources/lang/en/en.json",
+    "privacy_notice": "Ce fichier peut être modifié en /resources/lang/en/en.json",
+    "privacy_policy": "Ce fichier peut être modifié en/resources/lang/en/en.json",
+    "terms_and_conditions": "Ce fichier peut être modifié en /resources/lang/en/en.json"
+  },
+  "wallet": {
+    "tabs": {
+      "deposit": "Dépôt",
+      "withdraw": "Retirer",
+      "history": "Historique",
+      "deposits": "Dépôts",
+      "withdraws": "Les retraits",
+      "exchange": "Échanger"
+    },
+    "exchange": "Échanger",
+    "exchange_success": "Succès !",
+    "set_email": "Spécifiez l'e-mail dans votre profil pour utiliser ce mode de paiement.",
+    "bank": {
+      "title": "Bank Deposit",
+      "description": "La demande de vérification a été envoyée avec succès. Vous pouvez voir son statut dans le fichier \"History\" -> \"Deposits\".",
+      "transfer_here": "Transférer des fonds sur ce compte bancaire :",
+      "bank_check": "Demander une vérification",
+      "transaction_id": "Identifiant (ID) de transaction",
+      "notify": "Une fois le transfert terminé, cliquez sur le bouton \"Demander une vérification\".<br>Nos opérateurs vérifieront votre transaction et ajouteront des fonds sur le compte manuellement.<br>Ce mode de paiement n'est <strong> isn't </ strong>immédiat.",
+      "invalid_txid": "ID de transaction non valide",
+      "already_have_one_in_moderation": "Vous avez déjà une demande de vérification en attente.",
+      "cancelled": "La demande de vérification de virement bancaire a été annulée"
+    },
+    "s": {
+      "amount": "Montant du dépôt",
+      "deposit": "Dépôt",
+      "invalid_amount": "Montant invalide",
+      "conversion_rate": "Taux de conversion: {usd} USD = {token} <i class=\"{icon}\" style=\"color: {style}\"></i>"
+    },
+    "pending": "En attente",
+    "method": "Mode de paiement:",
+    "troubles": "Avez-vous besoin d'aide?<br>Contactez <a href=\"mailto:support@pepe.casino\">support team</a>",
+    "fast": "Vous serez averti immédiatement après avoir effectué le dépôt et pourrez voir votre numéro de confirmation de transaction",
+    "deposit": {
+      "address": "Votre adresse de dépôt en {currency}",
+      "confirmations": "N'envoyez que {currency} à cette adresse, {confirmations} confirmation(s) requise(s).",
+      "sum": "Somme",
+      "go": "Effectuer un dépôt"
+    },
+    "withdraw": {
+      "title": "Tërhiq",
+      "amount": "Montant (Min {min} {currency})",
+      "button": "Retirer",
+      "fee": "Votre retrait aura {fee} {currency} déduit de votre solde restant pour couvrir les frais de transaction.",
+      "method": "Mode de retrait:",
+      "enter_wallet": "Porte-monnaie:",
+      "wallet": "Porte-monnaie",
+      "go": "Retirer",
+      "content": "Retrait ordonné avec succès. Vous pouvez vérifier son statut dans la section \"History\".",
+      "vip_content": "<div class=\"mt-2\"> Étant donné que votre niveau VIP est <svg style=\"width: 14px; height: 14px;\"><use href=\"#vip-gold\"></use></svg>, votre demande a été placée au tout début de la file d'attente.</div>"
+    },
+    "history": {
+      "empty": "Vous n'avez encore rien commandé.",
+      "name": "Devise",
+      "not_paid": "Non payé",
+      "sum": "Somme",
+      "date": "Date",
+      "status": "Statut",
+      "confirmations": "Confirmations",
+      "id": "ID: :id",
+      "paid": "Avec succès",
+      "wallet": "Addresse: {wallet}",
+      "cancel": "Annuler",
+      "withdraw_cancelled": "Le paiement a été annulé.",
+      "withdraw_status": {
+        "moderation": "Modération",
+        "accepted": "Avec succès",
+        "declined": "Réfusé",
+        "reason": "Raison:",
+        "cancelled": "Annulé par l'utilisateur"
+      }
+    },
+    "copy": "Copier",
+    "copied": "Copiée!"
+  },
+  "404": {
+    "title": "Désolé, cette page n'est pas disponible.",
+    "subtitle": "Le lien que vous avez suivi a peut-être été rompu ou la page a peut-être été supprimée."
+  },
+  "sport": {
+    "emptyCategoryTitle": "Aucun événement n'est actuellement en direct",
+    "live_events": "Événements en direct",
+    "game_not_found": "L'événement est terminé ou n'existe pas",
+    "game_is_closed": "Les paris sont fermés",
+    "bet_slip": "Bulletin de paris",
+    "register_to_bet": "Inscrivez-vous pour placer un pari",
+    "bet": "Placer un paris",
+    "single": "Un",
+    "multi": "Multiples",
+    "no_odds_changes": "Les changements de quotas ne sont pas acceptés",
+    "estimate_payout": "Évaluation du paiement",
+    "empty_bet_slip_title": "Les bulletins de paris sont vierges",
+    "empty_bet_slip_subtitle": "Cliquez sur les cotes pour ajouter votre pari",
+    "total_bet": "Total de la Participation",
+    "total_odds": "Cote totale",
+    "odds_change": " cotes changées: {odds}",
+    "accept": "Accepter",
+    "decline": "Refuser",
+    "not_enough_balance": "Pas assez d'équilibre",
+    "error": "Une erreur est survenue. Veuillez réessayer dans quelques secondes.",
+    "created": "Les paris ont été placés avec succès !",
+    "my_bets": "Mes paris",
+    "ongoing": "En cours",
+    "finished": "Fini",
+    "no_bets_title": "Il n'y a pas de paris dans cette catégorie.",
+    "index_welcome": "Ajoutez des paris sportifs à votre site Web.",
+    "lets_bet": "Visualisation",
+    "casino_welcome": "Bienvenue au Whales.",
+    "no_category_events_slider": "Aucun des événements {category} n'est en direct pour le moment.",
+    "outcome": {
+      "refund": "I rimbursuar",
+      "win": "Gagner",
+      "lose": "Perdre"
+    },
+    "live": "En direct",
+    "line": "Ligne",
+    "market": {
+      "yes": "Oui",
+      "no": "Non",
+      "other": "Autre",
+      "basketballDryWin": "L'un des sets se terminera par un score de 6:0 ou 0:6",
+      "bothTeamsWillScore": "Les deux équipes marqueront",
+      "doubleOutcome": "Double résultat",
+      "exactScore": "Résultat correct",
+      "exactScoreNoOutcomeOther": "Résultat correct (Aucun autre résultat, Autre)",
+      "handicap": "Handicap",
+      "firstPlayerWinsAnySet": "Le premier joueur remporte l'un des sets",
+      "secondPlayerWinsAnySet": "Le deuxième joueur remporte l'un des sets",
+      "setWinner": "Set {set} : Le gagnant",
+      "winner": "Le gagnant",
+      "outcomeWithoutDraw": "Le résultat sans compter le match nul",
+      "winnerWithOT": "Gagnant (En prolongation)"
+    }
+  }
+}

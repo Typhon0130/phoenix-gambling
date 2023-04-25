@@ -1,0 +1,1254 @@
+:root {
+  --sr-background: #111111;
+}
+
+#movableWidget .sr-poweredby__wrapper, #widget .sr-poweredby__wrapper, #mobileWidget .sr-poweredby__wrapper {
+  display: none !important;
+}
+#movableWidget .srt-neutral-11, #movableWidget .sr-bb .srt-neutral-11, #widget .srt-neutral-11, #widget .sr-bb .srt-neutral-11, #mobileWidget .srt-neutral-11, #mobileWidget .sr-bb .srt-neutral-11 {
+  background-color: #2d4454;
+  color: #2d4454;
+  border-color: #ffffff29;
+}
+#movableWidget .srt-primary-7, #widget .srt-primary-7, #mobileWidget .srt-primary-7 {
+  background-color: var(--blue-500) !important;
+}
+#movableWidget .sr-lmt-plus-scb__mid, #widget .sr-lmt-plus-scb__mid, #mobileWidget .sr-lmt-plus-scb__mid {
+  justify-content: center;
+}
+#movableWidget .sr-bb .sr-dropdown__menu li a, #widget .sr-bb .sr-dropdown__menu li a, #mobileWidget .sr-bb .sr-dropdown__menu li a {
+  line-height: var(--spacing-1-5);
+}
+#movableWidget .sr-bb .sr-dropdown__wrapper, #widget .sr-bb .sr-dropdown__wrapper, #mobileWidget .sr-bb .sr-dropdown__wrapper {
+  height: auto;
+}
+#movableWidget .sr-bb, #widget .sr-bb, #mobileWidget .sr-bb {
+  font-family: Roboto, Noto, Helvetica Neue, Helvetica, Arial, sans-serif;
+  text-align: left;
+  background: var(--sr-background);
+}
+#movableWidget .sr-bb.sr-rtl, #widget .sr-bb.sr-rtl, #mobileWidget .sr-bb.sr-rtl {
+  text-align: right;
+}
+#movableWidget .sr-bb .sr-bb, #widget .sr-bb .sr-bb, #mobileWidget .sr-bb .sr-bb {
+  background: 0 0;
+}
+#movableWidget .sr-bb .srt-base-1, #widget .sr-bb .srt-base-1, #mobileWidget .sr-bb .srt-base-1 {
+  background-color: transparent;
+  color: #fff;
+  border-color: #ffffff1f;
+}
+#movableWidget .sr-bb .srt-base-1-win, #widget .sr-bb .srt-base-1-win, #mobileWidget .sr-bb .srt-base-1-win {
+  background-color: transparent;
+  color: #fff;
+  border-color: #fff;
+}
+#movableWidget .sr-bb .srt-base-1-draw, #widget .sr-bb .srt-base-1-draw, #mobileWidget .sr-bb .srt-base-1-draw {
+  background-color: transparent;
+  color: #495660;
+  border-color: #495660;
+}
+#movableWidget .sr-bb .srt-base-1-lose, #widget .sr-bb .srt-base-1-lose, #mobileWidget .sr-bb .srt-base-1-lose {
+  background-color: transparent;
+  color: #808990;
+  border-color: #808990;
+}
+#movableWidget .sr-bb .srt-base-1-is-active, #widget .sr-bb .srt-base-1-is-active, #mobileWidget .sr-bb .srt-base-1-is-active {
+  background-color: #ffffff1f;
+  color: #fff;
+  border-color: #ffffff1f;
+}
+#movableWidget .sr-bb .srt-base-1-is-active-2, #widget .sr-bb .srt-base-1-is-active-2, #mobileWidget .sr-bb .srt-base-1-is-active-2 {
+  background-color: #273743;
+  color: #fff;
+  border-color: #ffffff1f;
+}
+#movableWidget .sr-bb .srt-base-1-is-hoverable:hover, #widget .sr-bb .srt-base-1-is-hoverable:hover, #mobileWidget .sr-bb .srt-base-1-is-hoverable:hover {
+  background-color: #ffffff1f;
+  color: #fff;
+  border-color: #ffffff1f;
+}
+#movableWidget .sr-bb .srt-base-1-primary, #widget .sr-bb .srt-base-1-primary, #mobileWidget .sr-bb .srt-base-1-primary {
+  background-color: transparent;
+  color: #fff;
+  border-color: #fff;
+}
+#movableWidget .sr-bb .srt-base-1-home-1, #widget .sr-bb .srt-base-1-home-1, #mobileWidget .sr-bb .srt-base-1-home-1 {
+  background-color: transparent;
+  color: #1f8bff;
+  border-color: #1f8bff;
+}
+#movableWidget .sr-bb .srt-base-1-away-1, #widget .sr-bb .srt-base-1-away-1, #mobileWidget .sr-bb .srt-base-1-away-1 {
+  background-color: transparent;
+  color: #1fff20;
+  border-color: #1fff20;
+}
+#movableWidget .sr-bb .srt-base-1-home-2, #widget .sr-bb .srt-base-1-home-2, #mobileWidget .sr-bb .srt-base-1-home-2 {
+  background-color: transparent;
+  color: #1f8bff;
+  border-color: #fff;
+}
+#movableWidget .sr-bb .srt-base-1-away-2, #widget .sr-bb .srt-base-1-away-2, #mobileWidget .sr-bb .srt-base-1-away-2 {
+  background-color: transparent;
+  color: #1fff20;
+  border-color: #fff;
+}
+#movableWidget .sr-bb .srt-base-1-home-3, #widget .sr-bb .srt-base-1-home-3, #mobileWidget .sr-bb .srt-base-1-home-3 {
+  background-color: transparent;
+  color: #1f8bff;
+  border-color: #ffffff1f;
+}
+#movableWidget .sr-bb .srt-base-1-away-3, #widget .sr-bb .srt-base-1-away-3, #mobileWidget .sr-bb .srt-base-1-away-3 {
+  background-color: transparent;
+  color: #1fff20;
+  border-color: #ffffff1f;
+}
+#movableWidget .sr-bb .srt-base-1-home-4, #widget .sr-bb .srt-base-1-home-4, #mobileWidget .sr-bb .srt-base-1-home-4 {
+  background-color: transparent;
+  color: #1a6bc0;
+  border-color: #1a6bc0;
+}
+#movableWidget .sr-bb .srt-base-1-away-4, #widget .sr-bb .srt-base-1-away-4, #mobileWidget .sr-bb .srt-base-1-away-4 {
+  background-color: transparent;
+  color: #1abc24;
+  border-color: #1abc24;
+}
+#movableWidget .sr-bb .srt-base-1-home-5, #widget .sr-bb .srt-base-1-home-5, #mobileWidget .sr-bb .srt-base-1-home-5 {
+  background-color: transparent;
+  color: #6db4ff;
+  border-color: #6db4ff;
+}
+#movableWidget .sr-bb .srt-base-1-away-5, #widget .sr-bb .srt-base-1-away-5, #mobileWidget .sr-bb .srt-base-1-away-5 {
+  background-color: transparent;
+  color: #6dff6e;
+  border-color: #6dff6e;
+}
+#movableWidget .sr-bb .srt-base-1-background, #movableWidget .sr-bb .srt-base-2, #widget .sr-bb .srt-base-1-background, #widget .sr-bb .srt-base-2, #mobileWidget .sr-bb .srt-base-1-background, #mobileWidget .sr-bb .srt-base-2 {
+  background-color: var(--sr-background);
+  color: #fff;
+  border-color: #ffffff1f;
+}
+#movableWidget .sr-bb .srt-base-2-is-active, #movableWidget .sr-bb .srt-base-2-is-hoverable:hover, #movableWidget .sr-bb .srt-base-3, #widget .sr-bb .srt-base-2-is-active, #widget .sr-bb .srt-base-2-is-hoverable:hover, #widget .sr-bb .srt-base-3, #mobileWidget .sr-bb .srt-base-2-is-active, #mobileWidget .sr-bb .srt-base-2-is-hoverable:hover, #mobileWidget .sr-bb .srt-base-3 {
+  background-color: #2c3c47;
+  color: #fff;
+  border-color: #ffffff1f;
+}
+#movableWidget .sr-bb .srt-base-3-is-active, #movableWidget .sr-bb .srt-base-3-is-hoverable:hover, #widget .sr-bb .srt-base-3-is-active, #widget .sr-bb .srt-base-3-is-hoverable:hover, #mobileWidget .sr-bb .srt-base-3-is-active, #mobileWidget .sr-bb .srt-base-3-is-hoverable:hover {
+  background-color: #384752;
+  color: #fff;
+  border-color: #ffffff1f;
+}
+#movableWidget .sr-bb .srt-base-3-background, #widget .sr-bb .srt-base-3-background, #mobileWidget .sr-bb .srt-base-3-background {
+  background-color: var(--sr-background);
+  color: #fff;
+  border-color: #ffffff1f;
+}
+#movableWidget .sr-bb .srt-base-4, #widget .sr-bb .srt-base-4, #mobileWidget .sr-bb .srt-base-4 {
+  background-color: #1b2c38;
+  color: #fff;
+  border-color: #ffffff1f;
+}
+#movableWidget .sr-bb .srt-base-5-is-active, #movableWidget .sr-bb .srt-base-5-is-hoverable:hover, #widget .sr-bb .srt-base-5-is-active, #widget .sr-bb .srt-base-5-is-hoverable:hover, #mobileWidget .sr-bb .srt-base-5-is-active, #mobileWidget .sr-bb .srt-base-5-is-hoverable:hover {
+  background-color: #4d5b64;
+  color: #fff;
+  border-color: #ffffff1f;
+}
+#movableWidget .sr-bb .srt-base-6, #widget .sr-bb .srt-base-6, #mobileWidget .sr-bb .srt-base-6 {
+  background-color: transparent;
+  color: #fff;
+  border-color: #ffffff4d;
+}
+#movableWidget .sr-bb .srt-primary-1, #widget .sr-bb .srt-primary-1, #mobileWidget .sr-bb .srt-primary-1 {
+  background-color: #fff;
+  color: #000;
+  border-color: #00000029;
+}
+#movableWidget .sr-bb .srt-primary-1-is-active, #movableWidget .sr-bb .srt-primary-1-is-hoverable:hover, #widget .sr-bb .srt-primary-1-is-active, #widget .sr-bb .srt-primary-1-is-hoverable:hover, #mobileWidget .sr-bb .srt-primary-1-is-active, #mobileWidget .sr-bb .srt-primary-1-is-hoverable:hover {
+  background-color: #e6e6e6;
+  color: #000;
+  border-color: #00000029;
+}
+#movableWidget .sr-bb .srt-primary-1-is-disabled, #widget .sr-bb .srt-primary-1-is-disabled, #mobileWidget .sr-bb .srt-primary-1-is-disabled {
+  background-color: #ccc;
+  color: #000;
+  border-color: #00000029;
+}
+#movableWidget .sr-bb .srt-primary-2, #widget .sr-bb .srt-primary-2, #mobileWidget .sr-bb .srt-primary-2 {
+  background-color: #fff;
+  color: #000;
+  border-color: #00000029;
+}
+#movableWidget .sr-bb .srt-primary-3, #widget .sr-bb .srt-primary-3, #mobileWidget .sr-bb .srt-primary-3 {
+  background-color: #e6e6e6;
+  color: #000;
+  border-color: #00000029;
+}
+#movableWidget .sr-bb .srt-primary-4, #movableWidget .sr-bb .srt-primary-5, #widget .sr-bb .srt-primary-4, #widget .sr-bb .srt-primary-5, #mobileWidget .sr-bb .srt-primary-4, #mobileWidget .sr-bb .srt-primary-5 {
+  background-color: #9fa6ab;
+  color: #000;
+  border-color: #00000029;
+}
+#movableWidget .sr-bb .srt-primary-5-is-hoverable:hover, #movableWidget .sr-bb .srt-primary-6, #movableWidget .sr-bb .srt-primary-7, #movableWidget .sr-bb .srt-primary-8, #widget .sr-bb .srt-primary-5-is-hoverable:hover, #widget .sr-bb .srt-primary-6, #widget .sr-bb .srt-primary-7, #widget .sr-bb .srt-primary-8, #mobileWidget .sr-bb .srt-primary-5-is-hoverable:hover, #mobileWidget .sr-bb .srt-primary-6, #mobileWidget .sr-bb .srt-primary-7, #mobileWidget .sr-bb .srt-primary-8 {
+  background-color: #fff;
+  color: #000;
+  border-color: #00000029;
+}
+#movableWidget .sr-bb .srt-primary-8-is-active-1, #widget .sr-bb .srt-primary-8-is-active-1, #mobileWidget .sr-bb .srt-primary-8-is-active-1 {
+  background-color: #e6e6e6;
+  color: #000;
+  border-color: #00000029;
+}
+#movableWidget .sr-bb .srt-primary-8-is-active-2, #widget .sr-bb .srt-primary-8-is-active-2, #mobileWidget .sr-bb .srt-primary-8-is-active-2 {
+  background-color: #e6e6e6;
+  color: #000;
+  border-color: var(--sr-background);
+}
+#movableWidget .sr-bb .srt-primary-9, #widget .sr-bb .srt-primary-9, #mobileWidget .sr-bb .srt-primary-9 {
+  background-color: #57646d;
+  color: #fff;
+  border-color: #ffffff1f;
+}
+#movableWidget .sr-bb .srt-primary-10, #widget .sr-bb .srt-primary-10, #mobileWidget .sr-bb .srt-primary-10 {
+  background-color: #cfd3d5;
+  color: #000;
+  border-color: #00000029;
+}
+#movableWidget .sr-bb .srt-primary-11, #widget .sr-bb .srt-primary-11, #mobileWidget .sr-bb .srt-primary-11 {
+  background-color: #e6e6e6;
+  color: #000;
+  border-color: #00000029;
+}
+#movableWidget .sr-bb .srt-primary-12, #widget .sr-bb .srt-primary-12, #mobileWidget .sr-bb .srt-primary-12 {
+  background-color: #fff;
+  color: #000;
+  border-color: #000;
+}
+#movableWidget .sr-bb .srt-primary-13, #widget .sr-bb .srt-primary-13, #mobileWidget .sr-bb .srt-primary-13 {
+  background-color: #1b2c38;
+  color: #000;
+  border-color: #ffffff4d;
+}
+#movableWidget .sr-bb .srt-base-1-primary-1, #movableWidget .sr-bb .srt-base-1-primary-2, #widget .sr-bb .srt-base-1-primary-1, #widget .sr-bb .srt-base-1-primary-2, #mobileWidget .sr-bb .srt-base-1-primary-1, #mobileWidget .sr-bb .srt-base-1-primary-2 {
+  background-color: transparent;
+  color: #fff;
+  border-color: #fff;
+}
+#movableWidget .sr-bb .srt-base-1-primary-3, #widget .sr-bb .srt-base-1-primary-3, #mobileWidget .sr-bb .srt-base-1-primary-3 {
+  background-color: transparent;
+  color: #e6e6e6;
+  border-color: #e6e6e6;
+}
+#movableWidget .sr-bb .srt-base-1-primary-4, #movableWidget .sr-bb .srt-base-1-primary-5, #widget .sr-bb .srt-base-1-primary-4, #widget .sr-bb .srt-base-1-primary-5, #mobileWidget .sr-bb .srt-base-1-primary-4, #mobileWidget .sr-bb .srt-base-1-primary-5 {
+  background-color: transparent;
+  color: #9fa6ab;
+  border-color: #9fa6ab;
+}
+#movableWidget .sr-bb .srt-base-1-primary-6, #movableWidget .sr-bb .srt-base-1-primary-7, #movableWidget .sr-bb .srt-base-1-primary-8, #widget .sr-bb .srt-base-1-primary-6, #widget .sr-bb .srt-base-1-primary-7, #widget .sr-bb .srt-base-1-primary-8, #mobileWidget .sr-bb .srt-base-1-primary-6, #mobileWidget .sr-bb .srt-base-1-primary-7, #mobileWidget .sr-bb .srt-base-1-primary-8 {
+  background-color: transparent;
+  color: #fff;
+  border-color: #fff;
+}
+#movableWidget .sr-bb .srt-base-1-primary-9, #widget .sr-bb .srt-base-1-primary-9, #mobileWidget .sr-bb .srt-base-1-primary-9 {
+  background-color: transparent;
+  color: #57646d;
+  border-color: #57646d;
+}
+#movableWidget .sr-bb .srt-base-1-primary-10, #widget .sr-bb .srt-base-1-primary-10, #mobileWidget .sr-bb .srt-base-1-primary-10 {
+  background-color: transparent;
+  color: #cfd3d5;
+  border-color: #cfd3d5;
+}
+#movableWidget .sr-bb .srt-base-1-primary-11, #widget .sr-bb .srt-base-1-primary-11, #mobileWidget .sr-bb .srt-base-1-primary-11 {
+  background-color: transparent;
+  color: #e6e6e6;
+  border-color: #e6e6e6;
+}
+#movableWidget .sr-bb .srt-base-1-primary-13, #widget .sr-bb .srt-base-1-primary-13, #mobileWidget .sr-bb .srt-base-1-primary-13 {
+  background-color: var(--sr-background);
+  color: #1b2c38;
+  border-color: #ffffff4d;
+}
+#movableWidget .sr-bb .srt-base-1-neutral-1, #widget .sr-bb .srt-base-1-neutral-1, #mobileWidget .sr-bb .srt-base-1-neutral-1 {
+  background-color: transparent;
+  color: #2e3e49;
+  border-color: #2e3e49;
+}
+#movableWidget .sr-bb .srt-base-1-neutral-2, #widget .sr-bb .srt-base-1-neutral-2, #mobileWidget .sr-bb .srt-base-1-neutral-2 {
+  background-color: transparent;
+  color: #e7e9ea;
+  border-color: #e7e9ea;
+}
+#movableWidget .sr-bb .srt-base-1-neutral-3, #widget .sr-bb .srt-base-1-neutral-3, #mobileWidget .sr-bb .srt-base-1-neutral-3 {
+  background-color: transparent;
+  color: #ffffff1f;
+  border-color: #ffffff1f;
+}
+#movableWidget .sr-bb .srt-base-1-neutral-4, #widget .sr-bb .srt-base-1-neutral-4, #mobileWidget .sr-bb .srt-base-1-neutral-4 {
+  background-color: transparent;
+  color: #abb1b6;
+  border-color: #abb1b6;
+}
+#movableWidget .sr-bb .srt-base-1-neutral-5, #widget .sr-bb .srt-base-1-neutral-5, #mobileWidget .sr-bb .srt-base-1-neutral-5 {
+  background-color: transparent;
+  color: #c3c8cb;
+  border-color: #c3c8cb;
+}
+#movableWidget .sr-bb .srt-base-1-neutral-6, #widget .sr-bb .srt-base-1-neutral-6, #mobileWidget .sr-bb .srt-base-1-neutral-6 {
+  background-color: transparent;
+  color: #495660;
+  border-color: #495660;
+}
+#movableWidget .sr-bb .srt-base-1-neutral-7, #widget .sr-bb .srt-base-1-neutral-7, #mobileWidget .sr-bb .srt-base-1-neutral-7 {
+  background-color: transparent;
+  color: #abb1b6;
+  border-color: #abb1b6;
+}
+#movableWidget .sr-bb .srt-base-1-neutral-8, #widget .sr-bb .srt-base-1-neutral-8, #mobileWidget .sr-bb .srt-base-1-neutral-8 {
+  background-color: transparent;
+  color: #2e3e49;
+  border-color: #2e3e49;
+}
+#movableWidget .sr-bb .srt-base-1-neutral-9, #widget .sr-bb .srt-base-1-neutral-9, #mobileWidget .sr-bb .srt-base-1-neutral-9 {
+  background-color: transparent;
+  color: #1d2e3b;
+  border-color: #1d2e3b;
+}
+#movableWidget .sr-bb .srt-base-1-neutral-10, #widget .sr-bb .srt-base-1-neutral-10, #mobileWidget .sr-bb .srt-base-1-neutral-10 {
+  background-color: transparent;
+  color: #2c3c47;
+  border-color: #2c3c47;
+}
+#movableWidget .sr-bb .srt-base-1-neutral-11, #widget .sr-bb .srt-base-1-neutral-11, #mobileWidget .sr-bb .srt-base-1-neutral-11 {
+  background-color: transparent;
+  color: #6f7a82;
+  border-color: #6f7a82;
+}
+#movableWidget .sr-bb .srt-base-1-neutral-12, #widget .sr-bb .srt-base-1-neutral-12, #mobileWidget .sr-bb .srt-base-1-neutral-12 {
+  background-color: transparent;
+  color: #b7bcc0;
+  border-color: #b7bcc0;
+}
+#movableWidget .sr-bb .srt-base-1-neutral-13, #widget .sr-bb .srt-base-1-neutral-13, #mobileWidget .sr-bb .srt-base-1-neutral-13 {
+  background-color: transparent;
+  color: #273743;
+  border-color: #273743;
+}
+#movableWidget .sr-bb .srt-base-1-is-active-primary, #widget .sr-bb .srt-base-1-is-active-primary, #mobileWidget .sr-bb .srt-base-1-is-active-primary {
+  background-color: #ffffff1f;
+  color: #fff;
+  border-color: #fff;
+}
+#movableWidget .sr-bb .srt-base-1-is-active-home-1, #widget .sr-bb .srt-base-1-is-active-home-1, #mobileWidget .sr-bb .srt-base-1-is-active-home-1 {
+  background-color: #ffffff1f;
+  color: #1f8bff;
+  border-color: #1f8bff;
+}
+#movableWidget .sr-bb .srt-base-1-is-active-away-1, #widget .sr-bb .srt-base-1-is-active-away-1, #mobileWidget .sr-bb .srt-base-1-is-active-away-1 {
+  background-color: #ffffff1f;
+  color: #1fff20;
+  border-color: #1fff20;
+}
+#movableWidget .sr-bb .srt-base-1-is-active-home-2, #widget .sr-bb .srt-base-1-is-active-home-2, #mobileWidget .sr-bb .srt-base-1-is-active-home-2 {
+  background-color: #ffffff1f;
+  color: #1f8bff;
+  border-color: #fff;
+}
+#movableWidget .sr-bb .srt-base-1-is-active-away-2, #widget .sr-bb .srt-base-1-is-active-away-2, #mobileWidget .sr-bb .srt-base-1-is-active-away-2 {
+  background-color: #ffffff1f;
+  color: #1fff20;
+  border-color: #fff;
+}
+#movableWidget .sr-bb .srt-base-1-is-active-home-3, #widget .sr-bb .srt-base-1-is-active-home-3, #mobileWidget .sr-bb .srt-base-1-is-active-home-3 {
+  background-color: #ffffff1f;
+  color: #1f8bff;
+  border-color: #ffffff1f;
+}
+#movableWidget .sr-bb .srt-base-1-is-active-away-3, #widget .sr-bb .srt-base-1-is-active-away-3, #mobileWidget .sr-bb .srt-base-1-is-active-away-3 {
+  background-color: #ffffff1f;
+  color: #1fff20;
+  border-color: #ffffff1f;
+}
+#movableWidget .sr-bb .srt-base-1-is-active-home-4, #widget .sr-bb .srt-base-1-is-active-home-4, #mobileWidget .sr-bb .srt-base-1-is-active-home-4 {
+  background-color: #ffffff1f;
+  color: #1a6bc0;
+  border-color: #1a6bc0;
+}
+#movableWidget .sr-bb .srt-base-1-is-active-away-4, #widget .sr-bb .srt-base-1-is-active-away-4, #mobileWidget .sr-bb .srt-base-1-is-active-away-4 {
+  background-color: #ffffff1f;
+  color: #1abc24;
+  border-color: #1abc24;
+}
+#movableWidget .sr-bb .srt-base-1-is-active-home-5, #widget .sr-bb .srt-base-1-is-active-home-5, #mobileWidget .sr-bb .srt-base-1-is-active-home-5 {
+  background-color: #ffffff1f;
+  color: #6db4ff;
+  border-color: #6db4ff;
+}
+#movableWidget .sr-bb .srt-base-1-is-active-away-5, #widget .sr-bb .srt-base-1-is-active-away-5, #mobileWidget .sr-bb .srt-base-1-is-active-away-5 {
+  background-color: #ffffff1f;
+  color: #6dff6e;
+  border-color: #6dff6e;
+}
+#movableWidget .sr-bb .srt-base-1-is-active-primary-1, #movableWidget .sr-bb .srt-base-1-is-active-primary-2, #widget .sr-bb .srt-base-1-is-active-primary-1, #widget .sr-bb .srt-base-1-is-active-primary-2, #mobileWidget .sr-bb .srt-base-1-is-active-primary-1, #mobileWidget .sr-bb .srt-base-1-is-active-primary-2 {
+  background-color: #ffffff1f;
+  color: #fff;
+  border-color: #fff;
+}
+#movableWidget .sr-bb .srt-base-1-is-active-primary-3, #widget .sr-bb .srt-base-1-is-active-primary-3, #mobileWidget .sr-bb .srt-base-1-is-active-primary-3 {
+  background-color: #ffffff1f;
+  color: #e6e6e6;
+  border-color: #e6e6e6;
+}
+#movableWidget .sr-bb .srt-base-1-is-active-primary-4, #movableWidget .sr-bb .srt-base-1-is-active-primary-5, #widget .sr-bb .srt-base-1-is-active-primary-4, #widget .sr-bb .srt-base-1-is-active-primary-5, #mobileWidget .sr-bb .srt-base-1-is-active-primary-4, #mobileWidget .sr-bb .srt-base-1-is-active-primary-5 {
+  background-color: #ffffff1f;
+  color: #9fa6ab;
+  border-color: #9fa6ab;
+}
+#movableWidget .sr-bb .srt-base-1-is-active-primary-6, #movableWidget .sr-bb .srt-base-1-is-active-primary-7, #movableWidget .sr-bb .srt-base-1-is-active-primary-8, #widget .sr-bb .srt-base-1-is-active-primary-6, #widget .sr-bb .srt-base-1-is-active-primary-7, #widget .sr-bb .srt-base-1-is-active-primary-8, #mobileWidget .sr-bb .srt-base-1-is-active-primary-6, #mobileWidget .sr-bb .srt-base-1-is-active-primary-7, #mobileWidget .sr-bb .srt-base-1-is-active-primary-8 {
+  background-color: #ffffff1f;
+  color: #fff;
+  border-color: #fff;
+}
+#movableWidget .sr-bb .srt-base-1-is-active-primary-9, #widget .sr-bb .srt-base-1-is-active-primary-9, #mobileWidget .sr-bb .srt-base-1-is-active-primary-9 {
+  background-color: #ffffff1f;
+  color: #57646d;
+  border-color: #57646d;
+}
+#movableWidget .sr-bb .srt-base-1-is-active-primary-10, #widget .sr-bb .srt-base-1-is-active-primary-10, #mobileWidget .sr-bb .srt-base-1-is-active-primary-10 {
+  background-color: #ffffff1f;
+  color: #cfd3d5;
+  border-color: #cfd3d5;
+}
+#movableWidget .sr-bb .srt-base-1-is-active-primary-11, #widget .sr-bb .srt-base-1-is-active-primary-11, #mobileWidget .sr-bb .srt-base-1-is-active-primary-11 {
+  background-color: #ffffff1f;
+  color: #e6e6e6;
+  border-color: #e6e6e6;
+}
+#movableWidget .sr-bb .srt-base-1-is-active-neutral-1, #widget .sr-bb .srt-base-1-is-active-neutral-1, #mobileWidget .sr-bb .srt-base-1-is-active-neutral-1 {
+  background-color: #ffffff1f;
+  color: #2e3e49;
+  border-color: #2e3e49;
+}
+#movableWidget .sr-bb .srt-base-1-is-active-neutral-2, #widget .sr-bb .srt-base-1-is-active-neutral-2, #mobileWidget .sr-bb .srt-base-1-is-active-neutral-2 {
+  background-color: #ffffff1f;
+  color: #e7e9ea;
+  border-color: #e7e9ea;
+}
+#movableWidget .sr-bb .srt-base-1-is-active-neutral-3, #widget .sr-bb .srt-base-1-is-active-neutral-3, #mobileWidget .sr-bb .srt-base-1-is-active-neutral-3 {
+  background-color: #ffffff1f;
+  color: #ffffff1f;
+  border-color: #ffffff1f;
+}
+#movableWidget .sr-bb .srt-base-1-is-active-neutral-4, #widget .sr-bb .srt-base-1-is-active-neutral-4, #mobileWidget .sr-bb .srt-base-1-is-active-neutral-4 {
+  background-color: #ffffff1f;
+  color: #abb1b6;
+  border-color: #abb1b6;
+}
+#movableWidget .sr-bb .srt-base-1-is-active-neutral-5, #widget .sr-bb .srt-base-1-is-active-neutral-5, #mobileWidget .sr-bb .srt-base-1-is-active-neutral-5 {
+  background-color: #ffffff1f;
+  color: #c3c8cb;
+  border-color: #c3c8cb;
+}
+#movableWidget .sr-bb .srt-base-1-is-active-neutral-6, #widget .sr-bb .srt-base-1-is-active-neutral-6, #mobileWidget .sr-bb .srt-base-1-is-active-neutral-6 {
+  background-color: #ffffff1f;
+  color: #495660;
+  border-color: #495660;
+}
+#movableWidget .sr-bb .srt-base-1-is-active-neutral-7, #widget .sr-bb .srt-base-1-is-active-neutral-7, #mobileWidget .sr-bb .srt-base-1-is-active-neutral-7 {
+  background-color: #ffffff1f;
+  color: #abb1b6;
+  border-color: #abb1b6;
+}
+#movableWidget .sr-bb .srt-base-1-is-active-neutral-8, #widget .sr-bb .srt-base-1-is-active-neutral-8, #mobileWidget .sr-bb .srt-base-1-is-active-neutral-8 {
+  background-color: #ffffff1f;
+  color: #2e3e49;
+  border-color: #2e3e49;
+}
+#movableWidget .sr-bb .srt-base-1-is-active-neutral-9, #widget .sr-bb .srt-base-1-is-active-neutral-9, #mobileWidget .sr-bb .srt-base-1-is-active-neutral-9 {
+  background-color: #ffffff1f;
+  color: #1d2e3b;
+  border-color: #1d2e3b;
+}
+#movableWidget .sr-bb .srt-base-1-is-active-neutral-10, #widget .sr-bb .srt-base-1-is-active-neutral-10, #mobileWidget .sr-bb .srt-base-1-is-active-neutral-10 {
+  background-color: #ffffff1f;
+  color: #2c3c47;
+  border-color: #2c3c47;
+}
+#movableWidget .sr-bb .srt-base-1-is-active-neutral-11, #widget .sr-bb .srt-base-1-is-active-neutral-11, #mobileWidget .sr-bb .srt-base-1-is-active-neutral-11 {
+  background-color: #ffffff1f;
+  color: #6f7a82;
+  border-color: #6f7a82;
+}
+#movableWidget .sr-bb .srt-base-1-is-active-neutral-12, #widget .sr-bb .srt-base-1-is-active-neutral-12, #mobileWidget .sr-bb .srt-base-1-is-active-neutral-12 {
+  background-color: #ffffff1f;
+  color: #b7bcc0;
+  border-color: #b7bcc0;
+}
+#movableWidget .sr-bb .srt-base-1-is-active-neutral-13, #widget .sr-bb .srt-base-1-is-active-neutral-13, #mobileWidget .sr-bb .srt-base-1-is-active-neutral-13 {
+  background-color: #ffffff1f;
+  color: #273743;
+  border-color: #273743;
+}
+#movableWidget .sr-bb .srt-home-1, #widget .sr-bb .srt-home-1, #mobileWidget .sr-bb .srt-home-1 {
+  background-color: #1f8bff;
+  color: #fff;
+  border-color: #1f8bff;
+}
+#movableWidget .sr-bb .srt-away-1, #widget .sr-bb .srt-away-1, #mobileWidget .sr-bb .srt-away-1 {
+  background-color: #1fff20;
+  color: #000;
+  border-color: #1fff20;
+}
+#movableWidget .sr-bb .srt-home-2, #widget .sr-bb .srt-home-2, #mobileWidget .sr-bb .srt-home-2 {
+  background-color: #1f8bff;
+  color: #fff;
+  border-color: #fff;
+}
+#movableWidget .sr-bb .srt-away-2, #widget .sr-bb .srt-away-2, #mobileWidget .sr-bb .srt-away-2 {
+  background-color: #1fff20;
+  color: #000;
+  border-color: #fff;
+}
+#movableWidget .sr-bb .srt-home-3, #widget .sr-bb .srt-home-3, #mobileWidget .sr-bb .srt-home-3 {
+  background-color: #1f8bff;
+  color: #fff;
+  border-color: var(--sr-background);
+}
+#movableWidget .sr-bb .srt-away-3, #widget .sr-bb .srt-away-3, #mobileWidget .sr-bb .srt-away-3 {
+  background-color: #1fff20;
+  color: #000;
+  border-color: var(--sr-background);
+}
+#movableWidget .sr-bb .srt-home-4, #widget .sr-bb .srt-home-4, #mobileWidget .sr-bb .srt-home-4 {
+  background-color: #1a6bc0;
+  color: #fff;
+  border-color: #1a6bc0;
+}
+#movableWidget .sr-bb .srt-away-4, #widget .sr-bb .srt-away-4, #mobileWidget .sr-bb .srt-away-4 {
+  background-color: #1abc24;
+  color: #000;
+  border-color: #1abc24;
+}
+#movableWidget .sr-bb .srt-home-5, #widget .sr-bb .srt-home-5, #mobileWidget .sr-bb .srt-home-5 {
+  background-color: #6db4ff;
+  color: #fff;
+  border-color: #6db4ff;
+}
+#movableWidget .sr-bb .srt-away-5, #widget .sr-bb .srt-away-5, #mobileWidget .sr-bb .srt-away-5 {
+  background-color: #6dff6e;
+  color: #000;
+  border-color: #6dff6e;
+}
+#movableWidget .sr-bb .srt-neutral-1, #widget .sr-bb .srt-neutral-1, #mobileWidget .sr-bb .srt-neutral-1 {
+  background-color: #2e3e49;
+  color: #fff;
+  border-color: #ffffff1f;
+}
+#movableWidget .sr-bb .srt-neutral-2, #widget .sr-bb .srt-neutral-2, #mobileWidget .sr-bb .srt-neutral-2 {
+  background-color: #e7e9ea;
+  color: #000;
+  border-color: #00000029;
+}
+#movableWidget .sr-bb .srt-neutral-3, #widget .sr-bb .srt-neutral-3, #mobileWidget .sr-bb .srt-neutral-3 {
+  background-color: #ffffff1f;
+  color: #fff;
+  border-color: #ffffff1f;
+}
+#movableWidget .sr-bb .srt-neutral-4, #widget .sr-bb .srt-neutral-4, #mobileWidget .sr-bb .srt-neutral-4 {
+  background-color: #abb1b6;
+  color: #000;
+  border-color: #00000029;
+}
+#movableWidget .sr-bb .srt-neutral-5, #widget .sr-bb .srt-neutral-5, #mobileWidget .sr-bb .srt-neutral-5 {
+  background-color: #c3c8cb;
+  color: #000;
+  border-color: #00000029;
+}
+#movableWidget .sr-bb .srt-neutral-6, #widget .sr-bb .srt-neutral-6, #mobileWidget .sr-bb .srt-neutral-6 {
+  background-color: #495660;
+  color: #fff;
+  border-color: #ffffff1f;
+}
+#movableWidget .sr-bb .srt-neutral-7, #widget .sr-bb .srt-neutral-7, #mobileWidget .sr-bb .srt-neutral-7 {
+  background-color: #abb1b6;
+  color: #000;
+  border-color: #00000029;
+}
+#movableWidget .sr-bb .srt-neutral-8, #widget .sr-bb .srt-neutral-8, #mobileWidget .sr-bb .srt-neutral-8 {
+  background-color: #2e3e49;
+  color: #fff;
+  border-color: #ffffff1f;
+}
+#movableWidget .sr-bb .srt-neutral-9, #widget .sr-bb .srt-neutral-9, #mobileWidget .sr-bb .srt-neutral-9 {
+  background-color: #1d2e3b;
+  color: #fff;
+  border-color: #ffffff1f;
+}
+#movableWidget .sr-bb .srt-neutral-10, #widget .sr-bb .srt-neutral-10, #mobileWidget .sr-bb .srt-neutral-10 {
+  background-color: #2c3c47;
+  color: #ffffffd1;
+  border-color: #ffffff1f;
+}
+#movableWidget .sr-bb .srt-neutral-11, #widget .sr-bb .srt-neutral-11, #mobileWidget .sr-bb .srt-neutral-11 {
+  background-color: #6f7a82;
+  color: #fff;
+  border-color: #ffffff1f;
+}
+#movableWidget .sr-bb .srt-neutral-12, #widget .sr-bb .srt-neutral-12, #mobileWidget .sr-bb .srt-neutral-12 {
+  background-color: #b7bcc0;
+  color: #000;
+  border-color: #00000029;
+}
+#movableWidget .sr-bb .srt-neutral-13, #widget .sr-bb .srt-neutral-13, #mobileWidget .sr-bb .srt-neutral-13 {
+  background-color: #273743;
+  color: #fff;
+  border-color: #ffffff1f;
+}
+#movableWidget .sr-bb .srt-win, #widget .sr-bb .srt-win, #mobileWidget .sr-bb .srt-win {
+  background-color: #fff;
+  color: #000;
+  border-color: #00000029;
+}
+#movableWidget .sr-bb .srt-draw, #widget .sr-bb .srt-draw, #mobileWidget .sr-bb .srt-draw {
+  background-color: #495660;
+  color: #000;
+  border-color: #00000029;
+}
+#movableWidget .sr-bb .srt-lose, #widget .sr-bb .srt-lose, #mobileWidget .sr-bb .srt-lose {
+  background-color: #808990;
+  color: #000;
+  border-color: #00000029;
+}
+#movableWidget .sr-bb .srt-text-secondary, #widget .sr-bb .srt-text-secondary, #mobileWidget .sr-bb .srt-text-secondary {
+  opacity: 0.8;
+}
+#movableWidget .sr-bb .srt-text-disabled, #widget .sr-bb .srt-text-disabled, #mobileWidget .sr-bb .srt-text-disabled {
+  opacity: 0.6;
+}
+#movableWidget .sr-bb .srt-text-tertiary, #movableWidget .sr-bb .srt-primary-1 .srt-text-secondary, #movableWidget .sr-bb .srt-primary-1.srt-text-secondary, #movableWidget .sr-bb .srt-primary-1-is-active .srt-text-secondary, #movableWidget .sr-bb .srt-primary-1-is-active.srt-text-secondary, #movableWidget .sr-bb .srt-primary-1-is-hoverable:hover .srt-text-secondary, #movableWidget .sr-bb .srt-primary-1-is-hoverable:hover.srt-text-secondary, #movableWidget .sr-bb .srt-primary-1-is-disabled .srt-text-secondary, #movableWidget .sr-bb .srt-primary-1-is-disabled.srt-text-secondary, #movableWidget .sr-bb .srt-primary-2 .srt-text-secondary, #movableWidget .sr-bb .srt-primary-2.srt-text-secondary, #movableWidget .sr-bb .srt-primary-3 .srt-text-secondary, #movableWidget .sr-bb .srt-primary-3.srt-text-secondary, #movableWidget .sr-bb .srt-primary-4 .srt-text-secondary, #movableWidget .sr-bb .srt-primary-4.srt-text-secondary, #movableWidget .sr-bb .srt-primary-5 .srt-text-secondary, #movableWidget .sr-bb .srt-primary-5.srt-text-secondary, #movableWidget .sr-bb .srt-primary-5-is-hoverable:hover .srt-text-secondary, #movableWidget .sr-bb .srt-primary-5-is-hoverable:hover.srt-text-secondary, #movableWidget .sr-bb .srt-primary-6 .srt-text-secondary, #movableWidget .sr-bb .srt-primary-6.srt-text-secondary, #movableWidget .sr-bb .srt-primary-7 .srt-text-secondary, #movableWidget .sr-bb .srt-primary-7.srt-text-secondary, #movableWidget .sr-bb .srt-primary-8 .srt-text-secondary, #movableWidget .sr-bb .srt-primary-8.srt-text-secondary, #movableWidget .sr-bb .srt-primary-8-is-active-1 .srt-text-secondary, #movableWidget .sr-bb .srt-primary-8-is-active-1.srt-text-secondary, #movableWidget .sr-bb .srt-primary-8-is-active-2 .srt-text-secondary, #movableWidget .sr-bb .srt-primary-8-is-active-2.srt-text-secondary, #movableWidget .sr-bb .srt-primary-9 .srt-text-secondary, #movableWidget .sr-bb .srt-primary-9.srt-text-secondary, #movableWidget .sr-bb .srt-primary-10 .srt-text-secondary, #movableWidget .sr-bb .srt-primary-10.srt-text-secondary, #movableWidget .sr-bb .srt-primary-11 .srt-text-secondary, #movableWidget .sr-bb .srt-primary-11.srt-text-secondary, #movableWidget .sr-bb .srt-primary-12 .srt-text-secondary, #movableWidget .sr-bb .srt-primary-12.srt-text-secondary, #movableWidget .sr-bb .srt-primary-13 .srt-text-secondary, #movableWidget .sr-bb .srt-primary-13.srt-text-secondary, #widget .sr-bb .srt-text-tertiary, #widget .sr-bb .srt-primary-1 .srt-text-secondary, #widget .sr-bb .srt-primary-1.srt-text-secondary, #widget .sr-bb .srt-primary-1-is-active .srt-text-secondary, #widget .sr-bb .srt-primary-1-is-active.srt-text-secondary, #widget .sr-bb .srt-primary-1-is-hoverable:hover .srt-text-secondary, #widget .sr-bb .srt-primary-1-is-hoverable:hover.srt-text-secondary, #widget .sr-bb .srt-primary-1-is-disabled .srt-text-secondary, #widget .sr-bb .srt-primary-1-is-disabled.srt-text-secondary, #widget .sr-bb .srt-primary-2 .srt-text-secondary, #widget .sr-bb .srt-primary-2.srt-text-secondary, #widget .sr-bb .srt-primary-3 .srt-text-secondary, #widget .sr-bb .srt-primary-3.srt-text-secondary, #widget .sr-bb .srt-primary-4 .srt-text-secondary, #widget .sr-bb .srt-primary-4.srt-text-secondary, #widget .sr-bb .srt-primary-5 .srt-text-secondary, #widget .sr-bb .srt-primary-5.srt-text-secondary, #widget .sr-bb .srt-primary-5-is-hoverable:hover .srt-text-secondary, #widget .sr-bb .srt-primary-5-is-hoverable:hover.srt-text-secondary, #widget .sr-bb .srt-primary-6 .srt-text-secondary, #widget .sr-bb .srt-primary-6.srt-text-secondary, #widget .sr-bb .srt-primary-7 .srt-text-secondary, #widget .sr-bb .srt-primary-7.srt-text-secondary, #widget .sr-bb .srt-primary-8 .srt-text-secondary, #widget .sr-bb .srt-primary-8.srt-text-secondary, #widget .sr-bb .srt-primary-8-is-active-1 .srt-text-secondary, #widget .sr-bb .srt-primary-8-is-active-1.srt-text-secondary, #widget .sr-bb .srt-primary-8-is-active-2 .srt-text-secondary, #widget .sr-bb .srt-primary-8-is-active-2.srt-text-secondary, #widget .sr-bb .srt-primary-9 .srt-text-secondary, #widget .sr-bb .srt-primary-9.srt-text-secondary, #widget .sr-bb .srt-primary-10 .srt-text-secondary, #widget .sr-bb .srt-primary-10.srt-text-secondary, #widget .sr-bb .srt-primary-11 .srt-text-secondary, #widget .sr-bb .srt-primary-11.srt-text-secondary, #widget .sr-bb .srt-primary-12 .srt-text-secondary, #widget .sr-bb .srt-primary-12.srt-text-secondary, #widget .sr-bb .srt-primary-13 .srt-text-secondary, #widget .sr-bb .srt-primary-13.srt-text-secondary, #mobileWidget .sr-bb .srt-text-tertiary, #mobileWidget .sr-bb .srt-primary-1 .srt-text-secondary, #mobileWidget .sr-bb .srt-primary-1.srt-text-secondary, #mobileWidget .sr-bb .srt-primary-1-is-active .srt-text-secondary, #mobileWidget .sr-bb .srt-primary-1-is-active.srt-text-secondary, #mobileWidget .sr-bb .srt-primary-1-is-hoverable:hover .srt-text-secondary, #mobileWidget .sr-bb .srt-primary-1-is-hoverable:hover.srt-text-secondary, #mobileWidget .sr-bb .srt-primary-1-is-disabled .srt-text-secondary, #mobileWidget .sr-bb .srt-primary-1-is-disabled.srt-text-secondary, #mobileWidget .sr-bb .srt-primary-2 .srt-text-secondary, #mobileWidget .sr-bb .srt-primary-2.srt-text-secondary, #mobileWidget .sr-bb .srt-primary-3 .srt-text-secondary, #mobileWidget .sr-bb .srt-primary-3.srt-text-secondary, #mobileWidget .sr-bb .srt-primary-4 .srt-text-secondary, #mobileWidget .sr-bb .srt-primary-4.srt-text-secondary, #mobileWidget .sr-bb .srt-primary-5 .srt-text-secondary, #mobileWidget .sr-bb .srt-primary-5.srt-text-secondary, #mobileWidget .sr-bb .srt-primary-5-is-hoverable:hover .srt-text-secondary, #mobileWidget .sr-bb .srt-primary-5-is-hoverable:hover.srt-text-secondary, #mobileWidget .sr-bb .srt-primary-6 .srt-text-secondary, #mobileWidget .sr-bb .srt-primary-6.srt-text-secondary, #mobileWidget .sr-bb .srt-primary-7 .srt-text-secondary, #mobileWidget .sr-bb .srt-primary-7.srt-text-secondary, #mobileWidget .sr-bb .srt-primary-8 .srt-text-secondary, #mobileWidget .sr-bb .srt-primary-8.srt-text-secondary, #mobileWidget .sr-bb .srt-primary-8-is-active-1 .srt-text-secondary, #mobileWidget .sr-bb .srt-primary-8-is-active-1.srt-text-secondary, #mobileWidget .sr-bb .srt-primary-8-is-active-2 .srt-text-secondary, #mobileWidget .sr-bb .srt-primary-8-is-active-2.srt-text-secondary, #mobileWidget .sr-bb .srt-primary-9 .srt-text-secondary, #mobileWidget .sr-bb .srt-primary-9.srt-text-secondary, #mobileWidget .sr-bb .srt-primary-10 .srt-text-secondary, #mobileWidget .sr-bb .srt-primary-10.srt-text-secondary, #mobileWidget .sr-bb .srt-primary-11 .srt-text-secondary, #mobileWidget .sr-bb .srt-primary-11.srt-text-secondary, #mobileWidget .sr-bb .srt-primary-12 .srt-text-secondary, #mobileWidget .sr-bb .srt-primary-12.srt-text-secondary, #mobileWidget .sr-bb .srt-primary-13 .srt-text-secondary, #mobileWidget .sr-bb .srt-primary-13.srt-text-secondary {
+  opacity: 0.7;
+}
+#movableWidget .sr-bb .srt-primary-1 .srt-text-disabled, #movableWidget .sr-bb .srt-primary-1.srt-text-disabled, #movableWidget .sr-bb .srt-primary-1-is-active .srt-text-disabled, #movableWidget .sr-bb .srt-primary-1-is-active.srt-text-disabled, #movableWidget .sr-bb .srt-primary-1-is-hoverable:hover .srt-text-disabled, #movableWidget .sr-bb .srt-primary-1-is-hoverable:hover.srt-text-disabled, #movableWidget .sr-bb .srt-primary-1-is-disabled .srt-text-disabled, #movableWidget .sr-bb .srt-primary-1-is-disabled.srt-text-disabled, #movableWidget .sr-bb .srt-primary-2 .srt-text-disabled, #movableWidget .sr-bb .srt-primary-2.srt-text-disabled, #movableWidget .sr-bb .srt-primary-3 .srt-text-disabled, #movableWidget .sr-bb .srt-primary-3.srt-text-disabled, #movableWidget .sr-bb .srt-primary-4 .srt-text-disabled, #movableWidget .sr-bb .srt-primary-4.srt-text-disabled, #movableWidget .sr-bb .srt-primary-5 .srt-text-disabled, #movableWidget .sr-bb .srt-primary-5.srt-text-disabled, #movableWidget .sr-bb .srt-primary-5-is-hoverable:hover .srt-text-disabled, #movableWidget .sr-bb .srt-primary-5-is-hoverable:hover.srt-text-disabled, #movableWidget .sr-bb .srt-primary-6 .srt-text-disabled, #movableWidget .sr-bb .srt-primary-6.srt-text-disabled, #movableWidget .sr-bb .srt-primary-7 .srt-text-disabled, #movableWidget .sr-bb .srt-primary-7.srt-text-disabled, #movableWidget .sr-bb .srt-primary-8 .srt-text-disabled, #movableWidget .sr-bb .srt-primary-8.srt-text-disabled, #movableWidget .sr-bb .srt-primary-8-is-active-1 .srt-text-disabled, #movableWidget .sr-bb .srt-primary-8-is-active-1.srt-text-disabled, #movableWidget .sr-bb .srt-primary-8-is-active-2 .srt-text-disabled, #movableWidget .sr-bb .srt-primary-8-is-active-2.srt-text-disabled, #movableWidget .sr-bb .srt-primary-9 .srt-text-disabled, #movableWidget .sr-bb .srt-primary-9.srt-text-disabled, #movableWidget .sr-bb .srt-primary-10 .srt-text-disabled, #movableWidget .sr-bb .srt-primary-10.srt-text-disabled, #movableWidget .sr-bb .srt-primary-11 .srt-text-disabled, #movableWidget .sr-bb .srt-primary-11.srt-text-disabled, #movableWidget .sr-bb .srt-primary-12 .srt-text-disabled, #movableWidget .sr-bb .srt-primary-12.srt-text-disabled, #movableWidget .sr-bb .srt-primary-13 .srt-text-disabled, #movableWidget .sr-bb .srt-primary-13.srt-text-disabled, #widget .sr-bb .srt-primary-1 .srt-text-disabled, #widget .sr-bb .srt-primary-1.srt-text-disabled, #widget .sr-bb .srt-primary-1-is-active .srt-text-disabled, #widget .sr-bb .srt-primary-1-is-active.srt-text-disabled, #widget .sr-bb .srt-primary-1-is-hoverable:hover .srt-text-disabled, #widget .sr-bb .srt-primary-1-is-hoverable:hover.srt-text-disabled, #widget .sr-bb .srt-primary-1-is-disabled .srt-text-disabled, #widget .sr-bb .srt-primary-1-is-disabled.srt-text-disabled, #widget .sr-bb .srt-primary-2 .srt-text-disabled, #widget .sr-bb .srt-primary-2.srt-text-disabled, #widget .sr-bb .srt-primary-3 .srt-text-disabled, #widget .sr-bb .srt-primary-3.srt-text-disabled, #widget .sr-bb .srt-primary-4 .srt-text-disabled, #widget .sr-bb .srt-primary-4.srt-text-disabled, #widget .sr-bb .srt-primary-5 .srt-text-disabled, #widget .sr-bb .srt-primary-5.srt-text-disabled, #widget .sr-bb .srt-primary-5-is-hoverable:hover .srt-text-disabled, #widget .sr-bb .srt-primary-5-is-hoverable:hover.srt-text-disabled, #widget .sr-bb .srt-primary-6 .srt-text-disabled, #widget .sr-bb .srt-primary-6.srt-text-disabled, #widget .sr-bb .srt-primary-7 .srt-text-disabled, #widget .sr-bb .srt-primary-7.srt-text-disabled, #widget .sr-bb .srt-primary-8 .srt-text-disabled, #widget .sr-bb .srt-primary-8.srt-text-disabled, #widget .sr-bb .srt-primary-8-is-active-1 .srt-text-disabled, #widget .sr-bb .srt-primary-8-is-active-1.srt-text-disabled, #widget .sr-bb .srt-primary-8-is-active-2 .srt-text-disabled, #widget .sr-bb .srt-primary-8-is-active-2.srt-text-disabled, #widget .sr-bb .srt-primary-9 .srt-text-disabled, #widget .sr-bb .srt-primary-9.srt-text-disabled, #widget .sr-bb .srt-primary-10 .srt-text-disabled, #widget .sr-bb .srt-primary-10.srt-text-disabled, #widget .sr-bb .srt-primary-11 .srt-text-disabled, #widget .sr-bb .srt-primary-11.srt-text-disabled, #widget .sr-bb .srt-primary-12 .srt-text-disabled, #widget .sr-bb .srt-primary-12.srt-text-disabled, #widget .sr-bb .srt-primary-13 .srt-text-disabled, #widget .sr-bb .srt-primary-13.srt-text-disabled, #mobileWidget .sr-bb .srt-primary-1 .srt-text-disabled, #mobileWidget .sr-bb .srt-primary-1.srt-text-disabled, #mobileWidget .sr-bb .srt-primary-1-is-active .srt-text-disabled, #mobileWidget .sr-bb .srt-primary-1-is-active.srt-text-disabled, #mobileWidget .sr-bb .srt-primary-1-is-hoverable:hover .srt-text-disabled, #mobileWidget .sr-bb .srt-primary-1-is-hoverable:hover.srt-text-disabled, #mobileWidget .sr-bb .srt-primary-1-is-disabled .srt-text-disabled, #mobileWidget .sr-bb .srt-primary-1-is-disabled.srt-text-disabled, #mobileWidget .sr-bb .srt-primary-2 .srt-text-disabled, #mobileWidget .sr-bb .srt-primary-2.srt-text-disabled, #mobileWidget .sr-bb .srt-primary-3 .srt-text-disabled, #mobileWidget .sr-bb .srt-primary-3.srt-text-disabled, #mobileWidget .sr-bb .srt-primary-4 .srt-text-disabled, #mobileWidget .sr-bb .srt-primary-4.srt-text-disabled, #mobileWidget .sr-bb .srt-primary-5 .srt-text-disabled, #mobileWidget .sr-bb .srt-primary-5.srt-text-disabled, #mobileWidget .sr-bb .srt-primary-5-is-hoverable:hover .srt-text-disabled, #mobileWidget .sr-bb .srt-primary-5-is-hoverable:hover.srt-text-disabled, #mobileWidget .sr-bb .srt-primary-6 .srt-text-disabled, #mobileWidget .sr-bb .srt-primary-6.srt-text-disabled, #mobileWidget .sr-bb .srt-primary-7 .srt-text-disabled, #mobileWidget .sr-bb .srt-primary-7.srt-text-disabled, #mobileWidget .sr-bb .srt-primary-8 .srt-text-disabled, #mobileWidget .sr-bb .srt-primary-8.srt-text-disabled, #mobileWidget .sr-bb .srt-primary-8-is-active-1 .srt-text-disabled, #mobileWidget .sr-bb .srt-primary-8-is-active-1.srt-text-disabled, #mobileWidget .sr-bb .srt-primary-8-is-active-2 .srt-text-disabled, #mobileWidget .sr-bb .srt-primary-8-is-active-2.srt-text-disabled, #mobileWidget .sr-bb .srt-primary-9 .srt-text-disabled, #mobileWidget .sr-bb .srt-primary-9.srt-text-disabled, #mobileWidget .sr-bb .srt-primary-10 .srt-text-disabled, #mobileWidget .sr-bb .srt-primary-10.srt-text-disabled, #mobileWidget .sr-bb .srt-primary-11 .srt-text-disabled, #mobileWidget .sr-bb .srt-primary-11.srt-text-disabled, #mobileWidget .sr-bb .srt-primary-12 .srt-text-disabled, #mobileWidget .sr-bb .srt-primary-12.srt-text-disabled, #mobileWidget .sr-bb .srt-primary-13 .srt-text-disabled, #mobileWidget .sr-bb .srt-primary-13.srt-text-disabled {
+  opacity: 0.35;
+}
+#movableWidget .sr-bb .srt-primary-1 .srt-text-tertiary, #movableWidget .sr-bb .srt-primary-1.srt-text-tertiary, #movableWidget .sr-bb .srt-primary-1-is-active .srt-text-tertiary, #movableWidget .sr-bb .srt-primary-1-is-active.srt-text-tertiary, #movableWidget .sr-bb .srt-primary-1-is-hoverable:hover .srt-text-tertiary, #movableWidget .sr-bb .srt-primary-1-is-hoverable:hover.srt-text-tertiary, #movableWidget .sr-bb .srt-primary-1-is-disabled .srt-text-tertiary, #movableWidget .sr-bb .srt-primary-1-is-disabled.srt-text-tertiary, #movableWidget .sr-bb .srt-primary-2 .srt-text-tertiary, #movableWidget .sr-bb .srt-primary-2.srt-text-tertiary, #movableWidget .sr-bb .srt-primary-3 .srt-text-tertiary, #movableWidget .sr-bb .srt-primary-3.srt-text-tertiary, #movableWidget .sr-bb .srt-primary-4 .srt-text-tertiary, #movableWidget .sr-bb .srt-primary-4.srt-text-tertiary, #movableWidget .sr-bb .srt-primary-5 .srt-text-tertiary, #movableWidget .sr-bb .srt-primary-5.srt-text-tertiary, #movableWidget .sr-bb .srt-primary-5-is-hoverable:hover .srt-text-tertiary, #movableWidget .sr-bb .srt-primary-5-is-hoverable:hover.srt-text-tertiary, #movableWidget .sr-bb .srt-primary-6 .srt-text-tertiary, #movableWidget .sr-bb .srt-primary-6.srt-text-tertiary, #movableWidget .sr-bb .srt-primary-7 .srt-text-tertiary, #movableWidget .sr-bb .srt-primary-7.srt-text-tertiary, #movableWidget .sr-bb .srt-primary-8 .srt-text-tertiary, #movableWidget .sr-bb .srt-primary-8.srt-text-tertiary, #movableWidget .sr-bb .srt-primary-8-is-active-1 .srt-text-tertiary, #movableWidget .sr-bb .srt-primary-8-is-active-1.srt-text-tertiary, #movableWidget .sr-bb .srt-primary-8-is-active-2 .srt-text-tertiary, #movableWidget .sr-bb .srt-primary-8-is-active-2.srt-text-tertiary, #movableWidget .sr-bb .srt-primary-9 .srt-text-tertiary, #movableWidget .sr-bb .srt-primary-9.srt-text-tertiary, #movableWidget .sr-bb .srt-primary-10 .srt-text-tertiary, #movableWidget .sr-bb .srt-primary-10.srt-text-tertiary, #movableWidget .sr-bb .srt-primary-11 .srt-text-tertiary, #movableWidget .sr-bb .srt-primary-11.srt-text-tertiary, #movableWidget .sr-bb .srt-primary-12 .srt-text-tertiary, #movableWidget .sr-bb .srt-primary-12.srt-text-tertiary, #movableWidget .sr-bb .srt-primary-13 .srt-text-tertiary, #movableWidget .sr-bb .srt-primary-13.srt-text-tertiary, #widget .sr-bb .srt-primary-1 .srt-text-tertiary, #widget .sr-bb .srt-primary-1.srt-text-tertiary, #widget .sr-bb .srt-primary-1-is-active .srt-text-tertiary, #widget .sr-bb .srt-primary-1-is-active.srt-text-tertiary, #widget .sr-bb .srt-primary-1-is-hoverable:hover .srt-text-tertiary, #widget .sr-bb .srt-primary-1-is-hoverable:hover.srt-text-tertiary, #widget .sr-bb .srt-primary-1-is-disabled .srt-text-tertiary, #widget .sr-bb .srt-primary-1-is-disabled.srt-text-tertiary, #widget .sr-bb .srt-primary-2 .srt-text-tertiary, #widget .sr-bb .srt-primary-2.srt-text-tertiary, #widget .sr-bb .srt-primary-3 .srt-text-tertiary, #widget .sr-bb .srt-primary-3.srt-text-tertiary, #widget .sr-bb .srt-primary-4 .srt-text-tertiary, #widget .sr-bb .srt-primary-4.srt-text-tertiary, #widget .sr-bb .srt-primary-5 .srt-text-tertiary, #widget .sr-bb .srt-primary-5.srt-text-tertiary, #widget .sr-bb .srt-primary-5-is-hoverable:hover .srt-text-tertiary, #widget .sr-bb .srt-primary-5-is-hoverable:hover.srt-text-tertiary, #widget .sr-bb .srt-primary-6 .srt-text-tertiary, #widget .sr-bb .srt-primary-6.srt-text-tertiary, #widget .sr-bb .srt-primary-7 .srt-text-tertiary, #widget .sr-bb .srt-primary-7.srt-text-tertiary, #widget .sr-bb .srt-primary-8 .srt-text-tertiary, #widget .sr-bb .srt-primary-8.srt-text-tertiary, #widget .sr-bb .srt-primary-8-is-active-1 .srt-text-tertiary, #widget .sr-bb .srt-primary-8-is-active-1.srt-text-tertiary, #widget .sr-bb .srt-primary-8-is-active-2 .srt-text-tertiary, #widget .sr-bb .srt-primary-8-is-active-2.srt-text-tertiary, #widget .sr-bb .srt-primary-9 .srt-text-tertiary, #widget .sr-bb .srt-primary-9.srt-text-tertiary, #widget .sr-bb .srt-primary-10 .srt-text-tertiary, #widget .sr-bb .srt-primary-10.srt-text-tertiary, #widget .sr-bb .srt-primary-11 .srt-text-tertiary, #widget .sr-bb .srt-primary-11.srt-text-tertiary, #widget .sr-bb .srt-primary-12 .srt-text-tertiary, #widget .sr-bb .srt-primary-12.srt-text-tertiary, #widget .sr-bb .srt-primary-13 .srt-text-tertiary, #widget .sr-bb .srt-primary-13.srt-text-tertiary, #mobileWidget .sr-bb .srt-primary-1 .srt-text-tertiary, #mobileWidget .sr-bb .srt-primary-1.srt-text-tertiary, #mobileWidget .sr-bb .srt-primary-1-is-active .srt-text-tertiary, #mobileWidget .sr-bb .srt-primary-1-is-active.srt-text-tertiary, #mobileWidget .sr-bb .srt-primary-1-is-hoverable:hover .srt-text-tertiary, #mobileWidget .sr-bb .srt-primary-1-is-hoverable:hover.srt-text-tertiary, #mobileWidget .sr-bb .srt-primary-1-is-disabled .srt-text-tertiary, #mobileWidget .sr-bb .srt-primary-1-is-disabled.srt-text-tertiary, #mobileWidget .sr-bb .srt-primary-2 .srt-text-tertiary, #mobileWidget .sr-bb .srt-primary-2.srt-text-tertiary, #mobileWidget .sr-bb .srt-primary-3 .srt-text-tertiary, #mobileWidget .sr-bb .srt-primary-3.srt-text-tertiary, #mobileWidget .sr-bb .srt-primary-4 .srt-text-tertiary, #mobileWidget .sr-bb .srt-primary-4.srt-text-tertiary, #mobileWidget .sr-bb .srt-primary-5 .srt-text-tertiary, #mobileWidget .sr-bb .srt-primary-5.srt-text-tertiary, #mobileWidget .sr-bb .srt-primary-5-is-hoverable:hover .srt-text-tertiary, #mobileWidget .sr-bb .srt-primary-5-is-hoverable:hover.srt-text-tertiary, #mobileWidget .sr-bb .srt-primary-6 .srt-text-tertiary, #mobileWidget .sr-bb .srt-primary-6.srt-text-tertiary, #mobileWidget .sr-bb .srt-primary-7 .srt-text-tertiary, #mobileWidget .sr-bb .srt-primary-7.srt-text-tertiary, #mobileWidget .sr-bb .srt-primary-8 .srt-text-tertiary, #mobileWidget .sr-bb .srt-primary-8.srt-text-tertiary, #mobileWidget .sr-bb .srt-primary-8-is-active-1 .srt-text-tertiary, #mobileWidget .sr-bb .srt-primary-8-is-active-1.srt-text-tertiary, #mobileWidget .sr-bb .srt-primary-8-is-active-2 .srt-text-tertiary, #mobileWidget .sr-bb .srt-primary-8-is-active-2.srt-text-tertiary, #mobileWidget .sr-bb .srt-primary-9 .srt-text-tertiary, #mobileWidget .sr-bb .srt-primary-9.srt-text-tertiary, #mobileWidget .sr-bb .srt-primary-10 .srt-text-tertiary, #mobileWidget .sr-bb .srt-primary-10.srt-text-tertiary, #mobileWidget .sr-bb .srt-primary-11 .srt-text-tertiary, #mobileWidget .sr-bb .srt-primary-11.srt-text-tertiary, #mobileWidget .sr-bb .srt-primary-12 .srt-text-tertiary, #mobileWidget .sr-bb .srt-primary-12.srt-text-tertiary, #mobileWidget .sr-bb .srt-primary-13 .srt-text-tertiary, #mobileWidget .sr-bb .srt-primary-13.srt-text-tertiary {
+  opacity: 0.54;
+}
+#movableWidget .sr-bb .srt-icon, #widget .sr-bb .srt-icon, #mobileWidget .sr-bb .srt-icon {
+  opacity: 0.33;
+}
+#movableWidget .sr-bb .srt-icon-secondary, #widget .sr-bb .srt-icon-secondary, #mobileWidget .sr-bb .srt-icon-secondary {
+  opacity: 0.7;
+}
+#movableWidget .sr-bb .srt-elevation-1, #widget .sr-bb .srt-elevation-1, #mobileWidget .sr-bb .srt-elevation-1 {
+  box-shadow: 0 1px 2px #0003, 0 1px 3px #0000001a;
+}
+#movableWidget .sr-bb .srt-elevation-2, #widget .sr-bb .srt-elevation-2, #mobileWidget .sr-bb .srt-elevation-2 {
+  box-shadow: 0 3px 6px #0000003b, 0 3px 6px #00000029;
+}
+#movableWidget .sr-bb .srt-elevation-3, #widget .sr-bb .srt-elevation-3, #mobileWidget .sr-bb .srt-elevation-3 {
+  box-shadow: 0 6px 6px #00000042, 0 10px 20px #00000030;
+}
+#movableWidget .sr-bb .srt-elevation-center-2, #widget .sr-bb .srt-elevation-center-2, #mobileWidget .sr-bb .srt-elevation-center-2 {
+  box-shadow: 0 1px 5px #0000003b, 0 1px 5px #00000029;
+}
+#movableWidget .sr-bb .srt-inset-top-1, #widget .sr-bb .srt-inset-top-1, #mobileWidget .sr-bb .srt-inset-top-1 {
+  box-shadow: inset 0 1px 2px #0000003b;
+}
+#movableWidget .sr-bb .srt-inset-bottom-1, #widget .sr-bb .srt-inset-bottom-1, #mobileWidget .sr-bb .srt-inset-bottom-1 {
+  box-shadow: inset 0 -1px 2px #0000003b;
+}
+#movableWidget .sr-bb .srt-inset-top-2, #widget .sr-bb .srt-inset-top-2, #mobileWidget .sr-bb .srt-inset-top-2 {
+  box-shadow: inset 0 3px 6px #0000003b;
+}
+#movableWidget .sr-bb .srt-inset-bottom-2, #widget .sr-bb .srt-inset-bottom-2, #mobileWidget .sr-bb .srt-inset-bottom-2 {
+  box-shadow: inset 0 -3px 6px #0000003b;
+}
+#movableWidget .sr-bb .srt-inset-top-3, #widget .sr-bb .srt-inset-top-3, #mobileWidget .sr-bb .srt-inset-top-3 {
+  box-shadow: inset 0 6px 6px #0000003b;
+}
+#movableWidget .sr-bb .srt-inset-bottom-3, #widget .sr-bb .srt-inset-bottom-3, #mobileWidget .sr-bb .srt-inset-bottom-3 {
+  box-shadow: inset 0 -6px 6px #0000003b;
+}
+#movableWidget .sr-bb .srt-fill-blue-card, #widget .sr-bb .srt-fill-blue-card, #mobileWidget .sr-bb .srt-fill-blue-card {
+  fill: #2579ad;
+}
+#movableWidget .sr-bb .srt-stroke-blue-card, #widget .sr-bb .srt-stroke-blue-card, #mobileWidget .sr-bb .srt-stroke-blue-card {
+  stroke: #2579ad;
+}
+#movableWidget .sr-bb .srt-fill-soccer-yellow-card, #widget .sr-bb .srt-fill-soccer-yellow-card, #mobileWidget .sr-bb .srt-fill-soccer-yellow-card {
+  fill: #ffbf00;
+}
+#movableWidget .sr-bb .srt-stroke-soccer-yellow-card, #widget .sr-bb .srt-stroke-soccer-yellow-card, #mobileWidget .sr-bb .srt-stroke-soccer-yellow-card {
+  stroke: #ffbf00;
+}
+#movableWidget .sr-bb .srt-fill-soccer-red-card, #widget .sr-bb .srt-fill-soccer-red-card, #mobileWidget .sr-bb .srt-fill-soccer-red-card {
+  fill: #e43b3b;
+}
+#movableWidget .sr-bb .srt-stroke-soccer-red-card, #widget .sr-bb .srt-stroke-soccer-red-card, #mobileWidget .sr-bb .srt-stroke-soccer-red-card {
+  stroke: #e43b3b;
+}
+#movableWidget .sr-bb .srt-stroke-soccer-substitution-in, #widget .sr-bb .srt-stroke-soccer-substitution-in, #mobileWidget .sr-bb .srt-stroke-soccer-substitution-in {
+  stroke: #4fbe30;
+  fill: transparent;
+}
+#movableWidget .sr-bb .srt-fill-soccer-substitution-in, #widget .sr-bb .srt-fill-soccer-substitution-in, #mobileWidget .sr-bb .srt-fill-soccer-substitution-in {
+  fill: #4fbe30;
+}
+#movableWidget .sr-bb .srt-stroke-soccer-substitution-out, #widget .sr-bb .srt-stroke-soccer-substitution-out, #mobileWidget .sr-bb .srt-stroke-soccer-substitution-out {
+  stroke: #e43b3b;
+  fill: transparent;
+}
+#movableWidget .sr-bb .srt-fill-soccer-substitution-out, #widget .sr-bb .srt-fill-soccer-substitution-out, #mobileWidget .sr-bb .srt-fill-soccer-substitution-out {
+  fill: #e43b3b;
+}
+#movableWidget .sr-bb .srt-stroke-soccer-own-goal, #widget .sr-bb .srt-stroke-soccer-own-goal, #mobileWidget .sr-bb .srt-stroke-soccer-own-goal {
+  stroke: #e43b3b;
+  fill: transparent;
+}
+#movableWidget .sr-bb .srt-fill-soccer-own-goal, #widget .sr-bb .srt-fill-soccer-own-goal, #mobileWidget .sr-bb .srt-fill-soccer-own-goal {
+  fill: #e43b3b;
+}
+#movableWidget .sr-bb .srt-fill-soccer-relegation-1, #widget .sr-bb .srt-fill-soccer-relegation-1, #mobileWidget .sr-bb .srt-fill-soccer-relegation-1 {
+  fill: #fdd835;
+}
+#movableWidget .sr-bb .srt-stroke-soccer-relegation-1, #widget .sr-bb .srt-stroke-soccer-relegation-1, #mobileWidget .sr-bb .srt-stroke-soccer-relegation-1 {
+  stroke: #fdd835;
+}
+#movableWidget .sr-bb .srt-fill-soccer-relegation-2, #widget .sr-bb .srt-fill-soccer-relegation-2, #mobileWidget .sr-bb .srt-fill-soccer-relegation-2 {
+  fill: #ffb848;
+}
+#movableWidget .sr-bb .srt-stroke-soccer-relegation-2, #widget .sr-bb .srt-stroke-soccer-relegation-2, #mobileWidget .sr-bb .srt-stroke-soccer-relegation-2 {
+  stroke: #ffb848;
+}
+#movableWidget .sr-bb .srt-fill-soccer-relegation-3, #widget .sr-bb .srt-fill-soccer-relegation-3, #mobileWidget .sr-bb .srt-fill-soccer-relegation-3 {
+  fill: #ef6c00;
+}
+#movableWidget .sr-bb .srt-stroke-soccer-relegation-3, #widget .sr-bb .srt-stroke-soccer-relegation-3, #mobileWidget .sr-bb .srt-stroke-soccer-relegation-3 {
+  stroke: #ef6c00;
+}
+#movableWidget .sr-bb .srt-fill-soccer-relegation-4, #widget .sr-bb .srt-fill-soccer-relegation-4, #mobileWidget .sr-bb .srt-fill-soccer-relegation-4 {
+  fill: #e93a34;
+}
+#movableWidget .sr-bb .srt-stroke-soccer-relegation-4, #widget .sr-bb .srt-stroke-soccer-relegation-4, #mobileWidget .sr-bb .srt-stroke-soccer-relegation-4 {
+  stroke: #e93a34;
+}
+#movableWidget .sr-bb .srt-fill-soccer-relegation-5, #widget .sr-bb .srt-fill-soccer-relegation-5, #mobileWidget .sr-bb .srt-fill-soccer-relegation-5 {
+  fill: #941d1d;
+}
+#movableWidget .sr-bb .srt-stroke-soccer-relegation-5, #widget .sr-bb .srt-stroke-soccer-relegation-5, #mobileWidget .sr-bb .srt-stroke-soccer-relegation-5 {
+  stroke: #941d1d;
+}
+#movableWidget .sr-bb .srt-fill-soccer-promotion-1, #widget .sr-bb .srt-fill-soccer-promotion-1, #mobileWidget .sr-bb .srt-fill-soccer-promotion-1 {
+  fill: #51d151;
+}
+#movableWidget .sr-bb .srt-stroke-soccer-promotion-1, #widget .sr-bb .srt-stroke-soccer-promotion-1, #mobileWidget .sr-bb .srt-stroke-soccer-promotion-1 {
+  stroke: #51d151;
+}
+#movableWidget .sr-bb .srt-fill-soccer-promotion-2, #widget .sr-bb .srt-fill-soccer-promotion-2, #mobileWidget .sr-bb .srt-fill-soccer-promotion-2 {
+  fill: #1b911b;
+}
+#movableWidget .sr-bb .srt-stroke-soccer-promotion-2, #widget .sr-bb .srt-stroke-soccer-promotion-2, #mobileWidget .sr-bb .srt-stroke-soccer-promotion-2 {
+  stroke: #1b911b;
+}
+#movableWidget .sr-bb .srt-fill-soccer-promotion-3, #widget .sr-bb .srt-fill-soccer-promotion-3, #mobileWidget .sr-bb .srt-fill-soccer-promotion-3 {
+  fill: #0e8094;
+}
+#movableWidget .sr-bb .srt-stroke-soccer-promotion-3, #widget .sr-bb .srt-stroke-soccer-promotion-3, #mobileWidget .sr-bb .srt-stroke-soccer-promotion-3 {
+  stroke: #0e8094;
+}
+#movableWidget .sr-bb .srt-fill-soccer-promotion-4, #widget .sr-bb .srt-fill-soccer-promotion-4, #mobileWidget .sr-bb .srt-fill-soccer-promotion-4 {
+  fill: #0a6cce;
+}
+#movableWidget .sr-bb .srt-stroke-soccer-promotion-4, #widget .sr-bb .srt-stroke-soccer-promotion-4, #mobileWidget .sr-bb .srt-stroke-soccer-promotion-4 {
+  stroke: #0a6cce;
+}
+#movableWidget .sr-bb .srt-fill-soccer-promotion-5, #widget .sr-bb .srt-fill-soccer-promotion-5, #mobileWidget .sr-bb .srt-fill-soccer-promotion-5 {
+  fill: #4a9fe4;
+}
+#movableWidget .sr-bb .srt-stroke-soccer-promotion-5, #widget .sr-bb .srt-stroke-soccer-promotion-5, #mobileWidget .sr-bb .srt-stroke-soccer-promotion-5 {
+  stroke: #4a9fe4;
+}
+#movableWidget .sr-bb .srt-nfl-timeout-1, #widget .sr-bb .srt-nfl-timeout-1, #mobileWidget .sr-bb .srt-nfl-timeout-1 {
+  background-color: #f5a623;
+  color: #000;
+  border-color: #00000029;
+}
+#movableWidget .sr-bb .srt-nfl-timeout-2, #widget .sr-bb .srt-nfl-timeout-2, #mobileWidget .sr-bb .srt-nfl-timeout-2 {
+  background-color: #f5a6234d;
+  color: #000;
+  border-color: #00000029;
+}
+#movableWidget .sr-bb .srt-nfl-penalty, #widget .sr-bb .srt-nfl-penalty, #mobileWidget .sr-bb .srt-nfl-penalty {
+  background-color: #f4a621;
+  color: #000;
+  border-color: #f4a621;
+}
+#movableWidget .sr-bb .srt-nfl-negative-yards-1, #movableWidget .sr-bb .srt-nfl-negative-yards-2, #widget .sr-bb .srt-nfl-negative-yards-1, #widget .sr-bb .srt-nfl-negative-yards-2, #mobileWidget .sr-bb .srt-nfl-negative-yards-1, #mobileWidget .sr-bb .srt-nfl-negative-yards-2 {
+  background-color: #ac182e;
+  color: #000;
+  border-color: #ac182e;
+}
+#movableWidget .sr-bb .srt-nfl-first-line, #widget .sr-bb .srt-nfl-first-line, #mobileWidget .sr-bb .srt-nfl-first-line {
+  background-color: #4b90de;
+  color: #000;
+  border-color: #4b90de;
+}
+#movableWidget .sr-bb .srt-nfl-ten-line, #widget .sr-bb .srt-nfl-ten-line, #mobileWidget .sr-bb .srt-nfl-ten-line {
+  background-color: #f5a623;
+  color: #000;
+  border-color: #f5a623;
+}
+#movableWidget .sr-bb .srt-fill-nfl-penalty, #widget .sr-bb .srt-fill-nfl-penalty, #mobileWidget .sr-bb .srt-fill-nfl-penalty {
+  fill: #f4a621;
+}
+#movableWidget .sr-bb .srt-stroke-nfl-penalty, #widget .sr-bb .srt-stroke-nfl-penalty, #mobileWidget .sr-bb .srt-stroke-nfl-penalty {
+  stroke: #f4a621;
+}
+#movableWidget .sr-bb .srt-fill-nfl-negative-yards-1, #widget .sr-bb .srt-fill-nfl-negative-yards-1, #mobileWidget .sr-bb .srt-fill-nfl-negative-yards-1 {
+  fill: #ac182e;
+}
+#movableWidget .sr-bb .srt-stroke-nfl-negative-yards-1, #widget .sr-bb .srt-stroke-nfl-negative-yards-1, #mobileWidget .sr-bb .srt-stroke-nfl-negative-yards-1 {
+  stroke: #ac182e;
+}
+#movableWidget .sr-bb .srt-fill-nfl-negative-yards-2, #widget .sr-bb .srt-fill-nfl-negative-yards-2, #mobileWidget .sr-bb .srt-fill-nfl-negative-yards-2 {
+  fill: #ac182e;
+}
+#movableWidget .sr-bb .srt-stroke-nfl-negative-yards-2, #widget .sr-bb .srt-stroke-nfl-negative-yards-2, #mobileWidget .sr-bb .srt-stroke-nfl-negative-yards-2 {
+  stroke: #ac182e;
+}
+#movableWidget .sr-bb .srt-fill-nfl-first-line, #widget .sr-bb .srt-fill-nfl-first-line, #mobileWidget .sr-bb .srt-fill-nfl-first-line {
+  fill: #4b90de;
+}
+#movableWidget .sr-bb .srt-stroke-nfl-first-line, #widget .sr-bb .srt-stroke-nfl-first-line, #mobileWidget .sr-bb .srt-stroke-nfl-first-line {
+  stroke: #4b90de;
+}
+#movableWidget .sr-bb .srt-fill-nfl-ten-line, #widget .sr-bb .srt-fill-nfl-ten-line, #mobileWidget .sr-bb .srt-fill-nfl-ten-line {
+  fill: #f5a623;
+}
+#movableWidget .sr-bb .srt-stroke-nfl-ten-line, #widget .sr-bb .srt-stroke-nfl-ten-line, #mobileWidget .sr-bb .srt-stroke-nfl-ten-line {
+  stroke: #f5a623;
+}
+#movableWidget .sr-bb .srt-mlb-run-1, #widget .sr-bb .srt-mlb-run-1, #mobileWidget .sr-bb .srt-mlb-run-1 {
+  background-color: #090;
+  color: #fff;
+  border-color: #090;
+}
+#movableWidget .sr-bb .srt-mlb-run-2, #widget .sr-bb .srt-mlb-run-2, #mobileWidget .sr-bb .srt-mlb-run-2 {
+  background-color: #fff;
+  color: #090;
+  border-color: #090;
+}
+#movableWidget .sr-bb .srt-mlb-hit-1, #widget .sr-bb .srt-mlb-hit-1, #mobileWidget .sr-bb .srt-mlb-hit-1 {
+  background-color: #f7ab11;
+  color: #fff;
+  border-color: #f7ab11;
+}
+#movableWidget .sr-bb .srt-mlb-hit-2, #widget .sr-bb .srt-mlb-hit-2, #mobileWidget .sr-bb .srt-mlb-hit-2 {
+  background-color: #fff;
+  color: #f7ab11;
+  border-color: #f7ab11;
+}
+#movableWidget .sr-bb .srt-mlb-hit-3, #widget .sr-bb .srt-mlb-hit-3, #mobileWidget .sr-bb .srt-mlb-hit-3 {
+  background-color: #00a4ff;
+  color: #fff;
+  border-color: #00a4ff;
+}
+#movableWidget .sr-bb .srt-mlb-error-1, #widget .sr-bb .srt-mlb-error-1, #mobileWidget .sr-bb .srt-mlb-error-1 {
+  background-color: #d0021b;
+  color: #fff;
+  border-color: #d0021b;
+}
+#movableWidget .sr-bb .srt-mlb-error-2, #widget .sr-bb .srt-mlb-error-2, #mobileWidget .sr-bb .srt-mlb-error-2 {
+  background-color: #fff;
+  color: #d0021b;
+  border-color: #d0021b;
+}
+#movableWidget .sr-bb .srt-mlb-neutral-1, #widget .sr-bb .srt-mlb-neutral-1, #mobileWidget .sr-bb .srt-mlb-neutral-1 {
+  background-color: #212121;
+  color: #fff;
+  border-color: #fff;
+}
+#movableWidget .sr-bb .srt-fill-mlb-base, #movableWidget .sr-bb .srt-strole-mlb-base, #widget .sr-bb .srt-fill-mlb-base, #widget .sr-bb .srt-strole-mlb-base, #mobileWidget .sr-bb .srt-fill-mlb-base, #mobileWidget .sr-bb .srt-strole-mlb-base {
+  fill: #00a4ff;
+}
+#movableWidget .sr-bb .srt-fill-change-increase, #widget .sr-bb .srt-fill-change-increase, #mobileWidget .sr-bb .srt-fill-change-increase {
+  fill: #fff;
+}
+#movableWidget .sr-bb .srt-stroke-change-increase, #widget .sr-bb .srt-stroke-change-increase, #mobileWidget .sr-bb .srt-stroke-change-increase {
+  stroke: #fff;
+}
+#movableWidget .sr-bb .srt-fill-change-decrease, #widget .sr-bb .srt-fill-change-decrease, #mobileWidget .sr-bb .srt-fill-change-decrease {
+  fill: #808990;
+}
+#movableWidget .sr-bb .srt-stroke-change-decrease, #widget .sr-bb .srt-stroke-change-decrease, #mobileWidget .sr-bb .srt-stroke-change-decrease {
+  stroke: #808990;
+}
+#movableWidget .sr-bb .srt-fill-text, #widget .sr-bb .srt-fill-text, #mobileWidget .sr-bb .srt-fill-text {
+  fill: #fff;
+}
+#movableWidget .sr-bb .srt-fill-text-invert, #widget .sr-bb .srt-fill-text-invert, #mobileWidget .sr-bb .srt-fill-text-invert {
+  fill: #000;
+}
+#movableWidget .sr-bb .srt-fill-text-secondary, #widget .sr-bb .srt-fill-text-secondary, #mobileWidget .sr-bb .srt-fill-text-secondary {
+  fill-opacity: 0.8;
+}
+#movableWidget .sr-bb .srt-fill-text-disabled, #widget .sr-bb .srt-fill-text-disabled, #mobileWidget .sr-bb .srt-fill-text-disabled {
+  fill-opacity: 0.6;
+}
+#movableWidget .sr-bb .srt-fill-base-1, #widget .sr-bb .srt-fill-base-1, #mobileWidget .sr-bb .srt-fill-base-1 {
+  fill: transparent;
+}
+#movableWidget .sr-bb .srt-stroke-base-1, #widget .sr-bb .srt-stroke-base-1, #mobileWidget .sr-bb .srt-stroke-base-1 {
+  stroke: transparent;
+}
+#movableWidget .sr-bb .srt-fill-base-1-active, #widget .sr-bb .srt-fill-base-1-active, #mobileWidget .sr-bb .srt-fill-base-1-active {
+  fill: #ffffff1f;
+}
+#movableWidget .sr-bb .srt-stroke-base-1-active, #widget .sr-bb .srt-stroke-base-1-active, #mobileWidget .sr-bb .srt-stroke-base-1-active {
+  stroke: #ffffff1f;
+}
+#movableWidget .sr-bb .srt-fill-base-1-active-2, #widget .sr-bb .srt-fill-base-1-active-2, #mobileWidget .sr-bb .srt-fill-base-1-active-2 {
+  fill: #273743;
+}
+#movableWidget .sr-bb .srt-stroke-base-1-active-2, #widget .sr-bb .srt-stroke-base-1-active-2, #mobileWidget .sr-bb .srt-stroke-base-1-active-2 {
+  stroke: #273743;
+}
+#movableWidget .sr-bb .srt-fill-base-1-primary, #widget .sr-bb .srt-fill-base-1-primary, #mobileWidget .sr-bb .srt-fill-base-1-primary {
+  fill: transparent;
+}
+#movableWidget .sr-bb .srt-stroke-base-1-primary, #widget .sr-bb .srt-stroke-base-1-primary, #mobileWidget .sr-bb .srt-stroke-base-1-primary {
+  stroke: transparent;
+}
+#movableWidget .sr-bb .srt-fill-base-1-home, #widget .sr-bb .srt-fill-base-1-home, #mobileWidget .sr-bb .srt-fill-base-1-home {
+  fill: transparent;
+}
+#movableWidget .sr-bb .srt-stroke-base-1-home, #widget .sr-bb .srt-stroke-base-1-home, #mobileWidget .sr-bb .srt-stroke-base-1-home {
+  stroke: transparent;
+}
+#movableWidget .sr-bb .srt-fill-base-1-away, #widget .sr-bb .srt-fill-base-1-away, #mobileWidget .sr-bb .srt-fill-base-1-away {
+  fill: transparent;
+}
+#movableWidget .sr-bb .srt-stroke-base-1-away, #widget .sr-bb .srt-stroke-base-1-away, #mobileWidget .sr-bb .srt-stroke-base-1-away {
+  stroke: transparent;
+}
+#movableWidget .sr-bb .srt-fill-base-2, #widget .sr-bb .srt-fill-base-2, #mobileWidget .sr-bb .srt-fill-base-2 {
+  fill: currentColor;
+}
+#movableWidget .sr-bb .srt-stroke-base-2, #widget .sr-bb .srt-stroke-base-2, #mobileWidget .sr-bb .srt-stroke-base-2 {
+  stroke: currentColor;
+}
+#movableWidget .sr-bb .srt-fill-base-2-active, #widget .sr-bb .srt-fill-base-2-active, #mobileWidget .sr-bb .srt-fill-base-2-active {
+  fill: #2c3c47;
+}
+#movableWidget .sr-bb .srt-stroke-base-2-active, #widget .sr-bb .srt-stroke-base-2-active, #mobileWidget .sr-bb .srt-stroke-base-2-active {
+  stroke: #2c3c47;
+}
+#movableWidget .sr-bb .srt-fill-base-2-hover, #widget .sr-bb .srt-fill-base-2-hover, #mobileWidget .sr-bb .srt-fill-base-2-hover {
+  fill: #2c3c47;
+}
+#movableWidget .sr-bb .srt-stroke-base-2-hover, #widget .sr-bb .srt-stroke-base-2-hover, #mobileWidget .sr-bb .srt-stroke-base-2-hover {
+  stroke: #2c3c47;
+}
+#movableWidget .sr-bb .srt-fill-base-3, #widget .sr-bb .srt-fill-base-3, #mobileWidget .sr-bb .srt-fill-base-3 {
+  fill: #2c3c47;
+}
+#movableWidget .sr-bb .srt-stroke-base-3, #widget .sr-bb .srt-stroke-base-3, #mobileWidget .sr-bb .srt-stroke-base-3 {
+  stroke: #2c3c47;
+}
+#movableWidget .sr-bb .srt-fill-base-3-active, #widget .sr-bb .srt-fill-base-3-active, #mobileWidget .sr-bb .srt-fill-base-3-active {
+  fill: #384752;
+}
+#movableWidget .sr-bb .srt-stroke-base-3-active, #widget .sr-bb .srt-stroke-base-3-active, #mobileWidget .sr-bb .srt-stroke-base-3-active {
+  stroke: #384752;
+}
+#movableWidget .sr-bb .srt-fill-base-3-hover, #widget .sr-bb .srt-fill-base-3-hover, #mobileWidget .sr-bb .srt-fill-base-3-hover {
+  fill: #384752;
+}
+#movableWidget .sr-bb .srt-stroke-base-3-hover, #widget .sr-bb .srt-stroke-base-3-hover, #mobileWidget .sr-bb .srt-stroke-base-3-hover {
+  stroke: #384752;
+}
+#movableWidget .sr-bb .srt-fill-primary-1, #widget .sr-bb .srt-fill-primary-1, #mobileWidget .sr-bb .srt-fill-primary-1 {
+  fill: #fff;
+}
+#movableWidget .sr-bb .srt-stroke-primary-1, #widget .sr-bb .srt-stroke-primary-1, #mobileWidget .sr-bb .srt-stroke-primary-1 {
+  stroke: #fff;
+}
+#movableWidget .sr-bb .srt-fill-primary-2, #widget .sr-bb .srt-fill-primary-2, #mobileWidget .sr-bb .srt-fill-primary-2 {
+  fill: #fff;
+}
+#movableWidget .sr-bb .srt-stroke-primary-2, #widget .sr-bb .srt-stroke-primary-2, #mobileWidget .sr-bb .srt-stroke-primary-2 {
+  stroke: #fff;
+}
+#movableWidget .sr-bb .srt-fill-primary-3, #widget .sr-bb .srt-fill-primary-3, #mobileWidget .sr-bb .srt-fill-primary-3 {
+  fill: #e6e6e6;
+}
+#movableWidget .sr-bb .srt-stroke-primary-3, #widget .sr-bb .srt-stroke-primary-3, #mobileWidget .sr-bb .srt-stroke-primary-3 {
+  stroke: #e6e6e6;
+}
+#movableWidget .sr-bb .srt-fill-primary-4, #widget .sr-bb .srt-fill-primary-4, #mobileWidget .sr-bb .srt-fill-primary-4 {
+  fill: #9fa6ab;
+}
+#movableWidget .sr-bb .srt-stroke-primary-4, #widget .sr-bb .srt-stroke-primary-4, #mobileWidget .sr-bb .srt-stroke-primary-4 {
+  stroke: #9fa6ab;
+}
+#movableWidget .sr-bb .srt-fill-primary-5, #widget .sr-bb .srt-fill-primary-5, #mobileWidget .sr-bb .srt-fill-primary-5 {
+  fill: #9fa6ab;
+}
+#movableWidget .sr-bb .srt-stroke-primary-5, #widget .sr-bb .srt-stroke-primary-5, #mobileWidget .sr-bb .srt-stroke-primary-5 {
+  stroke: #9fa6ab;
+}
+#movableWidget .sr-bb .srt-fill-primary-6, #widget .sr-bb .srt-fill-primary-6, #mobileWidget .sr-bb .srt-fill-primary-6 {
+  fill: #fff;
+}
+#movableWidget .sr-bb .srt-stroke-primary-6, #widget .sr-bb .srt-stroke-primary-6, #mobileWidget .sr-bb .srt-stroke-primary-6 {
+  stroke: #fff;
+}
+#movableWidget .sr-bb .srt-fill-primary-7, #widget .sr-bb .srt-fill-primary-7, #mobileWidget .sr-bb .srt-fill-primary-7 {
+  fill: #fff;
+}
+#movableWidget .sr-bb .srt-stroke-primary-7, #widget .sr-bb .srt-stroke-primary-7, #mobileWidget .sr-bb .srt-stroke-primary-7 {
+  stroke: #fff;
+}
+#movableWidget .sr-bb .srt-fill-primary-8, #widget .sr-bb .srt-fill-primary-8, #mobileWidget .sr-bb .srt-fill-primary-8 {
+  fill: #fff;
+}
+#movableWidget .sr-bb .srt-stroke-primary-8, #widget .sr-bb .srt-stroke-primary-8, #mobileWidget .sr-bb .srt-stroke-primary-8 {
+  stroke: #fff;
+}
+#movableWidget .sr-bb .srt-fill-primary-8-is-active-1, #widget .sr-bb .srt-fill-primary-8-is-active-1, #mobileWidget .sr-bb .srt-fill-primary-8-is-active-1 {
+  fill: #e6e6e6;
+}
+#movableWidget .sr-bb .srt-stroke-primary-8-is-active-1, #widget .sr-bb .srt-stroke-primary-8-is-active-1, #mobileWidget .sr-bb .srt-stroke-primary-8-is-active-1 {
+  stroke: #e6e6e6;
+}
+#movableWidget .sr-bb .srt-fill-primary-8-is-active-2, #widget .sr-bb .srt-fill-primary-8-is-active-2, #mobileWidget .sr-bb .srt-fill-primary-8-is-active-2 {
+  fill: #e6e6e6;
+}
+#movableWidget .sr-bb .srt-stroke-primary-8-is-active-2, #widget .sr-bb .srt-stroke-primary-8-is-active-2, #mobileWidget .sr-bb .srt-stroke-primary-8-is-active-2 {
+  stroke: #e6e6e6;
+}
+#movableWidget .sr-bb .srt-fill-primary-9, #widget .sr-bb .srt-fill-primary-9, #mobileWidget .sr-bb .srt-fill-primary-9 {
+  fill: #57646d;
+}
+#movableWidget .sr-bb .srt-stroke-primary-9, #widget .sr-bb .srt-stroke-primary-9, #mobileWidget .sr-bb .srt-stroke-primary-9 {
+  stroke: #57646d;
+}
+#movableWidget .sr-bb .srt-fill-primary-10, #widget .sr-bb .srt-fill-primary-10, #mobileWidget .sr-bb .srt-fill-primary-10 {
+  fill: #cfd3d5;
+}
+#movableWidget .sr-bb .srt-stroke-primary-10, #widget .sr-bb .srt-stroke-primary-10, #mobileWidget .sr-bb .srt-stroke-primary-10 {
+  stroke: #cfd3d5;
+}
+#movableWidget .sr-bb .srt-fill-primary-11, #widget .sr-bb .srt-fill-primary-11, #mobileWidget .sr-bb .srt-fill-primary-11 {
+  fill: #e6e6e6;
+}
+#movableWidget .sr-bb .srt-stroke-primary-11, #widget .sr-bb .srt-stroke-primary-11, #mobileWidget .sr-bb .srt-stroke-primary-11 {
+  stroke: #e6e6e6;
+}
+#movableWidget .sr-bb .srt-fill-primary-12, #widget .sr-bb .srt-fill-primary-12, #mobileWidget .sr-bb .srt-fill-primary-12 {
+  fill: #fff;
+}
+#movableWidget .sr-bb .srt-stroke-primary-12, #widget .sr-bb .srt-stroke-primary-12, #mobileWidget .sr-bb .srt-stroke-primary-12 {
+  stroke: #fff;
+}
+#movableWidget .sr-bb .srt-fill-home-1, #widget .sr-bb .srt-fill-home-1, #mobileWidget .sr-bb .srt-fill-home-1 {
+  fill: #1f8bff;
+}
+#movableWidget .sr-bb .srt-stroke-home-1, #widget .sr-bb .srt-stroke-home-1, #mobileWidget .sr-bb .srt-stroke-home-1 {
+  stroke: #1f8bff;
+}
+#movableWidget .sr-bb .srt-fill-home-2, #widget .sr-bb .srt-fill-home-2, #mobileWidget .sr-bb .srt-fill-home-2 {
+  fill: #1f8bff;
+}
+#movableWidget .sr-bb .srt-stroke-home-2, #widget .sr-bb .srt-stroke-home-2, #mobileWidget .sr-bb .srt-stroke-home-2 {
+  stroke: #1f8bff;
+}
+#movableWidget .sr-bb .srt-fill-home-3, #widget .sr-bb .srt-fill-home-3, #mobileWidget .sr-bb .srt-fill-home-3 {
+  fill: #1f8bff;
+}
+#movableWidget .sr-bb .srt-stroke-home-3, #widget .sr-bb .srt-stroke-home-3, #mobileWidget .sr-bb .srt-stroke-home-3 {
+  stroke: #1f8bff;
+}
+#movableWidget .sr-bb .srt-fill-home-4, #widget .sr-bb .srt-fill-home-4, #mobileWidget .sr-bb .srt-fill-home-4 {
+  fill: #1a6bc0;
+}
+#movableWidget .sr-bb .srt-stroke-home-4, #widget .sr-bb .srt-stroke-home-4, #mobileWidget .sr-bb .srt-stroke-home-4 {
+  stroke: #1a6bc0;
+}
+#movableWidget .sr-bb .srt-fill-home-5, #widget .sr-bb .srt-fill-home-5, #mobileWidget .sr-bb .srt-fill-home-5 {
+  fill: #6db4ff;
+}
+#movableWidget .sr-bb .srt-stroke-home-5, #widget .sr-bb .srt-stroke-home-5, #mobileWidget .sr-bb .srt-stroke-home-5 {
+  stroke: #6db4ff;
+}
+#movableWidget .sr-bb .srt-fill-away-1, #widget .sr-bb .srt-fill-away-1, #mobileWidget .sr-bb .srt-fill-away-1 {
+  fill: #1fff20;
+}
+#movableWidget .sr-bb .srt-stroke-away-1, #widget .sr-bb .srt-stroke-away-1, #mobileWidget .sr-bb .srt-stroke-away-1 {
+  stroke: #1fff20;
+}
+#movableWidget .sr-bb .srt-fill-away-2, #widget .sr-bb .srt-fill-away-2, #mobileWidget .sr-bb .srt-fill-away-2 {
+  fill: #1fff20;
+}
+#movableWidget .sr-bb .srt-stroke-away-2, #widget .sr-bb .srt-stroke-away-2, #mobileWidget .sr-bb .srt-stroke-away-2 {
+  stroke: #1fff20;
+}
+#movableWidget .sr-bb .srt-fill-away-3, #widget .sr-bb .srt-fill-away-3, #mobileWidget .sr-bb .srt-fill-away-3 {
+  fill: #1fff20;
+}
+#movableWidget .sr-bb .srt-stroke-away-3, #widget .sr-bb .srt-stroke-away-3, #mobileWidget .sr-bb .srt-stroke-away-3 {
+  stroke: #1fff20;
+}
+#movableWidget .sr-bb .srt-fill-away-4, #widget .sr-bb .srt-fill-away-4, #mobileWidget .sr-bb .srt-fill-away-4 {
+  fill: #1abc24;
+}
+#movableWidget .sr-bb .srt-stroke-away-4, #widget .sr-bb .srt-stroke-away-4, #mobileWidget .sr-bb .srt-stroke-away-4 {
+  stroke: #1abc24;
+}
+#movableWidget .sr-bb .srt-fill-away-5, #widget .sr-bb .srt-fill-away-5, #mobileWidget .sr-bb .srt-fill-away-5 {
+  fill: #6dff6e;
+}
+#movableWidget .sr-bb .srt-stroke-away-5, #widget .sr-bb .srt-stroke-away-5, #mobileWidget .sr-bb .srt-stroke-away-5 {
+  stroke: #6dff6e;
+}
+#movableWidget .sr-bb .srt-fill-neutral-1, #widget .sr-bb .srt-fill-neutral-1, #mobileWidget .sr-bb .srt-fill-neutral-1 {
+  fill: #2e3e49;
+}
+#movableWidget .sr-bb .srt-stroke-neutral-1, #widget .sr-bb .srt-stroke-neutral-1, #mobileWidget .sr-bb .srt-stroke-neutral-1 {
+  stroke: #2e3e49;
+}
+#movableWidget .sr-bb .srt-fill-neutral-2, #widget .sr-bb .srt-fill-neutral-2, #mobileWidget .sr-bb .srt-fill-neutral-2 {
+  fill: #e7e9ea;
+}
+#movableWidget .sr-bb .srt-stroke-neutral-2, #widget .sr-bb .srt-stroke-neutral-2, #mobileWidget .sr-bb .srt-stroke-neutral-2 {
+  stroke: #e7e9ea;
+}
+#movableWidget .sr-bb .srt-fill-neutral-3, #widget .sr-bb .srt-fill-neutral-3, #mobileWidget .sr-bb .srt-fill-neutral-3 {
+  fill: #ffffff1f;
+}
+#movableWidget .sr-bb .srt-stroke-neutral-3, #widget .sr-bb .srt-stroke-neutral-3, #mobileWidget .sr-bb .srt-stroke-neutral-3 {
+  stroke: #ffffff1f;
+}
+#movableWidget .sr-bb .srt-fill-neutral-4, #widget .sr-bb .srt-fill-neutral-4, #mobileWidget .sr-bb .srt-fill-neutral-4 {
+  fill: #abb1b6;
+}
+#movableWidget .sr-bb .srt-stroke-neutral-4, #widget .sr-bb .srt-stroke-neutral-4, #mobileWidget .sr-bb .srt-stroke-neutral-4 {
+  stroke: #abb1b6;
+}
+#movableWidget .sr-bb .srt-fill-neutral-5, #widget .sr-bb .srt-fill-neutral-5, #mobileWidget .sr-bb .srt-fill-neutral-5 {
+  fill: #c3c8cb;
+}
+#movableWidget .sr-bb .srt-stroke-neutral-5, #widget .sr-bb .srt-stroke-neutral-5, #mobileWidget .sr-bb .srt-stroke-neutral-5 {
+  stroke: #c3c8cb;
+}
+#movableWidget .sr-bb .srt-fill-neutral-6, #widget .sr-bb .srt-fill-neutral-6, #mobileWidget .sr-bb .srt-fill-neutral-6 {
+  fill: #495660;
+}
+#movableWidget .sr-bb .srt-stroke-neutral-6, #widget .sr-bb .srt-stroke-neutral-6, #mobileWidget .sr-bb .srt-stroke-neutral-6 {
+  stroke: #495660;
+}
+#movableWidget .sr-bb .srt-fill-neutral-7, #widget .sr-bb .srt-fill-neutral-7, #mobileWidget .sr-bb .srt-fill-neutral-7 {
+  fill: #abb1b6;
+}
+#movableWidget .sr-bb .srt-stroke-neutral-7, #widget .sr-bb .srt-stroke-neutral-7, #mobileWidget .sr-bb .srt-stroke-neutral-7 {
+  stroke: #abb1b6;
+}
+#movableWidget .sr-bb .srt-fill-neutral-8, #widget .sr-bb .srt-fill-neutral-8, #mobileWidget .sr-bb .srt-fill-neutral-8 {
+  fill: #2e3e49;
+}
+#movableWidget .sr-bb .srt-stroke-neutral-8, #widget .sr-bb .srt-stroke-neutral-8, #mobileWidget .sr-bb .srt-stroke-neutral-8 {
+  stroke: #2e3e49;
+}
+#movableWidget .sr-bb .srt-fill-neutral-9, #widget .sr-bb .srt-fill-neutral-9, #mobileWidget .sr-bb .srt-fill-neutral-9 {
+  fill: #1d2e3b;
+}
+#movableWidget .sr-bb .srt-stroke-neutral-9, #widget .sr-bb .srt-stroke-neutral-9, #mobileWidget .sr-bb .srt-stroke-neutral-9 {
+  stroke: #1d2e3b;
+}
+#movableWidget .sr-bb .srt-fill-neutral-10, #widget .sr-bb .srt-fill-neutral-10, #mobileWidget .sr-bb .srt-fill-neutral-10 {
+  fill: #2c3c47;
+}
+#movableWidget .sr-bb .srt-stroke-neutral-10, #widget .sr-bb .srt-stroke-neutral-10, #mobileWidget .sr-bb .srt-stroke-neutral-10 {
+  stroke: #2c3c47;
+}
+#movableWidget .sr-bb .srt-fill-neutral-11, #widget .sr-bb .srt-fill-neutral-11, #mobileWidget .sr-bb .srt-fill-neutral-11 {
+  fill: #6f7a82;
+}
+#movableWidget .sr-bb .srt-stroke-neutral-11, #widget .sr-bb .srt-stroke-neutral-11, #mobileWidget .sr-bb .srt-stroke-neutral-11 {
+  stroke: #6f7a82;
+}
+#movableWidget .sr-bb .srt-fill-neutral-12, #widget .sr-bb .srt-fill-neutral-12, #mobileWidget .sr-bb .srt-fill-neutral-12 {
+  fill: #b7bcc0;
+}
+#movableWidget .sr-bb .srt-stroke-neutral-12, #widget .sr-bb .srt-stroke-neutral-12, #mobileWidget .sr-bb .srt-stroke-neutral-12 {
+  stroke: #b7bcc0;
+}
+#movableWidget .sr-bb .srt-fill-neutral-13, #widget .sr-bb .srt-fill-neutral-13, #mobileWidget .sr-bb .srt-fill-neutral-13 {
+  fill: #273743;
+}
+#movableWidget .sr-bb .srt-stroke-neutral-13, #widget .sr-bb .srt-stroke-neutral-13, #mobileWidget .sr-bb .srt-stroke-neutral-13 {
+  stroke: #273743;
+}
+#movableWidget .sr-bb .srt-fill-win, #widget .sr-bb .srt-fill-win, #mobileWidget .sr-bb .srt-fill-win {
+  fill: #fff;
+}
+#movableWidget .sr-bb .srt-stroke-win, #widget .sr-bb .srt-stroke-win, #mobileWidget .sr-bb .srt-stroke-win {
+  stroke: #fff;
+}
+#movableWidget .sr-bb .srt-fill-draw, #widget .sr-bb .srt-fill-draw, #mobileWidget .sr-bb .srt-fill-draw {
+  fill: #495660;
+}
+#movableWidget .sr-bb .srt-stroke-draw, #widget .sr-bb .srt-stroke-draw, #mobileWidget .sr-bb .srt-stroke-draw {
+  stroke: #495660;
+}
+#movableWidget .sr-bb .srt-fill-lose, #widget .sr-bb .srt-fill-lose, #mobileWidget .sr-bb .srt-fill-lose {
+  fill: #808990;
+}
+#movableWidget .sr-bb .srt-stroke-lose, #widget .sr-bb .srt-stroke-lose, #mobileWidget .sr-bb .srt-stroke-lose {
+  stroke: #808990;
+}
+#movableWidget .sr-bb .srt-stop-base-1, #widget .sr-bb .srt-stop-base-1, #mobileWidget .sr-bb .srt-stop-base-1 {
+  stop-color: transparent;
+}
+#movableWidget .sr-bb .srt-stop-primary-1, #movableWidget .sr-bb .srt-stop-primary-2, #widget .sr-bb .srt-stop-primary-1, #widget .sr-bb .srt-stop-primary-2, #mobileWidget .sr-bb .srt-stop-primary-1, #mobileWidget .sr-bb .srt-stop-primary-2 {
+  stop-color: #fff;
+}
+#movableWidget .sr-bb .srt-stop-primary-3, #widget .sr-bb .srt-stop-primary-3, #mobileWidget .sr-bb .srt-stop-primary-3 {
+  stop-color: #e6e6e6;
+}
+#movableWidget .sr-bb .srt-stop-primary-4, #movableWidget .sr-bb .srt-stop-primary-5, #widget .sr-bb .srt-stop-primary-4, #widget .sr-bb .srt-stop-primary-5, #mobileWidget .sr-bb .srt-stop-primary-4, #mobileWidget .sr-bb .srt-stop-primary-5 {
+  stop-color: #9fa6ab;
+}
+#movableWidget .sr-bb .srt-stop-primary-6, #movableWidget .sr-bb .srt-stop-primary-7, #movableWidget .sr-bb .srt-stop-primary-8, #widget .sr-bb .srt-stop-primary-6, #widget .sr-bb .srt-stop-primary-7, #widget .sr-bb .srt-stop-primary-8, #mobileWidget .sr-bb .srt-stop-primary-6, #mobileWidget .sr-bb .srt-stop-primary-7, #mobileWidget .sr-bb .srt-stop-primary-8 {
+  stop-color: #fff;
+}
+#movableWidget .sr-bb .srt-stop-primary-9, #widget .sr-bb .srt-stop-primary-9, #mobileWidget .sr-bb .srt-stop-primary-9 {
+  stop-color: #57646d;
+}
+#movableWidget .sr-bb .srt-stop-primary-10, #widget .sr-bb .srt-stop-primary-10, #mobileWidget .sr-bb .srt-stop-primary-10 {
+  stop-color: #cfd3d5;
+}
+#movableWidget .sr-bb .srt-stop-primary-11, #widget .sr-bb .srt-stop-primary-11, #mobileWidget .sr-bb .srt-stop-primary-11 {
+  stop-color: #e6e6e6;
+}
+#movableWidget .sr-bb .srt-stop-primary-12, #widget .sr-bb .srt-stop-primary-12, #mobileWidget .sr-bb .srt-stop-primary-12 {
+  stop-color: #fff;
+}
+#movableWidget .sr-bb .srt-stop-home-1, #widget .sr-bb .srt-stop-home-1, #mobileWidget .sr-bb .srt-stop-home-1 {
+  stop-color: #1f8bff;
+}
+#movableWidget .sr-bb .srt-stop-away-1, #widget .sr-bb .srt-stop-away-1, #mobileWidget .sr-bb .srt-stop-away-1 {
+  stop-color: #1fff20;
+}
+#movableWidget .sr-bb .srt-fill-neutral-14, #widget .sr-bb .srt-fill-neutral-14, #mobileWidget .sr-bb .srt-fill-neutral-14 {
+  fill: var(--sr-background);
+}
+#movableWidget .sr-bb .srt-stroke-neutral-14, #widget .sr-bb .srt-stroke-neutral-14, #mobileWidget .sr-bb .srt-stroke-neutral-14 {
+  stroke: var(--sr-background);
+}
+#movableWidget .sr-bb .srt-logo-powered-by-light, #widget .sr-bb .srt-logo-powered-by-light, #mobileWidget .sr-bb .srt-logo-powered-by-light {
+  display: none;
+}
+#movableWidget .sr-bb .srt-logo-powered-by-dark, #widget .sr-bb .srt-logo-powered-by-dark, #mobileWidget .sr-bb .srt-logo-powered-by-dark {
+  display: inline-block;
+}

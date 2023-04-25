@@ -1,0 +1,80 @@
+<IfModule mod_rewrite.c>
+  <IfModule mod_negotiation.c>
+      Options -MultiViews -Indexes
+  </IfModule>
+
+  RewriteEngine On
+
+
+#RewriteCond %{HTTPS} !=on
+#RewriteCond %{SERVER_PORT} 80
+#RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R]
+
+  # Handle Authorization Header
+  RewriteCond %{HTTP:Authorization} .
+  RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+  # Redirect Trailing Slashes If Not A Folder...
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_URI} (.+)/$
+  RewriteRule ^ %1 [L,R=301]
+
+  # Send Requests To Front Controller...
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteRule ^ index.php [L]
+
+  # prevents the rule from being overrided by .htaccess files in subdirectories
+  RewriteOptions InheritDownBefore
+
+  # provide a URL-path base (not a file-path base) for any relative paths in the rule's target
+  RewriteBase /
+
+  # Serve brotli compressed CSS files if they exist and the client accepts gzip.
+  RewriteCond %{HTTP:Accept-encoding} br
+  RewriteCond %{REQUEST_FILENAME}\.br -s
+  RewriteRule ^(.*)\.css $1\.css\.br [QSA]
+
+  # Serve gzip compressed CSS files if they exist and the client accepts gzip.
+  RewriteCond %{HTTP:Accept-encoding} gzip
+  RewriteCond %{REQUEST_FILENAME}\.gz -s
+  RewriteRule ^(.*)\.css $1\.css\.gz [QSA]
+
+  # Serve brotli compressed JS files if they exist and the client accepts gzip.
+  RewriteCond %{HTTP:Accept-encoding} br
+  RewriteCond %{REQUEST_FILENAME}\.br -s
+  RewriteRule ^(.*)\.js $1\.js\.br [QSA]
+
+  # Serve gzip compressed JS files if they exist and the client accepts gzip.
+  RewriteCond %{HTTP:Accept-encoding} gzip
+  RewriteCond %{REQUEST_FILENAME}\.gz -s
+  RewriteRule ^(.*)\.js $1\.js\.gz [QSA]
+
+  # Serve correct content types, and prevent mod_deflate double gzip.
+  RewriteRule \.css\.gz$ - [T=text/css,E=no-gzip:1]
+  RewriteRule \.js\.gz$ - [T=text/javascript,E=no-gzip:1]
+  RewriteRule \.css\.br$ - [T=text/css,E=no-gzip:1]
+  RewriteRule \.js\.br$ - [T=text/javascript,E=no-gzip:1]
+
+  <FilesMatch "(\.js\.gz|\.css\.gz)$">
+    # Serve correct encoding type.
+    Header set Content-Encoding gzip
+    # Force proxies to cache gzipped & non-gzipped css/js files separately.
+    Header append Vary Accept-Encoding
+  </FilesMatch>
+  <FilesMatch "(\.js\.br|\.css\.br)$">
+    # Serve correct encoding type.
+    Header set Content-Encoding br
+    # Force proxies to cache gzipped & non-gzipped css/js files separately.
+    Header append Vary Accept-Encoding
+  </FilesMatch>
+
+  <FilesMatch ".(flv|gif|jpg|jpeg|png|ico|swf|js|css|pdf)$">
+    Header set Cache-Control "max-age=31536000"
+  </FilesMatch>
+
+  <IfModule mod_expires.c>
+      ExpiresActive On
+      ExpiresDefault "access plus 1 year"
+  </IfModule>
+</IfModule>

@@ -1,0 +1,1154 @@
+{
+  "walletModal": {
+    "title": "Wallet",
+    "titleHistory": "Wallet - History",
+    "tabs": {
+      "deposit": "Deposit",
+      "withdraw": "Withdraw",
+      "promocode": "Promocode"
+    },
+    "historyTabs": {
+      "deposits": "Deposits",
+      "withdraws": "Withdraws"
+    },
+    "enter": "Send",
+    "address": "Deposit Address",
+    "loading": "Loading...",
+    "copy": "Copy",
+    "amount": "Deposit Amount",
+    "withdrawAmount": "Amount",
+    "withdrawAddress": "Withdraw Address",
+    "creating": "Creating...",
+    "deposit": "Deposit",
+    "withdraw": "Withdraw",
+    "withdrawNotes": {
+      "title": "Withdrawal Instructions",
+      "1": "Number of withdrawals at current VIP level: {amount}",
+      "2": "Withdrawal fee: {fee}%",
+      "3": "Free monthly withdrawal amount:",
+      "4": "Minimum withdrawal order: {min}",
+      "5": "Maximum withdrawal order: {max}",
+      "6": "Pick-up time: 11:00 - 19:00",
+      "7": "Payment time: from 5 minutes to 24 hours."
+    },
+    "status": "You can see status of your deposits in account center."
+  },
+  "faucet": {
+    "spin": "<b>Lucky Spin</b><span>SPIN AND GET A FREE BONUS!</b></span>",
+    "btn": "Spin Now",
+    "timeout": "Come back in 8 hours to have another chance!"
+  },
+  "userModal": {
+    "joined": "Joined on {date}",
+    "wagered": "Wagered",
+    "totalGames": "Total games"
+  },
+  "third-party": {
+    "unavailable_currency": "Sorry, but you can't play with this currency.",
+    "guest": "You need to login in order to play this game."
+  },
+  "vip": {
+    "totalDeposits": "Total deposits",
+    "totalWagered": "Total bets",
+    "logged": {
+      "title": "Your vip level is",
+      "level": "level {level}",
+      "deposit": "Deposit",
+      "bet": "Bet",
+      "description": "Upgrading to VIP {level} requires:",
+      "dep": "Deposit",
+      "full": "Full vip bonus",
+      "desc2": "The VIP level system is created with 10 levels, each with a corresponding cash prize. The more you play, the higher the VIP level and the more you will receive.",
+      "totalBet": "Accumulated Bet Amount",
+      "totalDeposit": "Accumulated Deposit Amount",
+      "steps": {
+        "1": "Place a bet on a game and the engine will automatically calculate the return value based on your VIP level as you enjoy the game.",
+        "2": "The cash back mechanism will be settled on your account balance at 0:00 based on your bets placed throughout the day.",
+        "3": "The more you play, the higher your money back."
+      }
+    },
+    "title": "A lot of benefits with",
+    "title2": "Rank system",
+    "benefits": {
+      "1": {
+        "title": "Levels & Rewards",
+        "description": "The more you play - the more you gain"
+      },
+      "3": {
+        "title": "EXCLUSIVE PROMOTIONS",
+        "description": "Reach higher rank to unlock unique benefits"
+      },
+      "4": {
+        "title": "VIP CLUB",
+        "description": "Become a part of VIP Club to get exclusive bonuses"
+      }
+    },
+    "how": {
+      "1": "How does it work?",
+      "2": "You start your gaming way from the 1st rank. The more you play – the higher your Rank is. It goes up according to the wagered amount while playing."
+    },
+    "youCanReach": {
+      "1": "YOU CAN REACH 10 LEVELS",
+      "2": "Reach the highest rank to open all the benefits of the platform. Stay with us to receive the best gaming experience and excellent service"
+    },
+    "allLevels": {
+      "levelProtection": "Level protection",
+      "levelProtectionDeposit": "Deposit {amount}/month",
+      "level": "Level {level}",
+      "oneTimeBonus": "One Time Bonus",
+      "maxWithdrawal": "Max withdrawal amount",
+      "privileges": "Withdrawal privileges",
+      "withdraws": "Withdraws",
+      "fee": "Withdrawal fee",
+      "depositFeeRef": "Referral deposit fee",
+      "claim": "Claim Bonus",
+      "yourLevel": "Your Level",
+      "about": {
+        "title": "ABOUT VIP CLUB",
+        "description": "Stay with us to receive the best gaming experience and high level of service!",
+        "sub": "Being a member of the VIP club means that you have access to:",
+        "features": {
+          "1": "Personal VIP manager",
+          "2": "Insights",
+          "4": "Weekly and Monthly bonuses",
+          "5": "Other additional perks"
+        }
+      }
+    },
+    "steps": {
+      "playNow": "Play Now",
+      "1": {
+        "title": "LOGIN",
+        "description": "Use a simplified login system to enjoy all gaming experience"
+      },
+      "2": {
+        "title": "PLAY FAVORITE GAMES",
+        "description": "Enjoy playing, get the best gaming experience and high level of service!"
+      },
+      "3": {
+        "title": "INCREASE YOUR RANK",
+        "description": "Go up to the next Rank! Each level has its bonus and even more opportunities!"
+      }
+    }
+  },
+  "bonus": {
+    "no_vk": "Link VK account to receive a free bonus!",
+    "link": "Link",
+    "join_group": "Join our VK group to receive a free bonus!",
+    "join": "Join",
+    "lucky_spin_everyday": "Lucky Spin Everyday",
+    "have_a_try": "Have a try now",
+    "spin_now": "Spin Now",
+    "next_spin": "Next Spin: ",
+    "vip": {
+      "title": "VIP",
+      "unavailable_description": "All VIP program participants are entitled for a weekly bonus."
+    },
+    "wheel": {
+      "description": "Spin the wheel every 3 minutes for a free bonus!",
+      "title": "Wheel"
+    },
+    "promo": {
+      "description": "Have a promocode? Redeem it and get a bonus!",
+      "activate": "Activate",
+      "title": "Promocode",
+      "placeholder": "Code",
+      "success": "Success",
+      "invalid": "Invalid code",
+      "expired_time": "Invalid code.",
+      "expired_usages": "Invalid code: activation limit exceeded.",
+      "used": "You have already used this code."
+    },
+    "partner": {
+      "title": "Affiliate program",
+      "description": "Invite your friends to axes.bet and get bonus for 10 active referrals!"
+    },
+    "rain": {
+      "description": "Every few hours, an event occurs in the chat that distributes the bonus to random people.",
+      "title": "Rain",
+      "modal_description": "Rain is a chatbot that distributes coins to random people. <br> Criteria for getting in the rain:<ul class=\"mt-2\"><li>Deposit is required in the last 24 hours</li><li>The bot sends a random number of coins at a random time (the minimum number of distributions is 10 per day, the maximum is 20)</li><li>Number of people - from 5 to 15</li></ul>"
+    },
+    "discord": {
+      "title": "Discord",
+      "common_desc": "Join our Discord server and get a bonus!",
+      "description": "Join our Discord server and get a bonus!",
+      "redirect": "Link account",
+      "link": "To receive a bonus, you have to:<ul><li>Link your Discord account</li><li>Join our Discord server</li></ul>After linking your Discord account and joining the server, return to this page and click on the \"Verify\" button.",
+      "subscribe": "Join our Discord server to receive a bonus.<br>After joining, click on the \"Verify\" button and the bonus will instantly be credited!",
+      "check": "Verify",
+      "redirect_group": "Join our Discord server",
+      "success": "Success!",
+      "error": {
+        "1": "You haven\"t joined our Discord server.",
+        "2": "You have already received this bonus."
+      }
+    },
+    "notifications": {
+      "title": "Notifications",
+      "description": "Turn on notifications and know about axes.bet updates among the first!"
+    }
+  },
+  "chat": {
+    "service": {
+      "channel_change": "Changed channel to: {channel}",
+      "channel_casino": "Casino ({lang})",
+      "channel_sport": "Sport ({lang})",
+      "channel_esport": "eSport ({lang})"
+    },
+    "error": {
+      "length": "Message is too short or long",
+      "muted": "Chat is muted"
+    }
+  },
+  "dice": {
+    "lower": "Lower",
+    "higher": "Higher",
+    "chance": "Chance"
+  },
+  "error": {
+    "code": "Internal server error occurred ({code})",
+    "wait_finish": "Wait for the game to finish",
+    "validation": {
+      "required": "Fill in this field",
+      "min": {
+        "string": "Value is too small"
+      },
+      "max": {
+        "string": "Value is too large"
+      },
+      "unique": "This value has already been registered",
+      "regex": "Invalid value"
+    },
+    "invalid_browser": "<h1>Your web browser is out of date.</h1>To play on axes.bet, you need to upgrade to the latest version.",
+    "no_js": "<h1>Error</h1>Your web browser does not support JavaScript."
+  },
+  "fairness": {
+    "title": "Fairness",
+    "tabs": {
+      "calculator": "Сalculator"
+    },
+    "calculator": {
+      "game": "Game",
+      "client_seed": "Client seed",
+      "nonce": "Nonce",
+      "server_seed": "Server seed",
+      "result": "Result"
+    }
+  },
+  "game_help": {
+    "next": "Next",
+    "close": "Close",
+    "dice": {
+      "1": "Set the slider chance of winning and click \"Play\", to generate a result from 0 - 100",
+      "2": "If the bones fell in your chosen green zone - you won!"
+    },
+    "wheel": {
+      "1": "Select a game mode, bet on color and press \"Play\"",
+      "2": "If the wheel stops at the color sector that you have chosen, you won!"
+    },
+    "x50": {
+      "1": "Select a game mode, bet on color and press \"Play\"",
+      "2": "If the wheel stops at the color sector that you have chosen, you won!"
+    },
+    "plinko": {
+      "1": "Place a bet, select the difficulty of the game and the number of pins, and click \"Play\"",
+      "2": "The greater the complexity of the game and the number of pins, the higher the maximum and lower minimum winning odds",
+      "3": "Your reward is determined by the winning ratio, depending on where the ball fell"
+    },
+    "keno": {
+      "1": "Pick from 1 to 10 cells with numbers, place a bet and click \"Play\"",
+      "2": "Then the system randomly selects 10 numbers. The more hits on your numbers, the greater the gain!"
+    },
+    "mines": {
+      "1": "Place a bet, select the number of bombs and click \"Play\"",
+      "2": "The larger the number of bombs in the playing field, the higher the winning ratio.",
+      "3": "Look for stones, but beware of bombs!",
+      "4": "Take a win before you detonate on a bomb and lose a bet!"
+    },
+    "diamonds": {
+      "1": "Get the best diamond combination to win.",
+      "2": "The best combination is 5 identical diamonds.",
+      "3": "The combination hierarchy is similar to traditional poker."
+    },
+    "coinflip": {
+      "1": "Place a bet and click \"Play\" and guess what color will fall.",
+      "2": "You can guess a coin an unlimited number of times per game, all coefficients will be added up."
+    },
+    "blackjack": {
+      "1": "Place a bet, after which you and the dealer will be dealt two cards.",
+      "2": "Then you can take another card or stop and do not change the current hand.",
+      "3": "By clicking on \"Double\" you double your bet and take the last card.",
+      "4": "Insurance is available only when the first dealer card is an ace and insures you from the hands of a dealer with blackjack.",
+      "5": "The winner is the one closest to 21. If you and the dealer have the same value - there will be a draw."
+    },
+    "roulette": {
+      "1": "Put chips on any outcome of the game and click \"Play\"",
+      "2": "If you guessed the outcome of the game, you multiply your bet."
+    },
+    "baccarat": {
+      "1": "You can bet on the victory of a player, banker or a draw both individually and in any combination.",
+      "2": "The victory is won by the party with the most points close to 9. When a value of 10 or more is set, only the second digit of the double-digit number is taken into account.",
+      "3": "If at an individual bet on a player or a banker both parties gain the same amount of points, then the result is a tie without losing a bet.",
+      "4": "The maximum deal in one hand is 3 cards. The minimum is 2 if their total points are 5 or more."
+    },
+    "hilo": {
+      "1": "Guess if the next card will be higher or lower than the previous one in rank.",
+      "2": "Open an unlimited number of cards, odds are added up. You can stop at any time and pick up the winnings"
+    },
+    "limbo": {
+      "1": "To win, the specified target payout ratio must be lower than the one that fell out in the game.",
+      "2": "The maximum target ratio is 1,000,000."
+    },
+    "crash": {
+      "1": "Make a bet, click \"Play\" and watch how the schedule grows",
+      "2": "Withdraw funds before the chart collapses and you lose your bet."
+    },
+    "stairs": {
+      "1": "Make a bet, select the number of stones per move and click \"Play\"",
+      "2": "Climb up the stairs beware of falling on stones! The higher you rise, the greater the gain you will receive. ",
+      "3": "You can pick up a win at any time or go through all 13 moves and get the maximum reward."
+    },
+    "tower": {
+      "1": "Place a bet, select the number of bombs and click \"Play\"",
+      "2": "Look for stones moving from top to bottom, but beware of bombs!",
+      "3": "Take a win before you detonate on a bomb and lose a bet!"
+    },
+    "videopoker": {
+      "1": "Place a bet and click \"Play\"",
+      "2": "Next you will be dealt 5 cards. You can leave the cards you need by clicking on them. To end the game, click on \"Deal cards\" ",
+      "3": "If the combination is the same as shown in the table, you win and multiply your bet."
+    },
+    "bullvsbear": {
+      "1": "Each game starts out by determining what the ‘Game’s Strike Price’ will be by taking the averaged price of selected coin. We aren't using a price oracle, but instead we pull the market price directly from Coinbase’s Price Websocket API. This number is what traders will use to bet against in the following phase to predict if the market price will be above or below the “Game’s Strike Price” at the end of each game.",
+      "2": "Once the Game’s Strike Price has been set, players have one minute to bet on whether the market price at the end of each game will be above or below this number. All bets are put into two pools, those who predict the price will be above, and those who predict the price will be below.",
+      "3": "At the end of each game, the losing side’s bets are pooled and distributed to the winners proportionately. If a player bets more than the other winners, he or she will receive more of the pool. Now if a player loses, their losses are also proportionate to the size of their, meaning if a player bets more than the other players, in this situation that player won’t lose their entire bet, just a fraction.",
+      "4": "We wanted to avoid giving any significant advantage to last movers, hence we implemented a time-decaying gain factor to incentivize prompt betting — giving early movers better gains (or winnings) and discouraging people from bet stuffing late in the round. As a trader, you can keep an eye on current volatility and make your bet by waiting a little longer and taking lesser gains but with higher probability, or alternately, betting early with higher potential gain but lower probability of winning the game.",
+      "5": "Every betting round is 90 seconds long and starts at x5.00 payout. It decreases over time till it becomes x1.01."
+    }
+  },
+  "footer": {
+    "affiliates": "Affiliates",
+    "features": {
+      "title": "Features",
+      "affiliates": "Affiliates",
+      "referral": "Referral",
+      "promotions": "Promotions",
+      "daily": "Daily Bonuses",
+      "sport": "Sport",
+      "liveSport": "Live Sport",
+      "more": "More",
+      "fairness": "Fairness",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "support": "Live Support"
+    },
+    "legal": "This website offers gaming with risk experience. To be a user of our site you must be over 18 y.o. We are not responsible for the violation of your local laws related to i-gaming. Play responsibly and have fun on Phoenix.",
+    "copy": "Copyright &copy; Phoenix. All right reserved."
+  },
+  "promotions": {
+    "vip": {
+      "title": "<span>Exclusive</span> VIP bonus",
+      "description": "To give back to all Phoenix users, the VIP reward mechanism is now open. As long as you can meet the requirements, you can receive generous bonuses!",
+      "activity": "<span>Activity</span> Requirements",
+      "activity2": "Players upgrade to a new VIP level you will get free bonus, no withdrawal requirements.",
+      "bonus": "Event Bonus",
+      "bonus2": "Players can receive corresponding rewards when they reach the VIP level.",
+      "vip": "VIP",
+      "vip2": "VIP {level}",
+      "reminder": {
+        "1": "Special Reminder",
+        "2": "Each player can receive the corresponding bonus for each upgrade, and the bonus can be overridden."
+      },
+      "reminder2": {
+        "1": "<span>Detailed</span> Description",
+        "2": "Ensure the accuracy and uniqueness of your name, Contact information and CPF. If the same player uses different Network IPs to register multiple accounts and receive bonuses, This will be considered cheating and your account will be permanently frozen."
+      },
+      "reminder3": {
+        "1": "<span>Instructions</span> for participating in the event:",
+        "2": "From the day of the event announcement, you can only get the bonus if you upgrade your VIP"
+      }
+    },
+    "invite": {
+      "title": "<span>Invite</span> Friends to Create Wealth Together",
+      "description": "Become one of our top partners Achieve a monthly income of R$ 100,000",
+      "desc": "Referral Program",
+      "desc2": "Let the world know about Phoenix - refer more people and earn big money, having more chance to supplement your income.",
+      "code": "Get a Unique Referral Code",
+      "copy": "Copy Code",
+      "1": "If you are a blogger or influencer, you have a large audience and followers. We have special rewards for you! (Affiliate program with the highest referral rewards)",
+      "2": "Important note: Only users who have passed the manager's request and approved, can participate in the program",
+      "consult": "Consultation",
+      "invited": "Invited:",
+      "totalBet": "Total Bet:",
+      "totalDeposit": "Total Deposit:"
+    },
+    "benefits": {
+      "title": "<span>Millions</span> of Distributor Benefits",
+      "description": "To encourage all Phoenix users millions of benefits are offered to competent agents who meet the requirements to receive a generous bonus.",
+      "activity": {
+        "1": "Activity Requirements",
+        "2": "Agents who invite new users with valid recharge will receive a super bonus for the invitation."
+      },
+      "bonus": {
+        "1": "Event Bonus",
+        "2": "Agents can also receive additional rewards for reaching different referral levels."
+      },
+      "table": {
+        "title": "Achievement Bonus",
+        "active": "Active Users",
+        "bonus": "Achievement Bonus",
+        "desc": "<span>Active users:</span> registered via your invite link and deposited When you reach the required number of active users, you will receive an additional bonus The more guests you have, the greater the bonus",
+        "reminder": {
+          "1": "Special Reminder",
+          "2": "With no withdrawal requirements, the more users Agents invite and reload, the higher the rank and the greater the benefits."
+        },
+        "details": {
+          "1": "Details",
+          "2": "Ensure the accuracy and uniqueness of your name, unique CPF If the same broker uses different network IPs to register multiple accounts and receive bonuses, this will be considered fraud and your account will be permanently frozen."
+        }
+      },
+      "guide": {
+        "1": "INSTRUCTIONS FOR PARTICIPATING IN THE EVENT",
+        "2": "From the date of the announcement until the delivery of the prize of one million reais in bonuses. Official campaign rules are at Phoenix’s sole discretion."
+      }
+    },
+    "bonus50": {
+      "title": "<span>Come</span> and get 50% bonus!",
+      "description": "In order to thank you for your trust and support in Phoenix, your first successful deposit amount of more than R$100, Phoenix will give you a free bonus of 50% of the deposit amount, I sincerely wish you to earn more! your deposit, the bonus will automatically be credited to your account, so please check the system for messages sent to you",
+      "title2": "Requirements and bonus",
+      "limit": {
+        "1": "Deposit limit",
+        "2": "R$ 100 OR MORE"
+      },
+      "bonus": {
+        "1": "Bonus",
+        "2": "50% of the deposit amount"
+      },
+      "rules": "Rules",
+      "list": {
+        "1": "Only the first order with a deposit amount of R$100 or more can participate in this event, and this event can only participate once",
+        "2": "Withdrawal conditions: the effective bet amount is equal to or greater than 20 times or more of the sum of the deposit amount and the bonus amount",
+        "3": "After completing the deposit, submitting the application in the personal promotion center, you will receive Phoenix's lucky bonus and the bonuses can be played and withdrawn!",
+        "4": "Please ensure that your name, contact details and Social Security number are accurate and unique. If the same player uses different network IPs to register multiple accounts to claim the prize, this will be considered cheating and their account will be permanently frozen."
+      }
+    }
+  },
+  "general": {
+    "popular": "Popular",
+    "viewAll": "View all",
+    "search": "Search...",
+    "providers": "Game Providers",
+    "go_to_casino": "Go to Casino",
+    "go_to_sport": "Go to Sport",
+    "casino_desc": "Welcome to Phoenix. 17 games for your fun and profits.",
+    "slowmode": "Slow mode is enabled: 1 message each 5 sec",
+    "slider": {
+      "1": "Welcome to axes.bet Casino. Your fun, your profits."
+    },
+    "promotions": {
+      "title": "Phoenix Promotions",
+      "faucet": {
+        "title": "Faucet",
+        "description": "Get free bonus to play on Phoenix!",
+        "btn": "View"
+      },
+      "promo": {
+        "title": "Promocode",
+        "description": "Enter promocode to receive a free bonus!",
+        "btn": "View"
+      },
+      "vip": {
+        "title": "Phoenix VIP",
+        "description": "Get VIP level just by playing on Phoenix.",
+        "btn": "View"
+      },
+      "rain": {
+        "title": "Rain",
+        "description": "If you make an deposit with any amount of funds you will have a chance to receive a bonus within 24 hours.",
+        "btn": "Learn more"
+      },
+      "notification": {
+        "title": "Discord",
+        "description": "Join our discord server and receive a bonus!",
+        "btn": "Join"
+      },
+      "affiliates": {
+        "title": "Affiliates",
+        "description": "Advertise Phoenix to your friends to receive rewards (for you and your friends!).",
+        "btn": "View"
+      }
+    },
+    "head": {
+      "index": "Home",
+      "description": "Online gambling with bonuses for new players",
+      "games": "Games",
+      "help": "Help",
+      "wallet": "Deposit",
+      "wallet_open_demo": "Demo",
+      "wallet_real": "Real",
+      "wallet_demo": "Demo",
+      "chat": "Chat",
+      "admin": "Dashboard",
+      "bonus": "Promotions",
+      "bonus_short": "Bonus",
+      "theme": "Theme",
+      "profile": "Profile",
+      "logout": "Logout",
+      "invest": "Bankroll",
+      "casino": "Casino",
+      "sport": "Sport",
+      "esport": "eSport",
+      "view_in_fiat": "View in USD"
+    },
+    "sidebar": {
+      "all_games": "Games",
+      "admin": "Dashboard",
+      "favorite": "Favorite",
+      "recent": "Recent",
+      "originals": "Originals",
+      "slots": "Slots",
+      "multiplayer": "Multiplayer",
+      "blackjack": "Blackjack",
+      "poker": "Poker",
+      "table": "Table Games",
+      "instant": "Instant",
+      "roulette": "Roulette",
+      "baccarat": "Baccarat",
+      "evo-play": "Provider: EvoPlay",
+      "no_games": "This category is empty",
+      "mark_as_favorite": "Mark as favorite",
+      "remove_from_favorite": "Remove from favorites",
+      "phoenix": "Phoenix"
+    },
+    "chat_commands": {
+      "/user": "View user",
+      "/bet": "View bet",
+      "/ignore": "Ignore user",
+      "/unignore": "Stop ignoring user",
+      "/tip": "Tip user",
+      "/rain": "Make it Rain",
+      "/online": "View online users",
+      "/quiz": "Quiz",
+      "/unmute": "Unmute user",
+      "modal": {
+        "rain": {
+          "amount": "Amount",
+          "number_of_users": "Number of Users (Max 25)",
+          "send": "Send",
+          "invalid_users_length": "Invalid number of users",
+          "invalid_amount": "Invalid amount"
+        },
+        "tip": {
+          "amount": "Amount",
+          "send": "Send Tip",
+          "user": "Username",
+          "make_public": "Make public",
+          "invalid_name": "Invalid username",
+          "invalid_amount": "Invalid amount",
+          "notify": "{name} tipped you {value} {currency}"
+        },
+        "quiz": {
+          "question": "Question",
+          "answer": "Answer"
+        }
+      }
+    },
+    "biggest_winner_today": "LUCKY WINNERS",
+    "tip": "Tip",
+    "tip_chat": "<a href=\"{link}\">{name}</a> sent {value} <i class=\"{icon}\" style=\"color: {style}\"></i> to <a href=\"{tolink}\">{toname}</a>",
+    "or": "OR",
+    "wallet": {
+      "demo": {
+        "error": "Your demo balance must be at zero",
+        "obtain": "Receive demo balance"
+      }
+    },
+    "demo": {
+      "title": "Attention",
+      "description": "Registration is required if you want to play for real balance.",
+      "register": "Sign up"
+    },
+    "chat": {
+      "enter_message": "Type something here..."
+    },
+    "auth": {
+      "login": "Login",
+      "register": "Sign Up",
+      "through_login": "Login and password",
+      "through_social": "Social networks",
+      "wrong_credentials": "Wrong login or password",
+      "email_or_login": "Enter your email or login",
+      "reset_password": "Reset password",
+      "email_was_sent": "Email was sent successfully (if the provided info was correct). If you haven't received it, check \"Spam\" folder.",
+      "passwords_invalid_match": "Verify your password again",
+      "credentials": {
+        "login": "Login",
+        "password": "Password",
+        "email": "Email"
+      },
+      "create_account": "Create account",
+      "forgot_password": "Forgot your password?",
+      "notice": "I am at least 18 years old and have read and agree to the Terms & Conditions and Privacy Policy"
+    },
+    "profile": {
+      "password_changed": "Password was changed",
+      "general": "General",
+      "login": "Login",
+      "password": "Password",
+      "password_current": "Current password",
+      "password_new": "New password",
+      "password_repeat": "Confirm password",
+      "password_reset": "Reset",
+      "security": "Security",
+      "email": "Email",
+      "update": "Update",
+      "verify_email": "Email with confirmation link was sent to your address.",
+      "invalid_email": "Invalid email",
+      "settings": "Settings",
+      "wager": "Wagered",
+      "games": "Total games",
+      "best_mul": "Best payout",
+      "best_win": "Best profit",
+      "incognito": "This profile is private",
+      "set_private_profile": "Hide your profile",
+      "set_private_bets": "Hide your bets",
+      "empty": "Not enough data to display",
+      "privacy": "Privacy",
+      "fairness": "Fairness",
+      "client_seed": "Client seed",
+      "change": "Change",
+      "change_avatar": "Change avatar",
+      "avatar": "Avatar",
+      "stats": "Statistics",
+      "latest_games": "Latest games",
+      "vip": "VIP",
+      "partner": "Affiliate program",
+      "change_name": "Change name",
+      "new_name": "New name",
+      "social": "Linked accounts",
+      "vk": "VKontakte",
+      "fb": "Facebook",
+      "google": "Google",
+      "discord": "Discord",
+      "steam": "Steam",
+      "link": "Link",
+      "linked": "Linked",
+      "somebody_already_linked": "This social network account has already been linked to another axes.bet account",
+      "link_discord": "To access VIP promo codes and roles on the Discord server, you need to link your account.",
+      "discord_vip": "Join our Discord server and get VIP promocodes!",
+      "discord_vip_ok": "Update server role",
+      "vip_discord_updated": "Discord server role has been updated.",
+      "bets": "Bets",
+      "wins": "Wins",
+      "losses": "Losses",
+      "wagered": "Wagered",
+      "total_profit": "Total profit",
+      "2fa": "2FA",
+      "keep_secure": "Don\"t let anyone see this!",
+      "copy_this_to_2fa": "Copy this code to your authenticator app (This code will be refreshed if you update the page!)",
+      "2fa_code": "Two Factor Code",
+      "2fa_enable": "Enable",
+      "error_2fa": "Invalid 2FA code",
+      "2fa_enabled": "2FA is enabled on your account.",
+      "disable_2fa": "Disable 2FA",
+      "2fa_validate": "Validate",
+      "2fa_description": "Enter 6-digit code from your two factor authenticator app",
+      "2fa_digits": "{digits} digits left",
+      "profit": "Profit",
+      "games_c": "Games:",
+      "chart": {
+        "today": "Today",
+        "3days": "3 days",
+        "1week": "1 week",
+        "1month": "1 month",
+        "loading": "Loading..."
+      }
+    },
+    "notifications": {
+      "title": "Notifications",
+      "withdraw_accepted": {
+        "title": "axes.bet",
+        "message": "Your payment request created {diff} ({sum} {currency}) was accepted."
+      },
+      "withdraw_declined": {
+        "title": "axes.bet",
+        "message": "Your payment request created {diff} ({sum} {currency}) was declined. Reason: {reason}"
+      },
+      "vip_discord": {
+        "title": "VIP",
+        "message": "You have received <svg style=\"width: 14px; height: 14px\"><use href=\"#vip-ruby\"></use></svg> ruby VIP status!"
+      },
+      "email_reminder": {
+        "title": "axes.bet",
+        "message": "Don\"t forget to add email address, otherwise you could lose access to your account!"
+      },
+      "deposit": "New deposit: {sum} {currency}"
+    },
+    "fairness": {
+      "client_seed": "Client seed:",
+      "server_seed": "Server seed:",
+      "nonce": "Nonce:"
+    },
+    "bet_next_round": "Bet (Next round)",
+    "play_now": "Play Now",
+    "become_top_player": "Nobody took this place in the leaderboard today! Become first to do that!",
+    "lines": "Lines",
+    "profit_per_line": "Bet Amount Per Line",
+    "invalid_amount_per_line": "Invalid bet amount per line",
+    "ignore": "Successfully added to ignore list",
+    "unignore": "You no longer ignore this user",
+    "ignored_already": "You already ignore this user",
+    "not_ignored": "This user is not ignored",
+    "not_available": "Unavailable",
+    "obtained": "Obtained",
+    "latest_bets": "Live",
+    "select_currency": "Select Coin",
+    "strike_price": "Game Strike Price",
+    "non_verifiable": "You can't verify this game through Provably Fair tools. Compare real market prices instead.",
+    "bullvsbear": {
+      "waiting_phase": "Waiting Phase",
+      "bet_phase": "Bet Phase",
+      "processing": "Processing",
+      "target": "I think that value will go...",
+      "up": "Up",
+      "down": "Down",
+      "decay_value": "Winning Payout"
+    },
+    "bets": {
+      "event": "Event",
+      "odds": "Odds",
+      "game": "Game",
+      "player": "Player",
+      "time": "Time",
+      "bet": "Bet",
+      "mul": "Payout",
+      "win": "Profit",
+      "manual": "Manual",
+      "auto": "Auto",
+      "games": "Number of games",
+      "victory_stop": "Stop on Win",
+      "on_win": "On win",
+      "on_loss": "On loss",
+      "reset": "Reset",
+      "increase": "Increase",
+      "auto_games_blocked": "To set a limit, click on &#8734;.",
+      "hidden": "The player has hidden his profile",
+      "hidden_name": "Hidden",
+      "make_bet": "Place a bet",
+      "all": "All",
+      "mine": "My Bets",
+      "high_rollers": "High Rollers",
+      "lucky_wins": "Lucky Winners"
+    },
+    "error": {
+      "invalid_password_confirm": "Passwords don\"t match",
+      "offline_node": "We are currency unable to process payments for this currency.",
+      "auth": "Authorization is required",
+      "wager": "Minimal amount - {value}",
+      "disabled": "Game is temporarily unavailable",
+      "unknown_game": "Unknown game",
+      "unknown_user": "Unknown user",
+      "invalid_wager": "Not enough money",
+      "unknown_error": "An error has occurred (code {code})",
+      "empty": "Select cells!",
+      "should_have_empty_balance": "To receive a bonus, your balance must be zero",
+      "autobet_pick_something": "Select cells for automatic bid mode.",
+      "disabled_notifications": "You have refused to accept notifications. This can be changed in your browser settings.",
+      "connection_lost": "Connecting to the server...",
+      "connection_recovered": "Connection restored",
+      "disabled_bets": "Accepting bets is currently unavailable.",
+      "disabled_demo_bets": "This game does not accept bets in demo mode.",
+      "muted": "Chat is muted until {time}",
+      "invalid_withdraw": "Invalid withdrawal amount.",
+      "only_one_withdraw": "You already have ordered withdrawal.",
+      "enter_wallet": "Enter wallet!",
+      "promo_limit": "You have reached your promocode activation limit per day.",
+      "autobet_mines_error": "You have selected more cells than the available crystals.",
+      "vip_only_promocode": "This promotional code is only available with VIP status.",
+      "promo_balance_limit": "Your balance should be lower in order to activate promocodes"
+    },
+    "sportWidgetLive": {
+      "title": "Live"
+    },
+    "profit_monitoring": {
+      "title": "Statistics",
+      "wager": "Wager",
+      "profit": "Profit",
+      "wins": "Wins",
+      "losses": "Losses",
+      "no_data": "No data"
+    },
+    "rain": "It's raining!<br>{sum} {currency}",
+    "snow": "It's snowing!<br>{sum} {currency}",
+    "quiz": "Question:",
+    "quiz_answer": "Correct answer:",
+    "quiz_user": "User:",
+    "chart": "Chart",
+    "hilo-skip": "Skip",
+    "crash": "CRASHED",
+    "yes": "Yes",
+    "no": "No",
+    "coming_soon": "Coming Soon",
+    "reload": "recharge",
+    "spin": "Spin",
+    "wager": "Bet amount",
+    "chip": "Chip Value ({value})",
+    "profit": "Profit",
+    "payout": "Payout",
+    "play": "Play",
+    "our_games": "Our Games",
+    "unit": "Unit",
+    "cancel": "Cancel",
+    "undo": "Undo",
+    "close": "Close",
+    "change": "Change",
+    "even": "even",
+    "odd": "odd",
+    "to": "{1} - {2}",
+    "take": "Take {value} {currency}",
+    "start": "Start",
+    "stop": "Stop",
+    "overview": "View",
+    "share_text": "Watch my game on axes.bet!",
+    "share_vk": "Share the link on VK",
+    "share_chat": "Send to chat",
+    "share_telegram": "Share this game on Telegram",
+    "share_twitter": "Share this game on Twitter",
+    "share_link": "Share the link",
+    "link_copied": "Copied!",
+    "game_mode": "Game mode",
+    "color": "Color",
+    "pins": "Number of pins",
+    "autopick": "<i class=\"fas fa-wand-magic mr-1\"></i> Auto Pick",
+    "clear": "Clear",
+    "mines": "Number of mines",
+    "edit": "Edit",
+    "add": "Add",
+    "already_purchased": "Purchased",
+    "purchase_sticker_pack": "Buy for {coins} <i class=\"fas fa-coins\"></i>",
+    "hilo-higher": "Higher",
+    "hilo-lower": "Lower",
+    "hilo-same": "Same",
+    "chance": "Chance",
+    "chat_at": "Type @<strong>username</strong> to notify user",
+    "autoStop": "Cashout at",
+    "target_payout": "Target payout",
+    "win_chance": "Win chance",
+    "demo_popup_link": "Play for money",
+    "double": "Double",
+    "divide": "Split",
+    "got": "Got",
+    "videopoker": {
+      "f_r": "Royal Flush",
+      "s_f": "Straight Flush",
+      "k": "Four of a kind",
+      "f_h": "Full House",
+      "f": "Flash",
+      "s": "Straight",
+      "t": "Triple",
+      "t_p": "Two pairs",
+      "p": "Pair (J, Q, K, A)"
+    },
+    "deal": "Deal cards",
+    "stand": "Stand",
+    "hit": "Hit",
+    "split": "Split",
+    "insurance": "Do you want insurance?",
+    "accept": "Accept",
+    "decline": "Decline",
+    "insurance_success": "You bought insurance.",
+    "blackjack": {
+      "0": "Draw",
+      "1": "You lose",
+      "2": "You won",
+      "3": "You won",
+      "4": "You lose",
+      "5": "You won",
+      "6": "You lose"
+    },
+    "difficulty": {
+      "title": "Difficulty",
+      "low": "Low",
+      "medium": "Medium",
+      "high": "High"
+    },
+    "baccarat": {
+      "player": "Player",
+      "tie": "Tie",
+      "pair_player": "{P} Pair",
+      "pair_banker": "{B} Pair",
+      "pair": "Pair",
+      "banker": "Banker",
+      "empty": "Become first - make a bet"
+    },
+    "verify": "Verify",
+    "black": "Black",
+    "red": "Red",
+    "green": "Green",
+    "yellow": "Yellow",
+    "blue": "Blue"
+  },
+  "help": {
+    "header_title": "How can we help you?",
+    "faq": "FAQ",
+    "modal": {
+      "title": "Support",
+      "page": {
+        "index": {
+          "title": "\uD83C\uDF89 Hello!",
+          "description": "Welcome! Let us know if we can help with anything.",
+          "my_chats": "My Chats",
+          "menu": {
+            "ask_question": "Live Chat",
+            "general_questions": "View FAQ",
+            "moderate": "Moderate"
+          }
+        },
+        "live_chat": {
+          "welcome_message": "Our support team is always ready to answer your questions.",
+          "bot": "Automatic reply"
+        }
+      }
+    }
+  },
+  "invest": {
+    "sidebar": {
+      "your_bankroll": "Your Bankroll",
+      "your_share": "Your Shares",
+      "your_investing_profit": "Your Profit",
+      "site_bankroll": "Site's Bankroll",
+      "site_profit": "Site's Profit",
+      "amount": "Amount (Min {min})",
+      "invest": "Invest",
+      "site_fee_taken": "Fee Taken from Site's Profit",
+      "all_time_high": "Site's Profit All Time High"
+    },
+    "history": {
+      "amount": "Investment",
+      "your_share": "Your Share",
+      "profit": "Current",
+      "status": "Status",
+      "cancelled": "Cancelled",
+      "disinvest": "Disinvest",
+      "dead": "Lost"
+    },
+    "your_balance": "Your balance: {balance}",
+    "min": "Minimal amount: {min}",
+    "invest": "Invest",
+    "invest_fee": "<span>1%</span> of your deposit will be deducted as non-refundable fee.",
+    "invest_fee_withdraw": "<span>{value}%</span> commission will be deducted from your withdraw.",
+    "tabs": {
+      "overview": "Overview",
+      "invest": "Invest",
+      "history": "History"
+    }
+  },
+  "partner": {
+    "tabs": {
+      "overview": "Overview",
+      "list": "Affiliates",
+      "analytics": "Analytics"
+    },
+    "overview": {
+      "guest_content": "<p>Advertise axes.bet and earn money by participating in our affiliate program!</p><p>You will receive various bonuses for each active user who will register and play on axes.bet through your link.</p>",
+      "content": "<p>Advertise axes.bet and earn money by participating in our affiliate program!</p><p>You will receive various bonuses for each active user who will register and play on axes.bet through your link.</p><strong class=\"mt-2\">Referral link</strong><input readonly class=\"mt-2\" style=\"cursor: pointer !important;\" id=\"link\" data-toggle=\"tooltip\" data-placement=\"top\" title=\"Copy link\" value=\"https://axes.bet/?c={id}\">",
+      "header": "What you will get for participating in affiliate program:",
+      "1": "1. You will get % of your affiliate deposit, which is based on your VIP level.",
+      "2": "2. Your affiliate will receive a free bonus in BTC after registration.",
+      "3": "3. You will also receive a bonus from your affiliate if he is active. You can track this through the \"Affiliates\" tab.",
+      "4": "4. Every 10 active affiliates will grant you a bonus Wheel spin with increased rewards."
+    },
+    "list": {
+      "name": "Name",
+      "activity": "Activity bonus received"
+    },
+    "analytics": {
+      "referrals": "<strong>Number of affiliates:</strong> {count}",
+      "referrals_bonus": "<strong>Active affiliates:</strong> {count}"
+    }
+  },
+  "policy": {
+    "gaming_policy": "This file can be edited in /resources/lang/en/en.json",
+    "privacy_notice": "This file can be edited in /resources/lang/en/en.json",
+    "privacy_policy": "This file can be edited in /resources/lang/en/en.json",
+    "terms_and_conditions": "This file can be edited in /resources/lang/en/en.json"
+  },
+  "wallet": {
+    "tabs": {
+      "deposit": "Deposit",
+      "withdraw": "Withdraw",
+      "history": "History",
+      "deposits": "Deposits",
+      "withdraws": "Withdraws",
+      "exchange": "Exchange"
+    },
+    "exchange": "Exchange",
+    "exchange_success": "Success!",
+    "set_email": "Set email in your profile to use this payment method.",
+    "bank": {
+      "title": "Bank Deposit",
+      "description": "Verification request sent successfully. You can view it's status in \"History\" -> \"Deposits\" tab.",
+      "transfer_here": "Transfer funds to this bank number:",
+      "bank_check": "Request verification",
+      "transaction_id": "Transaction id",
+      "notify": "After transfer is completed, click on the \"Request verification\" button.<br>Our operators will check your transaction and add funds to your account manually.<br>This payment method <strong>isn\"t</strong> instant.",
+      "invalid_txid": "Invalid transaction id",
+      "already_have_one_in_moderation": "You already have one verification request pending.",
+      "cancelled": "Bank deposit verification request was cancelled"
+    },
+    "s": {
+      "amount": "Deposit amount",
+      "deposit": "Deposit",
+      "invalid_amount": "Invalid amount",
+      "conversion_rate": "Conversion rate: {usd} USD = {token} <i class=\"{icon}\" style=\"color: {style}\"></i>"
+    },
+    "pending": "Pending",
+    "method": "Payment method:",
+    "troubles": "Need help?<br>Contact our <a href=\"mailto:support@axes.bet\">support team</a>",
+    "fast": "You will be notified instantly once you make deposit and will be able to view your transaction confirmation count",
+    "deposit": {
+      "address": "Your {currency} deposit address",
+      "confirmations": "Only send {currency} to this address, {confirmations} confirmation(s) required.",
+      "sum": "Amount",
+      "go": "Make deposit"
+    },
+    "withdraw": {
+      "title": "Withdraw",
+      "amount": "Amount (Min {min} {currency})",
+      "button": "Withdraw",
+      "fee": "Your withdrawal will have {fee} {currency} subtracted from your remaining balance to cover the transaction fee.",
+      "method": "Withdraw method:",
+      "enter_wallet": "Wallet:",
+      "wallet": "Wallet",
+      "go": "Withdraw",
+      "content": "Withdraw was successfully ordered. You can check its status in the \"History\" section.",
+      "vip_content": "<div class=\"mt-2\">Since your VIP level is <svg style=\"width: 14px; height: 14px;\"><use href=\"#vip-gold\"></use></svg>, your request was placed at the very beginning of the queue.</div>"
+    },
+    "history": {
+      "empty": "History is empty.",
+      "name": "Currency",
+      "not_paid": "Not paid",
+      "sum": "Amount",
+      "date": "Date",
+      "status": "Status",
+      "confirmations": "confirmations",
+      "id": "ID: :id",
+      "paid": "Successful",
+      "wallet": "Address: {wallet}",
+      "cancel": "Cancel",
+      "withdraw_cancelled": "Payment has been cancelled.",
+      "withdraw_status": {
+        "moderation": "Moderation",
+        "accepted": "Successful",
+        "declined": "Declined",
+        "reason": "Reason:",
+        "cancelled": "Cancelled by user"
+      }
+    },
+    "copy": "Copy",
+    "copied": "Copied!"
+  },
+  "404": {
+    "title": "Sorry, this page isn't available.",
+    "subtitle": "The link you followed may be broken, or the page may have been removed."
+  },
+  "sport": {
+    "unavailable": "Sportsbook is not available at this moment. We apologize for the inconvenience.",
+    "noMarkets": "Currently, markets are not available.",
+    "widgetUnavailable": "Live stream is not available for this game at this moment.",
+    "liveStream": "Live Stream",
+    "accept_all_odds_changes": "Accept all odds changes",
+    "emptyCategoryTitle": "No events are live right now",
+    "live_events": "Live Events",
+    "game_not_found": "Event is over or does not exist",
+    "game_is_closed": "Betting is closed",
+    "bet_slip": "Bet Slip",
+    "register_to_bet": "Register to Bet",
+    "bet": "Bet",
+    "single": "Single",
+    "multi": "Multi",
+    "no_odds_changes": "No Odds Changes Accepted",
+    "estimate_payout": "Est. Payout",
+    "empty_bet_slip_title": "Bet Slip is empty.",
+    "empty_bet_slip_subtitle": "Click the odds to add a bet",
+    "total_bet": "Total Stake",
+    "total_odds": "Total Odds",
+    "odds_change": "Odds changed: {odds}",
+    "accept": "Accept",
+    "decline": "Decline",
+    "not_enough_balance": "Not enough balance",
+    "error": "An error has occurred. Please try again in a few seconds.",
+    "created": "Bets have been successfully placed!",
+    "my_bets": "My Bets",
+    "ongoing": "Pending",
+    "finished": "Finished",
+    "no_bets_title": "No bets in this category.",
+    "index_welcome": "Add sport betting on your website.",
+    "lets_bet": "View",
+    "casino_welcome": "Welcome to Phoenix.",
+    "no_category_events_slider": "No {category} events are live right now.",
+    "outcome": {
+      "refund": "Refunded",
+      "win": "Win",
+      "lose": "Lose"
+    },
+    "live": "Live",
+    "line": "Line",
+    "market": {
+      "esport": {
+        "matchWinnerTwoWay": "Match winner - twoway",
+        "matchWinnerThreeWay": "Match winner - threeway",
+        "correctMatchScore": "Correct match score",
+        "mapWinnerThreeway": "Map {map} winner - threeway",
+        "mapWinnerTwoway": "Map {map} winner - twoway",
+        "awayWinsAtLeastOneMap": "away wins at least one map",
+        "homeWinsAtLeastOneMap": "home wins at least one map"
+      },
+      "sport": {
+        "1x2": "1x2",
+        "bothTeamsToScore": "Both teams to score",
+        "doubleChance": "Double chance",
+        "drawNoBet": "Draw no bet",
+        "correctScore": "Correct score",
+        "winner": "Winner",
+        "exactSets": "Exact sets",
+        "setWinner": "Set {set} - winner",
+        "1x2Period": "Period {period} - 1x2",
+        "1x2Half": "Half {half} - 1x2",
+        "halfBothTeamsToScore": "Half {half} - Both teams to score",
+        "halfDrawNoBet": "Half {half} - Draw no bet",
+        "halfCorrectScore": "Half {half} - Correct score",
+        "halfExactGoals": "Half {half} - Exact goals",
+        "halfTotal": "Half {half} - Total",
+        "halfOddEven": "Half {half} - Odd/even",
+        "halfDoubleChance": "Half {half} - Double chance",
+        "periodBothTeamsToScore": "Period {period} - Both teams to score",
+        "periodDrawNoBet": "Period {period} - Draw no bet",
+        "periodCorrectScore": "Period {period} - Correct score",
+        "periodExactGoals": "Period {period} - Exact goals",
+        "periodTotal": "Period {period} - Total",
+        "periodOddEven": "Period {period} - Odd/even",
+        "periodDoubleChance": "Period {period} - Double chance",
+        "whichTeamToScore": "Which team to score",
+        "playerExactGoals": "{player} exact goals",
+        "playerToWin": "{player} to win",
+        "playerTotal": "{player} total",
+        "oddEven": "Odd/even",
+        "exactGoals": "Exact goals",
+        "total": "Total"
+      },
+      "yes": "yes",
+      "no": "no",
+      "odd": "odd",
+      "even": "even"
+    }
+  },
+  "leaderboard": {
+    "type": {
+      "today": "Today",
+      "week": "Weekly",
+      "month": "Monthly",
+      "allTime": "All Time"
+    }
+  }
+}

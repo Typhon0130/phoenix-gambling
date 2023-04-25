@@ -1,0 +1,19 @@
+[2022-11-22 12:03:47] local.ERROR: Example error message {"exception":"[object] (Error(code: 0): Example error message
+[stacktrace]
+#0 \\htdocs\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\CallableDispatcher.php(40): Illuminate\\Routing\\RouteFileRegistrar->{closure}()
+"}
+
+[2022-11-22 12:03:47] local.WARNING: Example warning message {"exception":"[object] (Error(code: 0): Example warning message
+[stacktrace]
+#0 \\htdocs\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\CallableDispatcher.php(40): Illuminate\\Routing\\RouteFileRegistrar->{closure}()
+"}
+
+[2022-11-22 12:03:47] local.INFO: Example info message {"exception":"[object] (Error(code: 0): Example info message
+[stacktrace]
+#0 \\htdocs\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\CallableDispatcher.php(40): Illuminate\\Routing\\RouteFileRegistrar->{closure}()
+"}
+
+[2022-11-22 12:03:47] local.DEBUG: Example debug message {"exception":"[object] (Error(code: 0): Example debug message
+[stacktrace]
+#0 \\htdocs\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\CallableDispatcher.php(40): Illuminate\\Routing\\RouteFileRegistrar->{closure}()
+"}

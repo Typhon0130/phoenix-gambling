@@ -1,0 +1,44 @@
+<template>
+  <div class="page_not_found animate">
+    <div class="title">404</div>
+    <div class="subtitle">Page not found</div>
+  </div>
+</template>
+
+<script>
+  export default {
+    created() {
+      this.$bus.$emit('loading:done');
+    }
+  }
+</script>
+
+<style lang="scss" scoped>
+  .page_not_found {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    .title {
+      font-size: 3.5em;
+      margin-bottom: 25px;
+    }
+
+    .subtitle {
+      font-size: 1.05em;
+      margin-top: 15px;
+    }
+  }
+
+  @media(max-width: 1000px) {
+    .page_not_found {
+      .title {
+        font-size: 2.0em !important;
+      }
+
+      .subtitle {
+        font-size: 1.0em !important;
+      }
+    }
+  }
+</style>
